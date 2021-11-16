@@ -1,0 +1,211 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=109;
+	taxlabels
+	'1038927.31'
+	'1055541.4'
+	'155864.210'
+	'168807.7'
+	'2491679.3'
+	'331112.6'
+	'562.10826'
+	'562.10884'
+	'562.10887'
+	'562.12824'
+	'562.13552'
+	'562.13737'
+	'562.13738'
+	'562.13740'
+	'562.13746'
+	'562.13748'
+	'562.13749'
+	'562.13752'
+	'562.13771'
+	'562.13773'
+	'562.13775'
+	'562.13780'
+	'562.14016'
+	'562.15195'
+	'562.15201'
+	'562.16426'
+	'562.17710'
+	'562.17734'
+	'562.19193'
+	'562.19202'
+	'562.19203'
+	'562.19205'
+	'562.19206'
+	'562.20517'
+	'562.22307'
+	'562.22326'
+	'562.28149'
+	'562.28209'
+	'562.28386'
+	'562.28391'
+	'562.28692'
+	'562.28699'
+	'562.28716'
+	'562.28721'
+	'562.28990'
+	'562.29091'
+	'562.29099'
+	'562.29105'
+	'562.29114'
+	'562.29121'
+	'562.29124'
+	'562.29125'
+	'562.29130'
+	'562.29132'
+	'562.29133'
+	'562.29137'
+	'562.30348'
+	'562.30363'
+	'562.30373'
+	'562.33455'
+	'562.33466'
+	'562.33779'
+	'562.33780'
+	'562.34087'
+	'562.36160'
+	'562.37091'
+	'562.39129'
+	'562.39130'
+	'562.39131'
+	'562.39137'
+	'562.39506'
+	'562.45395'
+	'562.45396'
+	'562.45398'
+	'562.46196'
+	'562.46198'
+	'562.46199'
+	'562.46200'
+	'562.50213'
+	'562.50216'
+	'562.50219'
+	'562.50511'
+	'562.50517'
+	'562.50548'
+	'562.50569'
+	'562.50817'
+	'562.52645'
+	'562.52722'
+	'562.53934'
+	'562.53935'
+	'562.53978'
+	'562.54031'
+	'562.55235'
+	'562.55296'
+	'562.7257'
+	'562.7588'
+	'562.7956'
+	'562.9021'
+	'577675.3'
+	'83334.284'
+	'991915.7'
+	'991919.15'
+	AncientChromosome
+	CladeI
+	O104
+	ShigellaboydiiSb227
+	ShigelladysteriaeSd197
+	Shigellaflexneria2a301
+	ShigellasonneiSs046
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((((((((((((((((('1038927.31':3.0E-6,('562.20517':3.0E-6,O104:3.0E-6)[&Bootstrap=35]:3.0E-6)[&Bootstrap=100]:0.00345,'562.10826':0.002311)[&Bootstrap=84]:0.001876,'562.28721':0.004481)[&Bootstrap=2]:6.42E-4,(('1055541.4':0.004331,'155864.210':0.003484)[&Bootstrap=19]:0.001434,(((('562.13740':0.002741,'562.45396':0.002801)[&Bootstrap=57]:9.49E-4,'562.13771':0.002828)[&Bootstrap=37]:0.00101,('562.13773':0.002962,'562.46200':0.005066)[&Bootstrap=15]:8.06E-4)[&Bootstrap=7]:7.71E-4,('562.29105':0.002799,'562.53934':0.005555)[&Bootstrap=29]:0.001238)[&Bootstrap=4]:3.65E-4)[&Bootstrap=1]:7.05E-4,(((('2491679.3':0.003521,'562.28990':0.002613)[&Bootstrap=73]:0.001201,'562.16426':0.001319)[&Bootstrap=94]:0.001836,('562.13748':0.003197,'562.29114':0.002907)[&Bootstrap=26]:3.95E-4)[&Bootstrap=15]:0.001219,(('562.13738':0.009393,'562.50548':0.004189)[&Bootstrap=37]:0.002345,'562.28692':0.003815)[&Bootstrap=6]:6.87E-4,((('562.13746':0.003034,'562.33466':0.005227)[&Bootstrap=45]:0.001023,'562.45395':0.004043)[&Bootstrap=12]:2.68E-4,'562.53978':0.004358)[&Bootstrap=11]:0.001124,((('562.13775':0.004548,'562.7257':0.003207)[&Bootstrap=36]:7.3E-4,'562.39506':0.005436)[&Bootstrap=19]:8.12E-4,('562.19202':0.003527,'577675.3':0.003543)[&Bootstrap=44]:0.001222)[&Bootstrap=10]:0.00128,(('562.22326':0.005584,'562.29091':0.003071)[&Bootstrap=18]:0.001407,'562.50817':0.002753)[&Bootstrap=10]:7.33E-4)[&Bootstrap=1]:9.08E-4)[&Bootstrap=4]:8.76E-4,('562.28699':0.005475,'562.29137':0.004112)[&Bootstrap=60]:0.001435)[&Bootstrap=19]:0.001062,(('562.19193':0.002848,'562.39131':0.004352)[&Bootstrap=44]:4.45E-4,'562.52722':0.006947)[&Bootstrap=22]:2.07E-4)[&Bootstrap=34]:0.001514,'562.29132':0.008841)[&Bootstrap=36]:5.78E-4,((((('562.12824':0.002017,'562.29124':0.003228)[&Bootstrap=91]:1.37E-4,'562.29125':0.003236)[&Bootstrap=100]:0.002508,'562.7956':0.004233)[&Bootstrap=100]:0.001985,((ShigellaboydiiSb227:0.009586,Shigellaflexneria2a301:0.016017)[&Bootstrap=100]:0.00466,ShigellasonneiSs046:0.01384)[&Bootstrap=43]:7.09E-4)[&Bootstrap=45]:7.31E-4,'991915.7':0.005886)[&Bootstrap=45]:0.001247)[&Bootstrap=58]:0.001826,('562.13749':0.00256,'562.33779':0.004258)[&Bootstrap=100]:0.00386)[&Bootstrap=100]:0.003632,(((((((((((('331112.6':0.001344,'562.39129':0.001814)[&Bootstrap=100]:6.93E-4,('562.13752':0.001988,'562.39130':0.004959)[&Bootstrap=99]:9.04E-4)[&Bootstrap=77]:8.75E-4,'562.13780':0.001218)[&Bootstrap=56]:3.46E-4,'562.55296':0.001823)[&Bootstrap=68]:0.001114,'562.53935':0.003872)[&Bootstrap=58]:0.001083,'562.15201':0.00293)[&Bootstrap=51]:4.96E-4,'562.54031':0.001977)[&Bootstrap=59]:5.74E-4,'562.34087':0.002364)[&Bootstrap=53]:7.92E-4,'562.50213':0.002606)[&Bootstrap=36]:4.27E-4,((('562.30373':8.22E-4,'562.50216':7.45E-4)[&Bootstrap=100]:7.36E-4,'562.46198':0.005487)[&Bootstrap=70]:1.9E-4,'562.55235':0.003756)[&Bootstrap=64]:0.001006)[&Bootstrap=46]:3.38E-4,'562.14016':0.002144)[&Bootstrap=88]:0.00186,'562.28149':0.00525)[&Bootstrap=91]:0.003236)[&Bootstrap=65]:0.001785,(('562.28209':0.005455,AncientChromosome:0.006421)[&Bootstrap=48]:0.001976,'562.39137':0.007761)[&Bootstrap=62]:0.001608)[&Bootstrap=100]:0.004824,'562.46199':0.01734)[&Bootstrap=100]:0.003574,('562.13552':0.015791,((('562.17710':0.008322,'562.50219':0.01031)[&Bootstrap=96]:0.003393,'83334.284':0.011477)[&Bootstrap=93]:0.002128,('991919.15':0.012198,ShigelladysteriaeSd197:0.028312)[&Bootstrap=54]:0.001808)[&Bootstrap=51]:0.002678)[&Bootstrap=100]:0.006697)[&Bootstrap=100]:0.009808,('168807.7':0.01464,((((('562.10884':0.011227,(('562.33455':0.006018,'562.45398':0.005901)[&Bootstrap=88]:0.002463,'562.37091':0.00644)[&Bootstrap=85]:0.002115)[&Bootstrap=32]:5.84E-4,('562.19203':0.008654,(('562.19206':0.007985,'562.50569':0.006961)[&Bootstrap=66]:0.002581,'562.7588':0.006982)[&Bootstrap=60]:0.001346)[&Bootstrap=47]:0.00151)[&Bootstrap=48]:0.00142,('562.28391':0.013301,(('562.29121':0.005839,'562.46196':0.006964)[&Bootstrap=100]:0.007639,'562.52645':0.007667)[&Bootstrap=49]:0.002147)[&Bootstrap=20]:5.38E-4)[&Bootstrap=35]:0.001734,'562.50517':0.008246)[&Bootstrap=92]:0.00283,('562.10887':0.006918,'562.28386':0.009018)[&Bootstrap=100]:0.008133)[&Bootstrap=96]:0.004464)[&Bootstrap=100]:0.024168)[&Bootstrap=80]:0.005512,('562.28716':0.015847,'562.29133':0.016694)[&Bootstrap=96]:0.00968)[&Bootstrap=52]:0.002902,((('562.17734':0.009468,'562.29099':0.010294)[&Bootstrap=74]:0.003141,'562.30348':0.014381)[&Bootstrap=72]:0.004351,'562.30363':0.012637)[&Bootstrap=100]:0.012761)[&Bootstrap=60]:0.002431,(((((('562.13737':0.005658,'562.15195':0.005539)[&Bootstrap=100]:0.006871,'562.36160':0.01079)[&Bootstrap=100]:0.005353,'562.9021':0.016157)[&Bootstrap=11]:0.001311,(('562.22307':0.014544,'562.29130':0.013698)[&Bootstrap=68]:0.00435,'562.50511':0.014715)[&Bootstrap=19]:0.001408)[&Bootstrap=33]:0.002609,'562.19205':0.017732)[&Bootstrap=81]:0.003883,'562.33780':0.022307)[&Bootstrap=51]:0.00282,CladeI:0.056973);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
