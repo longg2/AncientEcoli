@@ -25,11 +25,19 @@ colour <- c('#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#
 #		  Ancient = c("Yes" = colour[22], "No" = colour[21]))
 
 ann_colors = list(Pathovar = c("Ancient" = colour[1], "Commensal" = "#ffffff","EAEC" = colour[2], "EIEC" = "#22662A", "ETEC" = colour[16], "ExPEC" = colour[4],
-			       "Hybrid ExPEC/InPEC" = colour[3], "STEC" = colour[9],"Unknown" = colour[20], "Kostic" = colour[15]),
+			       "Hybrid ExPEC/InPEC" = colour[3], "STEC" = colour[9],"Unknown" = colour[20]),
 		  #Host = c("Environment" = colour[10], "Food" = colour[11], "Human" = colour[12], "Livestock" = colour[13], "Porc" = colour[14], "Wild animal" = colour[15],"?" = colour[3]),
-		  ST = c("1429" = colour[6], "325" = colour[7], "3630" = colour[8], "399" = colour[12], "4995" = colour[18], "Other" = colour[20], "Kostic" = colour[15], "Ancient" = colour[1]),
+		  ST = c("1429" = colour[6], "325" = colour[7], "3630" = colour[8], "399" = colour[12], "4995" = colour[18], "Other" = colour[20], "Ancient" = colour[1]),
 		  Ancient = c("Yes" = colour[22], "No" = colour[21]))
 
+
+##### Only If rerunning the script ####
+#load("Updated04012021.RData")
+#load("Updated05022021MapOrig.RData")
+########### Which strains are we actually plotting? #######
+#strainList <- read.table("../TreemmerPlots/RAxML_bipartitions.GubbinsTreeKraEc_trimmed_list_RTL_0.95", header = F)[,1]
+#strainList <- read.table("ContigsSnippyPrunedV2.list", header =F)[,1]
+#strainList <- c(strainList, "PanGenomeDedupV3", "O104")
 
 ########### Pulling out the Phylogroups #######
 phylogroup <- read.csv("VirulenceHeatmapOlivier.csv") %>% as_tibble()
@@ -82,7 +90,7 @@ files <- list.files(c("SmallPanGenomeDepths"), full.names = T)
 #files <- files[grep("562.28307", files)]
 
 op <- pboptions(type = "timer")
-ncores = 10
+ncores = 8
 depthDf <- do.call(bind_rows, pblapply(files, cl = ncores,function(f){
 		tmp <- as_tibble(read.delim(f, header = F, col.names = c("Gene", "Pos", "Coverage")))
 		tmp$Genome <- gsub(".*/", "", gsub("\\..*|_genomic","",f)) 	
@@ -116,15 +124,39 @@ coreGenes <- roaryOutput$Gene[coreGenes]
 st4995 <- phylogroup[,1:2] %>% filter(ST == 4995) %>% pull(Genome)
 st4995 <- st4995[st4995 %in% colnames(roaryOutput)]
 
-ancientData <- depthDf %>% filter(Genome == "KaeroEcoli", MeanCoverage >= 10, PercentCoverage >= 0.9) %>%
-	pivot_wider(names_from = c(Genome), values_from=MeanCoverage) %>% select(-c(sdCoverage, PercentCoverage, CV))
+#ancientData <- depthDf %>% filter(Genome == "KaeroEcoli", MeanCoverage >= 10, PercentCoverage >= 0.9) %>%
+#	pivot_wider(names_from = c(Genome), values_from=MeanCoverage) %>% select(-c(sdCoverage, PercentCoverage, CV)) %>%
+#	mutate(Genome = "CurrentEcoli")
+#ancientDataNoCov <- depthDf %>% filter(Genome == "KaeroEcoli", MeanCoverage >= 10) %>%
+#	pivot_wider(names_from = c(Genome), values_from=MeanCoverage) %>% select(-c(sdCoverage, PercentCoverage, CV)) %>%
+#	mutate(Genome = "10x - No min Percent")
+#ancientData5NoCov <- depthDf %>% filter(Genome == "KaeroEcoli", MeanCoverage >= 5) %>%
+#	pivot_wider(names_from = c(Genome), values_from=MeanCoverage) %>% select(-c(sdCoverage, PercentCoverage, CV)) %>%
+#	mutate(Genome = "5x - No min Percent")
+#ancientData5 <- depthDf %>% filter(Genome == "KaeroEcoli", MeanCoverage >= 5, PercentCoverage >= 0.9) %>%
+#	pivot_wider(names_from = c(Genome), values_from=MeanCoverage) %>% select(-c(sdCoverage, PercentCoverage, CV)) %>%
+#	mutate(Genome = "5x")
+#ancientData5CV <- depthDf %>% filter(Genome == "KaeroEcoli", MeanCoverage >= 5, CV <=1) %>%
+#	pivot_wider(names_from = c(Genome), values_from=MeanCoverage) %>% select(-c(sdCoverage, PercentCoverage, CV)) %>%
+#	mutate(Genome = "5x - CV Filter")
+ancientData <- depthDf %>% filter(Genome == "KaeroEcoli", MeanCoverage >= 10, CV <=1) %>%
+	pivot_wider(names_from = c(Genome), values_from=MeanCoverage) %>% select(-c(sdCoverage, PercentCoverage, CV)) #%>%
+	#mutate(Genome = "10x - CV Filter")
+#ancientDataCV <- depthDf %>% filter(Genome == "KaeroEcoli", CV <=1) %>%
+#	pivot_wider(names_from = c(Genome), values_from=MeanCoverage) %>% select(-c(sdCoverage, PercentCoverage, CV)) %>%
+#	mutate(Genome = "CV Filter Only")
+
+ancientResults <- bind_rows(list(ancientDataCV, ancientData, ancientDataNoCov, ancientData5NoCov,ancientData5, ancientData5CV, ancientData10CV)) %>% group_by(Genome) %>% summarize(Genes = n())
+
+
+
 #####################################################################
 # Gene Presence table
 
 AllPA <- roaryOutput %>% left_join(ancientData) %>% mutate(KaeroEcoli = ifelse(is.na(KaeroEcoli)|KaeroEcoli == 0, 0,1))
 
 AllPA %>% select(Gene,ATCC11229, KaeroEcoli) %>% filter(ATCC11229 == 1 | KaeroEcoli == 1) %>%
-       	write.table(file = "~/Documents/University/EcoliPaperV2/AdditionalFiles/GenePAATCCAncient.tab",row.names = F,sep = "\t", quote = F)
+       	write.table(file = "~/Documents/EcoliPaperWork/AdditionalFiles/GenePAATCCAncient.tab",row.names = F,sep = "\t", quote = F)
 
 tmp <- AllPA %>% select(Gene, ATCC11229, KaeroEcoli, ESC_VA4573AA_AS) %>%
        	mutate(ATCC11229 = ifelse(ATCC11229 == 1, Gene, NA),
@@ -135,9 +167,33 @@ vennList <- list("ATCC11229" = tmp$ATCC11229[!is.na(tmp$ATCC11229)],
 		 "Ancient" = tmp$KaeroEcoli[!is.na(tmp$KaeroEcoli)])
 
 ggvenn(vennList, fill_color = c("#2e294e", "#f8333c", "#007dba"))
-ggsave("~/Documents/University/EcoliPaperV2/Figures/VennAncientFSISATCC.pdf", width = 7, height = 7)
+ggsave("~/CVFigures/VennAncientFSISATCC.pdf", width = 7, height = 7)
 
+#
 
+# Now to make a boxplot to compare our gene to everyone else
+tmp <- AllPA %>% select(-Gene) %>% summarize_all(sum) %>% t() %>% as.data.frame()
+tmp$Genome <- rownames(tmp)
+geneCounts <- tmp %>% as_tibble() 
+colnames(geneCounts)[1] <- "Genes"
+geneCounts %>% filter(Genome != "KaeroEcoli") %>% ggplot(aes(y = Genes)) + geom_boxplot() + theme_bw() +
+	geom_point(data = ancientResults, aes(colour = Genome, x = 0)) +
+	scale_colour_manual(values = colour) + theme(axis.text.x = element_blank(), axis.ticks.x = element_blank(), axis.title.x = element_blank(), legend.position = "bottom")
+ggsave("~/GeneCountsEcoli.pdf", width = 6, height = 9)
+
+perCovMean <- depthDf %>%
+       	filter(Genome == "KaeroEcoli", MeanCoverage > 0) %>% ggplot(aes(x= PercentCoverage,y = MeanCoverage)) + geom_point() + theme_bw() + scale_x_continuous(breaks = pretty_breaks(n = 10)) +
+	scale_y_continuous(breaks = pretty_breaks(n = 10)) + ggtitle("Percent Coverage vs Mean Gene Coverage")
+perCovMean <- ggMarginal(perCovMean, type = "densigram")
+CVMean <- depthDf %>% filter(Genome == "KaeroEcoli", MeanCoverage > 0) %>% ggplot(aes(x= CV,y = MeanCoverage)) + geom_point() + theme_bw()+ scale_x_continuous(breaks = pretty_breaks(n = 10)) +
+       	scale_y_continuous(breaks = pretty_breaks(n = 10))+ ggtitle("Coefficient of Variation vs Mean Gene Coverage")
+CVMean <- ggMarginal(CVMean, type = "densigram")
+
+pdf("~/CoverageMetrics.pdf", width = 9, height = 9)
+perCovMean
+plot.new()
+CVMean
+dev.off()
 #####################################################################
 
 # Going to do this in a more sane way
@@ -224,7 +280,7 @@ treeColours <- gsub("#ffffff", "#000000", treeColours)
 dend <- as.dendrogram(clusteredSpec)
 labels_colors(dend) <- treeColours
 
-pdf("~/TMPCoreTree.pdf", width = 24, height = 9)
+pdf("~/CVFigures/TMPCoreTree.pdf", width = 24, height = 9)
 #pdf("~/Documents/University/EcoliPaperV2/AdditionalFiles/PartsofFigures/SpeciesCoreTree.pdf", width = 6, height = 8)
 plot(dend, horiz = F)
 legend("topright", legend = names(ann_colors[[2]]), fill = unlist(ann_colors[[2]]), title = "ST")
@@ -253,7 +309,7 @@ pheatmap(coreDataSub[rownameOrder,], annotation_row = olivierTableHeatmap,
 	 color = c("#007dba", "#f8333c"), clustering_method = "ward.D2", legend = F, show_colnames = F,
 	 gaps_row = c(which(rownames(coreDataSub)[rownameOrder] == "AncientEcoli"),which(rownames(coreDataSub)[rownameOrder] == "AncientEcoli") - 1),cluster_rows = F,
 	 labels_row = rownamesHeatmap[rownameOrder], fontsize_row = 5, 
-	 width = 12, height = 8, border_color = NA, annotation_colors = ann_colors)#, main = "Core Presence/Absence")
+	 width = 12, height = 8, border_color = NA, annotation_colors = ann_colors, filename = "~/CVFigures/CorePACV.png")#, main = "Core Presence/Absence")
 	 #filename = "~/Documents/University/EcoliPaperV2/AdditionalFiles/PartsofFigures/TestCore.png", width = 12, height = 8, border_color = NA, annotation_colors = ann_colors)#, main = "Core Presence/Absence")
 #pheatmap(coreDataSub[rownameOrder,], annotation_row = olivierTableHeatmap,
 #	 color = c("#007dba", "#f8333c"), clustering_method = "ward.D2", legend = F, show_colnames = F,
@@ -274,15 +330,16 @@ tmp <- sapply(tmp, function(x){
 		  }) %>% unlist() %>% gsub(pattern = "\\.result.*|_genome|_genomic|\\.scaffold", replacement = "") %>%
 	gsub(pattern = "\\.",replacement = "-")
 colnames(accessDf) <- tmp
-colnames(accessDf) %>% filter(!(Genome %in% c("IAI1", "ESC_NB8751AA_AS", "ATCC11231", "ESC_LB2165AA_AS"))) # Duplicates or Outgroups
-ancientData <- depthDf %>% filter(Genome == "KaeroEcoli", MeanCoverage >= 10) %>% mutate(Status = ifelse(Gene %in% coreGenes, "Core", "Accessory")) %>% filter(Status == "Accessory") %>%
+#colnames(accessDf) %>% filter(!(Genome %in% c("IAI1", "ESC_NB8751AA_AS", "ATCC11231", "ESC_LB2165AA_AS")))
+ancientData <- depthDf %>% filter(Genome == "KaeroEcoli", MeanCoverage >= 10, CV <= 1) %>% mutate(Status = ifelse(Gene %in% coreGenes, "Core", "Accessory")) %>% filter(Status == "Accessory") %>%
 	pivot_wider(names_from = c(Genome), values_from=MeanCoverage) %>% select(-c(sdCoverage, PercentCoverage, CV, Status))
 
-ancientData <- depthDf %>% filter(Genome %in%  c("KaeroEcoli"), MeanCoverage >= 10, PercentCoverage >= 0.9) %>% mutate(Status = ifelse(Gene %in% coreGenes, "Core", "Accessory")) %>%
-	filter(Status == "Accessory") %>%
-	pivot_wider(names_from = c(Genome), values_from=MeanCoverage) %>% select(-c(sdCoverage, PercentCoverage, CV, Status))
+ancientData <- ancientData %>%
+	group_by(Gene) %>% summarize_all(list(~ sum(., na.rm = T))) %>%
+	ungroup() %>%
+       	mutate(KaeroEcoli = ifelse(is.na(KaeroEcoli) | KaeroEcoli == 0, 0, 1))# %>%
 
-accessData <- accessDf %>% left_join(ancientData) %>%
+accessData <- accessDf %>% left_join(ancientData) %>%# mutate(KaeroEcoli = ifelse(is.na(KaeroEcoli), 0, 1))
        	mutate(KaeroEcoli = ifelse(is.na(KaeroEcoli) | KaeroEcoli == 0, 0, 1))
 
 # Now, we'll be doing the same thing for the accessory genome.  Firstly, however, is going to be the removal genes which are barely present.  We'll do a separate one with unique genes
@@ -311,14 +368,12 @@ ind <- accessDataSub %>% colSums() < 5
 accessDataSub <- accessDataSub[,!ind]
 
 # Getting the Metadata Setup
-rownames(accessDataSub)[which(rownames(accessDataSub) %in% c("KaeroEcoli","Lib4_3_bin","Lib4_7_bin","Lib4_8_bin"))] <- c("AncientEcoli", "Zape2.1", "Zape2.2", "Zape3")
+rownames(accessDataSub)[which(rownames(accessDataSub) %in% "KaeroEcoli")] <-"AncientEcoli"
 rownamesHeatmap <- ifelse(rownames(accessDataSub) == "AncientEcoli", "AncientEcoli","")
 olivierTableHeatmap <- phylogroup[,c(4,2)] %>% as.data.frame()
 olivierTableHeatmap$Pathovar <- sapply(olivierTableHeatmap$Pathovar, function(x){ifelse(x == "?", "Unknown",x)})
 rownames(olivierTableHeatmap) <- phylogroup$Genome
 olivierTableHeatmap <- olivierTableHeatmap[rownames(accessDataSub),]
-olivierTableHeatmap <- olivierTableHeatmap[complete.cases(olivierTableHeatmap),] %>%
-       	bind_rows(data.frame(row.names = c("Zape2.1","Zape2.2","Zape3"),ST = c("Kostic", "Kostic", "Kostic"), Pathovar = "Kostic"))
 olivierTableHeatmap["AncientEcoli","ST"] <- "Ancient"
 
 # Dendrogram and order
@@ -331,7 +386,7 @@ treeColours <- gsub("#ffffff", "#000000", treeColours)
 dend <- as.dendrogram(clusteredSpec)
 labels_colors(dend) <- treeColours
 
-pdf("~/KosticAccessTree.pdf", width = 24, height = 18)
+pdf("~/CVFigures/AccessTree.pdf", width = 24, height = 18)
 #pdf("~/Documents/University/EcoliPaperV2/AdditionalFiles/PartsofFigures/SpeciesAccessTree.pdf", width = 6, height = 8)
 plot(dend, horiz = F, main = "Accessory Genome Clustering")
 legend("topright", legend = names(ann_colors[[2]]), fill = unlist(ann_colors[[2]]), title = "ST")
@@ -383,13 +438,13 @@ pheatmap(accessDataSub[rownameOrder,], annotation_row = olivierTableHeatmap,
 	 gaps_row = c(which(rownames(accessDataSub)[rownameOrder] == "AncientEcoli"),which(rownames(accessDataSub)[rownameOrder] == "AncientEcoli") - 1),cluster_rows = F,
 	labels_row = rownamesHeatmap[rownameOrder], fontsize_row = 5, 
 	 #border_color = NA, annotation_colors = ann_colors)#, main = "Accessory Presence/Absence")
-	 filename = "~/AccessoryKosticHeatmap.png", width = 12, height = 8, border_color = NA, annotation_colors = ann_colors)#, main = "Accessory Presence/Absence")
+	 filename = "~/CVFigures/AccessoryHeatmap.png", width = 12, height = 8, border_color = NA, annotation_colors = ann_colors)#, main = "Accessory Presence/Absence")
 
 ################################################
 ### Now to perform the presence absence Test ###
 ################################################
 #ancientGenes <- ancientGenesPan %>% filter(Genome == "PanGenomeMappingFeb", MeanCoverage > 0, PercentCoverage > 0.5)
-ancientGenes <- depthDf %>% filter(Genome == "KaeroEcoli", MeanCoverage >= 10, PercentCoverage >= 0.9)
+ancientGenes <- depthDf %>% filter(Genome == "KaeroEcoli", MeanCoverage >= 10, CV <= 1)
 corePA <- coreGenes %in% ancientGenes$Gene
 missingGenes <- coreGenes[!corePA]
 
@@ -399,23 +454,24 @@ colnames(status)[1] <- "Status"
 status
 status %>% ggplot(aes(x = "", y = `n`, fill = Status)) + geom_col() + theme_classic() + scale_fill_manual(values = c("#f8333c", "#007dba")) +
 	xlab("") + ylab("Gene Count")
-ggsave("~/Documents/University/LabMeetings/Feb12BEAP/Figures/UpdatedCoreGenes.pdf", height = 6, width = 4)
+#ggsave("~/Documents/University/LabMeetings/Feb12BEAP/Figures/UpdatedCoreGenes.pdf", height = 6, width = 4)
 
 tmp <- depthDf %>% filter(Gene %in% missingGenes, Genome == "KaeroEcoli")
+#tmp %>% mutate(Possible = ifelse(CV <= 1 & MeanCoverage >= 10, "CV Found", ifelse(CV <= 1 & MeanCoverage >=5, "CV Liberal", ifelse(CV <= 1 & MeanCoverage > 1, "CV Only", "No")))) %>% count(Possible)
 tmp <- tmp %>% left_join(translatedNR[,c("Gene", "ID", "Name")])
 tmp$Name <- sapply(1:nrow(tmp), function(x){ifelse(is.na(tmp$Name[x]),tmp$Gene[x] ,tmp$Name[x])})
 
 tmp %>% select(Gene, MeanCoverage, PercentCoverage, CV) %>% as.data.frame() %>% xtable::xtable() %>% print(file = "~/Documents/University/EcoliPaperV2/MissingGenes.tex")
-write.table(tmp,file = "~/Documents/University/EcoliPaperV2/AdditionalFiles/MissingCoreGenesFixed.tab", row.names = F, sep = "\t", quote = F)
+write.table(tmp,file = "~/Documents/EcoliPaperWork/AdditionalFiles/MissingCoreGenesFixed.tab", row.names = F, sep = "\t", quote = F)
 
-depthDf %>% filter(Genome == "KaeroEcoli", Gene %in% coreGenes) %>% mutate(Presence = ifelse(MeanCoverage >= 10 & PercentCoverage >= 0.9, "Present", "Absent")) %>%
+depthDf %>% filter(Genome == "KaeroEcoli", Gene %in% coreGenes) %>% mutate(Presence = ifelse(MeanCoverage >= 10 & CV <= 1, "Present", "Absent")) %>%
 	mutate(Presence = factor(Presence, levels = c("Present", "Absent"))) %>%
-	ggplot(aes(x = MeanCoverage, y = PercentCoverage, colour = Presence)) + geom_point(alpha = 0.5) + theme_bw() +
-	geom_hline(yintercept = 0.9, col = "red", lty = 2) + geom_vline(xintercept = 10, col = "red", lty = 2) + xlab("Mean Read Coverage") +
+	ggplot(aes(x = MeanCoverage, y = CV, colour = Presence)) + geom_point(alpha = 0.5) + theme_bw() +
+	geom_hline(yintercept = 1, col = "red", lty = 2) + geom_vline(xintercept = 10, col = "red", lty = 2) + xlab("Mean Read Coverage") +
 	scale_y_continuous(breaks = pretty_breaks(n = 10)) + scale_x_continuous(breaks = pretty_breaks(n = 10)) +
-       	ylab(expression("Nucleotide Coverage" >= 1)) + theme(legend.position = "bottom") + scale_colour_manual(values = list("Present" = "#3cb44b", "Absent" = "#e6194b"))
+       	ylab("Coefficient of Variation") + theme(legend.position = "bottom") + scale_colour_manual(values = list("Present" = "#3cb44b", "Absent" = "#e6194b"))
 
-ggsave(file = "~/Documents/University/EcoliPaperV2/Figures/CoreGeneScatter.pdf", width = 8, height = 6)
+ggsave(file = "~/CVFigures/CoreGeneScatter.pdf", width = 8, height = 6)
 
 
 #ancientGenes[corePA,]
@@ -427,7 +483,7 @@ ggsave(file = "~/Documents/University/EcoliPaperV2/Figures/CoreGeneScatter.pdf",
 #
 ##### Let's get those Density Plots going ####
 #ancientGenesPan <- depthDf %>% filter(Genome == "MQ30ML30Depths", PercentCoverage >= 0.9)
-ancientGenesOnly <- depthDf %>% filter(Genome == "KaeroEcoli", MeanCoverage >= 10, PercentCoverage >= 0.9)
+ancientGenesOnly <- depthDf %>% filter(Genome == "KaeroEcoli", MeanCoverage >= 10, CV <= 1)
 ancientGenesOnly$Status <- ifelse(ancientGenesOnly$Gene %in% coreGenes, "Core", "Accessory")
 
 # Quick summary Statistics
@@ -448,8 +504,8 @@ p2 <- ancientGenesOnly  %>% ggplot(aes(x = MeanCoverage, fill = Status)) + geom_
 	xlab("Mean Read Depth") + ylab("Genes") + theme(legend.position = "bottom") + 
 	scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) + scale_y_continuous(breaks = scales::pretty_breaks(n = 10), limits = c(0, 500))
 p2
-save(p2, file = "~/GeneHistogram.RData")
-ggsave("~/UpdatedGeneDepthHistogram.pdf", width = 6, height = 4)
+save(p2, file = "~/CVFigures/GeneHistogram.RData")
+ggsave("~/CVFigures/UpdatedGeneDepthHistogram.pdf", width = 6, height = 4)
 
 #ggarrange(p1, p2, nrow = 2, align = "hv", labels = "AUTO")
 #ggsave("~/Documents/University/EcoliPaperV2/Figures/GeneDistributionUpdatedPercent90.pdf", width = 8, height = 6)
@@ -465,6 +521,17 @@ depthDfTrans <- depthDf %>% left_join(translatedNR[, c("Gene", "ID", "Name")])
 
 depthDfTrans$Name <- sapply(1:nrow(depthDfTrans), function(x){ifelse(is.na(depthDfTrans$Name[x]),depthDfTrans$Gene[x] ,depthDfTrans$Name[x])})
 
+# Small detour. Now looking at the list of Essential Genes from Touchon et al 2020 to see what we can get
+essentialGenes <- read.table(file = "../../EssentialGenes.txt", sep = "\t", header =T) %>% as_tibble()
+tmp <- depthDfTrans %>% filter(Genome == "KaeroEcoli", MeanCoverage >= 1)
+hard <- essentialGenes$DEG_Name[!(essentialGenes$DEG_Name %in% tmp$Name)]
+grepFound <- grep(paste(hard, collapse = "|"), tmp$Name)
+EasilyFound <- tmp %>% filter(Name %in% essentialGenes$DEG_Name)
+EssentialID <- EasilyFound %>% bind_rows(tmp[grepFound,]) %>% mutate(Status = ifelse(MeanCoverage >= 10 & PercentCoverage >= 0.9, "Found", ifelse(MeanCoverage >= 10 & CV <= 1, "CV Found", "Not Found")))
+
+EssentialID %>% count(Status)
+
+############
 depthDfTrans %>% filter(Genome == "KaeroEcoli", Gene %in% missingGenes) %>%
        	write.table(file = "~/Documents/University/EcoliPaperV2/AdditionalFiles/MissingGenesWithCov.tab", row.names = F, quote = F, sep = "\t")
 
@@ -480,12 +547,12 @@ virDf <- virDf %>% left_join(translatedNR[, c("Gene", "ID", "Name")])
 virDf$Name <-  sapply(1:nrow(virDf), function(x){ifelse(is.na(virDf$Name[x]),virDf$Gene[x] ,virDf$Name[x])})
 
 ##########Getting some shared Gene Counts################################
-ancientData <- depthDfTrans %>% filter(Genome == "KaeroEcoli", MeanCoverage >= 10, PercentCoverage >= 0.9) %>%
+ancientData <- depthDfTrans %>% filter(Genome == "KaeroEcoli", MeanCoverage >= 10, CV <= 1) %>%
 	pivot_wider(names_from = c(Genome), values_from=MeanCoverage) %>% select(-c(sdCoverage, PercentCoverage, CV, Name, ID))
 
 tmp <- virDf %>% select(-c(Name, ID)) %>% left_join(ancientData) %>% mutate(KaeroEcoli = ifelse(is.na(KaeroEcoli),0,1))
 
-tmp <- tmp %>% select(c(Gene,st4995, "KaeroEcoli"))
+tmp <- tmp %>% select(c(Gene,all_of(st4995), "KaeroEcoli"))
 # Now to make the list
 st4995Venn <- list()
 st4995Venn$`Ancient Ecoli` <- tmp$Gene[as.logical(tmp$KaeroEcoli)]
@@ -535,19 +602,19 @@ virGenes <- gsub("espR.*", "espR", virGenes)
 virGenes <- virGenes[-which(virGenes == "69")]
 
 ## Accounting for the NR genes.  Not clear so we'll need to start with key words (secretion, invasion, virulence, toxin)
-ind <- grep("invasion|secretion|enterotoxin", depthDfTrans$Name) %>% unique()
+ind <- grep("invasion|secretion|enterotoxin|cfaE_2|cfaB_2|cfaB|porcine|elf|csg|hcp|ecp", depthDfTrans$Name) %>% unique()
 #
 
 # The old way with all being mapped
-testOut <- pbsapply(virGenes, cl = 10, function(x){grep(x, depthDfTrans$Gene)}) %>% unlist() %>% unique()
+testOut <- pbsapply(virGenes, cl = 8, function(x){grep(x, depthDfTrans$Gene)}) %>% unlist() %>% unique()
 foundGenes <- depthDfTrans$Gene[testOut] %>% unique()
 ancientData <- depthDfTrans %>% ungroup() %>% filter(Gene %in% foundGenes) %>% bind_rows(depthDfTrans[ind,]) %>%
-       	filter(!is.na(CV), !grepl("group_",Name)) %>% distinct() %>% filter(Genome == "KaeroEcoli", MeanCoverage >= 10, PercentCoverage >= 0.9) %>%
+       	filter(!is.na(CV), !grepl("group_",Name)) %>% distinct() %>% filter(Genome == "KaeroEcoli", MeanCoverage >= 10, CV <= 1) %>%
 	select(Gene, Name, MeanCoverage)
 colnames(ancientData)[3] <- "KaeroEcoli"
 
 # Now to get the new simpler method involved here as well
-ind <- grep("invasion|secretion|enterotoxin", virDf$Name) %>% unique()
+ind <- grep("invasion|secretion|enterotoxin|cfaE_2|cfaB_2|cfaB|porcine|elf|csg|hcp|ecp", virDf$Name) %>% unique()
 testOut <- sapply(virGenes, function(x){grep(x, virDf$Gene)}) %>% unlist() %>% unique()
 virDf <- virDf[unique(c(testOut,ind)),]
 
@@ -592,8 +659,7 @@ st4995 <- st4995[st4995 %in% colnames(virData)]
 tmp <- virData %>% select(c(st4995, "KaeroEcoli"))
 tmp <- tmp[rowSums(tmp) > 0,]
 rowSums(tmp) %>% table()
-
-
+write.table(tmp, file = "~/ST4995Virulence.tab", quote = F ,sep = "\t")
 
 #st4995Genomes <- st4995Genomes[st4995Genomes %in% colnames(virData)]
 #tmp <- virData[,c(st4995Genomes[-2], "KaeroEcoli")] %>% filter(KaeroEcoli == 1)
@@ -618,7 +684,7 @@ plot(y = sil, x = 2:15, type = "b")
 small <- cutree(clusteredVir, k = 9)
 
 clusterBorder <- colour[small + 8] %>% unique()
-pdf("~/GeneVirulenceTree.pdf", width = 40, height = 12)
+pdf("~/CVFigures/GeneVirulenceTree.pdf", width = 40, height = 12)
 plot(clusteredVir, hang = -1, cex = 0.6)
 rect.hclust(clusteredVir, k = 6, border = clusterBorder)
 dev.off()
@@ -643,7 +709,7 @@ treeColours <- gsub("#ffffff", "#000000", treeColours)
 dend <- as.dendrogram(clusteredSpec)
 labels_colors(dend) <- treeColours
 
-pdf("~/Documents/University/EcoliPaperV2/AdditionalFiles/PartsofFigures/SpeciesVirulenceTreeA0.pdf", width = 6, height = 8)
+pdf("~/CVFigures/SpeciesVirulenceTreeA0.pdf", width = 24, height = 18)
 plot(dend, horiz = T)
 dev.off()
 
@@ -651,7 +717,10 @@ pheatmap(virData[rownameOrder,], annotation_row = olivierTableHeatmap, annotatio
 	 color = c("#007dba", "#f8333c"), clustering_method = "ward.D2", legend = F, show_colnames = F,
 	 gaps_row = c(which(rownames(virData)[rownameOrder] == "AncientEcoli"),which(rownames(virData)[rownameOrder] == "AncientEcoli") - 1),cluster_rows = F,
 	 labels_row = rownamesHeatmap[rownameOrder], fontsize_row = 5, 
-	 filename = "~/Documents/University/EcoliPaperV2/AdditionalFiles/PartsofFigures/SmallVirHeatmapUpdateA0.png", width = 12, height = 8, border_color = NA, annotation_colors = ann_colors)#, main = "Core Presence/Absence")
+	 filename = "~/CVFigures/VirulenceHeatmap.png",width = 12, height = 8, border_color = NA, annotation_colors = ann_colors)#, main = "Core Presence/Absence")
+
+
+
 
 ####### AMR Analysis #######
 RGI <- as_tibble(read.delim("AMRFinal.txt", header = T)) %>% filter(grepl("homolog", Model_type))
@@ -676,16 +745,16 @@ p2 <- RGIFamily %>% ggplot(aes(x = Family, y = Genes)) + geom_col(fill = "#2e294
 	theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1))
 ggarrange(p1,p2, align = "h", labels = "AUTO")
 
-RGIHomo %>% mutate(Drug.Class = gsub("; *", ";",Drug.Class)) %>% pull() %>%
-	strsplit(";") %>% unlist() %>% table() %>% sort(decreasing = T) %>% length()
+RGIHomo %>% mutate(Drug.Class = gsub("; *", ";",Drug.Class)) %>% pull(Drug.Class) %>% strsplit(split = ";") %>% unlist() %>% table() %>% sort(decreasing = T) %>% length()
 
 RGIHomo$Gene <- RGIHomo$Best_Hit_ARO %>% gsub(pattern = "Kleb.* |pneu.* |Escherichia |coli |beta-lactamase",replacement= "")
 
 # Note, no coverage filtering on ancientGenesOnly because they all happen to be >= 10 in this case
 #colnames(RGIHomo)[5] <- "Gene"
 
-RGIHomo %>% filter(Gene %in% gsub("_.*","",ancientGenesOnly$Gene)) %>% inner_join(ancientGenesOnly) %>% select(Gene, MeanCoverage, sdCoverage, PercentCoverage, CV, Drug.Class, Resistance.Mechanism, Count) %>% arrange(-Count)
-%>% write.csv("~/Documents/University/EcoliPaperV2/AdditionalFiles/AMRGenesFound.csv", row.names = F, quote = F)
+RGIHomo %>% filter(Gene %in% gsub("_.*","",ancientGenesOnly$Gene)) %>% inner_join(ancientGenesOnly) %>%
+        select(Gene, MeanCoverage, sdCoverage, PercentCoverage, CV, Drug.Class, Resistance.Mechanism, Count) %>% arrange(-Count) %>%
+        write.csv("~/Documents/EcoliPaperWork/AdditionalFiles/AMRGenesFound.csv", row.names = F, quote = F)
 
 tmp <- RGIHomo %>% filter(Gene %in%gsub("_.*","",ancientGenesOnly$Gene)) %>% mutate(Drug.Class = gsub("; *", ";",Drug.Class)) %>% pull(Drug.Class) %>%
 	strsplit(";") %>% unlist() %>% tibble()
@@ -700,7 +769,7 @@ tmp <- RGIHomo %>% mutate(Resistance.Mechanism = gsub("antibiotic efflux","",Res
 colnames(tmp) <- "Resistances"
 noefflux <- tmp %>% count(Resistances, name = "No Efflux")
 withefflux %>% full_join(noefflux) %>% arrange(-`With Efflux`, Resistances)%>% filter(!is.na(`No Efflux`)) %>%
-       xtable:::xtable() %>% print(file = "~/Documents/University/EcoliPaperV2/AdditionalFiles/DrugClasses.tex")
+       xtable:::xtable() %>% print(file = "~/Documents/EcoliPaperWork/AdditionalFiles/DrugClasses.tex")
 
 
 #### TEMP GC #####
