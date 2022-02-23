@@ -1,0 +1,92 @@
+"Name"	"GeneFamily"	"MeanCoverage"
+"aslA"	"asl"	22.2901234567901
+"astA"	"ast"	28.8492753623188
+"cfaB"	"cfa"	32.1976047904192
+"cfaE"	"cfa"	13.824644549763
+"csdA"	"csd"	28.6724709784411
+"csgA"	"csg"	28.9451754385965
+"csgB"	"csg"	32.1162280701754
+"csgD"	"csg"	26.9400921658986
+"csgE"	"csg"	20.6344086021505
+"csgF"	"csg"	30.9040767386091
+"csgG"	"csg"	23.2242206235012
+"ecpA"	"ecp"	22.88
+"ecpB"	"ecp"	28.1806684733514
+"ecpD"	"ecp"	30.8278588807786
+"ecpE"	"ecp"	27.9268635724332
+"ecpR"	"ecp"	31.158379373849
+"elfC_2"	"elf"	33.1054300435989
+"elfD"	"elf"	29.5555555555556
+"elfG"	"elf"	27.8160597572362
+"elfG_2"	"elf"	33.8370577281192
+"entA"	"ent"	25.7877652933833
+"entB"	"ent"	29.4452214452214
+"entC"	"ent"	27.9608843537415
+"entD"	"ent"	27.3095238095238
+"entE"	"ent"	27.2296710117939
+"entF"	"ent"	25.2385368366821
+"entS"	"ent"	28.7466027178257
+"fepA"	"fep"	23.1414547077198
+"fepB"	"fep"	29.3490073145246
+"fepC"	"fep"	29.1470588235294
+"fepD"	"fep"	24.7601990049751
+"fepG"	"fep"	23.3182275931521
+"fes"	"fes"	29.6084788029925
+"fimA_1"	"fim"	28.75
+"fimA_2"	"fim"	11.8214936247723
+"fimB"	"fim"	32.4461028192371
+"fimC_1"	"fim"	31.2456140350877
+"fimC_2"	"fim"	31.1570247933884
+"fimD_1"	"fim"	32.236802413273
+"fimE"	"fim"	30.14405360134
+"fimF"	"fim"	31.6214689265537
+"fimG"	"fim"	27.2638888888889
+"fimH"	"fim"	28.1672203765227
+"fimI"	"fim"	25.8076062639821
+"focA"	"foc"	30.7575757575758
+"gadC"	"gad"	26.474609375
+"gadW"	"gad"	33.8098290598291
+"gadX"	"gad"	33.2521212121212
+"MULTISPECIES: type VI secretion system baseplate subunit TssF [Enterobacteriaceae]"	"tss"	54.8399044205496
+"MULTISPECIES: type VI secretion system baseplate subunit TssG [Enterobacteriaceae]"	"tss"	44.3368794326241
+"type VI secretion system baseplate subunit TssF [Escherichia coli]"	"tss"	28.7390599675851
+"type III secretion system effector EspX1, partial [Escherichia coli]"	"esp"	30.041184041184
+"MULTISPECIES: type VI secretion system baseplate subunit TssG [Enterobacteriaceae]"	"tss"	29.7839335180055
+"type III secretion protein EprJ [Escherichia coli]"	"epr"	32.0181818181818
+"MULTISPECIES: type VI secretion system baseplate subunit TssK [Enterobacteriaceae]"	"tss"	27.7304804804805
+"type IVB secretion system protein IcmH/DotU [Escherichia coli]"	"icm"	30.8517060367454
+"MULTISPECIES: invasion protein [Enterobacteriaceae]"	"invasion protein"	34.265306122449
+"type VI secretion system contractile sheath large subunit [Escherichia coli]"	"type VI secretion system contractile sheath large subunit [Escherichia coli]"	57.4192364170338
+"type VI secretion system baseplate subunit TssK [Escherichia coli]"	"tss"	50.1859259259259
+"type VI secretion system protein TssL, short form [Escherichia coli]"	"tss"	41.0507246376812
+"type VI secretion system tip protein VgrG [Escherichia coli]"	"vgr"	46.8193384223919
+"type VI secretion protein VasK [Escherichia coli]"	"vas"	52.5490620490621
+"type VI secretion protein VasK [Escherichia coli]"	"vas"	50.6932707355243
+"type VI secretion system protein TssA [Escherichia coli]"	"tss"	52.1307311028501
+"type VI secretion system lipoprotein TssJ [Escherichia coli]"	"tss"	50.4190476190476
+"type VI secretion system tip protein VgrG [Escherichia coli]"	"vgr"	48.231339031339
+"type III secretion system protein SpaP [Escherichia coli O104:H4 str. 01-09591]"	"spa"	32.5884773662551
+"type IV secretion protein Rhs, partial [Escherichia coli]"	"rhs"	15.9717514124294
+"MULTISPECIES: type VI secretion system lipoprotein TssJ [Enterobacteriaceae]"	"tss"	31.0571428571429
+"type VI secretion system baseplate subunit TssE [Escherichia coli]"	"tss"	32.0692640692641
+"type VI secretion system membrane subunit TssM [Escherichia coli]"	"tss"	27.5029787234043
+"tia invasion determinant [Escherichia coli MS 84-1]"	"tia"	28.3048780487805
+"MULTISPECIES: type VI secretion system baseplate subunit TssE [Enterobacteriaceae]"	"tss"	26.8599033816425
+"type III secretion protein [Escherichia coli]"	"type III secretion protein [Escherichia coli]"	34.7799564270153
+"type VI secretion system ImpA family N-terminal domain-containing protein [Escherichia coli]"	"imp"	28.3887657058389
+"MULTISPECIES: type VI secretion system-associated protein TagO [Enterobacteriaceae]"	"tag"	15.4704301075269
+"MULTISPECIES: type VI secretion system contractile sheath small subunit [Enterobacteriaceae]"	"MULTISPECIES: type VI secretion system contractile sheath small subunit [Enterobacteriaceae]"	27.5269461077844
+"hcp"	"hcp"	28.9473684210526
+"hcpA"	"hcp"	29.2896825396825
+"hcpA_1"	"hcp"	49.8170731707317
+"hlyE"	"hly"	30.455938697318
+"malX"	"mal"	29.2806026365348
+"ompA"	"omp"	21.0720461095101
+"satP"	"sat"	31.4902998236332
+"uspA"	"usp"	29.8436781609195
+"uspB"	"usp"	27.1517857142857
+"uspC"	"usp"	28.997668997669
+"uspD"	"usp"	35.3310023310023
+"uspE"	"usp"	30.4826498422713
+"uspF"	"usp"	31.8896551724138
+"uspG"	"usp"	28.1048951048951

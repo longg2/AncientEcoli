@@ -1,0 +1,334 @@
+"VFclass"	"Virulence.factors"	"Related.genes"	"UPEC"	"EAEC"	"APEC"	"ETEC"	"EHEC"	"StxEAEC"	"NMEC"	"AIEC"	"K12"
+"Adherence"	"AAF/II fimbriae"	"aafB"	0	1	0	0	0	0	0	0	0
+"Adherence"	"AAF/II fimbriae"	"aafC"	0	1	0	0	0	0	0	0	0
+"Adherence"	"AAF/II fimbriae"	"aafD"	0	1	0	0	0	0	0	0	0
+"Adherence"	"AAF/II fimbriae"	"aafA"	0	1	0	0	0	0	0	0	0
+"Adherence"	"AAF/III fimbriae"	"agg3D"	0	4	0	0	0	3	0	0	0
+"Adherence"	"AAF/III fimbriae"	"agg3C"	0	4	0	0	0	3	0	0	0
+"Adherence"	"AAF/III fimbriae"	"agg3B"	0	4	0	0	0	3	0	0	0
+"Adherence"	"AAF/III fimbriae"	"agg3A"	0	4	0	0	0	3	0	0	0
+"Adherence"	"Afimbrial adhesin AFA-I"	"afaD"	2	0	0	0	0	0	0	0	0
+"Adherence"	"Afimbrial adhesin AFA-I"	"afaC"	2	0	0	0	0	0	0	0	0
+"Adherence"	"Afimbrial adhesin AFA-I"	"afaB"	2	0	0	0	0	0	0	0	0
+"Adherence"	"Afimbrial adhesin AFA-I"	"afaA"	2	0	0	0	0	0	0	0	0
+"Adherence"	"Afimbrial adhesin AFA-I"	"afaE"	1	0	0	0	0	0	0	0	0
+"Adherence"	"Afimbrial adhesin AFA-I"	"draP"	2	0	0	0	0	0	0	0	0
+"Adherence"	"CFA/I fimbriae"	"cfaA"	2	4	1	2	3	3	0	0	0
+"Adherence"	"CFA/I fimbriae"	"cfaB"	2	4	1	2	3	3	0	0	0
+"Adherence"	"CFA/I fimbriae"	"cfaC"	2	4	1	2	3	3	0	0	0
+"Adherence"	"CFA/I fimbriae"	"cfaD/cfaE"	2	4	1	2	3	3	0	0	0
+"Adherence"	"Curli fibers"	"cgsG"	2	0	0	0	0	0	0	0	0
+"Adherence"	"Curli fibers"	"cgsF"	2	0	0	0	0	0	0	0	0
+"Adherence"	"Curli fibers"	"cgsE"	2	0	0	0	0	0	0	0	0
+"Adherence"	"Curli fibers"	"cgsD"	2	0	0	0	0	0	0	0	0
+"Adherence"	"Curli fibers"	"csgB"	2	0	0	0	0	0	0	0	0
+"Adherence"	"Curli fibers"	"csgA"	2	0	0	0	0	0	0	0	0
+"Adherence"	"Curli fibers"	"csgC"	2	0	0	0	0	0	0	0	0
+"Adherence"	"Dispersin"	"aap"	0	1	0	0	0	0	0	0	0
+"Adherence"	"E. coli common pilus (ECP)"	"ecpB"	10	5	2	3	7	3	3	3	1
+"Adherence"	"E. coli common pilus (ECP)"	"ecpR"	10	5	2	3	7	3	3	3	1
+"Adherence"	"E. coli common pilus (ECP)"	"ecpA"	9	5	2	3	7	3	3	3	1
+"Adherence"	"E. coli common pilus (ECP)"	"ecpC"	10	5	2	3	7	3	3	3	1
+"Adherence"	"E. coli common pilus (ECP)"	"ecpD"	10	5	2	3	7	3	3	3	1
+"Adherence"	"E. coli common pilus (ECP)"	"ecpE"	10	5	2	3	7	3	3	3	1
+"Adherence"	"E.coli laminin-binding fimbriae (ELF)"	"elfA"	2	4	1	3	8	3	1	0	1
+"Adherence"	"E.coli laminin-binding fimbriae (ELF)"	"elfD"	2	4	1	3	8	3	1	0	1
+"Adherence"	"E.coli laminin-binding fimbriae (ELF)"	"elfC"	2	4	1	3	3	3	1	0	1
+"Adherence"	"E.coli laminin-binding fimbriae (ELF)"	"elfG"	2	4	1	3	6	3	1	0	1
+"Adherence"	"EaeH"	"eaeH"	7	5	2	3	7	3	1	3	0
+"Adherence"	"EtpA"	"etpA"	0	0	0	1	0	0	0	0	0
+"Adherence"	"F1C fimbriae"	"focA"	3	0	0	0	0	0	0	0	0
+"Adherence"	"F1C fimbriae"	"focI"	3	0	0	0	0	0	0	0	0
+"Adherence"	"F1C fimbriae"	"focC"	3	0	0	0	0	0	0	0	0
+"Adherence"	"F1C fimbriae"	"focD"	3	0	0	0	0	0	0	0	0
+"Adherence"	"F1C fimbriae"	"focF"	3	0	0	0	0	0	0	0	0
+"Adherence"	"F1C fimbriae"	"focG"	3	0	0	0	0	0	0	0	0
+"Adherence"	"F1C fimbriae"	"focH"	3	0	0	0	0	0	0	0	0
+"Adherence"	"Hemorrhagic E.coli pilus (HCP)"	"hcpC"	10	5	2	2	8	3	3	3	1
+"Adherence"	"Hemorrhagic E.coli pilus (HCP)"	"hcpB"	10	5	2	3	8	3	3	3	1
+"Adherence"	"Hemorrhagic E.coli pilus (HCP)"	"hcpA"	10	5	2	3	8	3	3	3	1
+"Adherence"	"Intimin"	"eae"	0	0	0	0	8	0	0	0	0
+"Adherence"	"K88 fimbriae"	"faeC"	0	0	0	1	0	0	0	0	0
+"Adherence"	"K88 fimbriae"	"faeD"	0	0	0	1	0	0	0	0	0
+"Adherence"	"K88 fimbriae"	"faeE"	0	0	0	1	0	0	0	0	0
+"Adherence"	"K88 fimbriae"	"faeF"	0	0	0	1	0	0	0	0	0
+"Adherence"	"K88 fimbriae"	"faeG"	0	0	0	1	0	0	0	0	0
+"Adherence"	"K88 fimbriae"	"faeH"	0	0	0	1	0	0	0	0	0
+"Adherence"	"K88 fimbriae"	"faeI"	0	0	0	1	0	0	0	0	0
+"Adherence"	"K88 fimbriae"	"faeJ"	0	0	0	1	0	0	0	0	0
+"Adherence"	"P fimbriae"	"papK"	7	0	1	0	0	0	2	1	0
+"Adherence"	"P fimbriae"	"papJ"	6	0	1	0	0	0	1	1	0
+"Adherence"	"P fimbriae"	"papD"	7	0	1	0	0	0	2	1	0
+"Adherence"	"P fimbriae"	"papC"	7	0	1	0	0	0	2	1	0
+"Adherence"	"P fimbriae"	"papH"	7	0	1	0	0	0	2	1	0
+"Adherence"	"P fimbriae"	"papA"	7	0	1	0	0	0	2	1	0
+"Adherence"	"P fimbriae"	"papB"	6	0	1	0	0	0	1	1	0
+"Adherence"	"P fimbriae"	"papI"	9	0	1	0	0	0	2	1	0
+"Adherence"	"P fimbriae"	"papX"	9	0	1	0	0	0	2	1	0
+"Adherence"	"P fimbriae"	"papG"	7	0	1	0	0	0	2	1	0
+"Adherence"	"P fimbriae"	"papF"	7	0	1	0	0	0	2	1	0
+"Adherence"	"P fimbriae"	"papE"	7	0	1	0	0	0	2	1	0
+"Adherence"	"Porcine attaching-effacing associated protein"	"paa"	0	0	0	0	8	0	0	0	0
+"Adherence"	"S fimbriae"	"sfaC"	2	0	0	0	0	0	1	1	0
+"Adherence"	"S fimbriae"	"sfaB"	2	0	0	0	0	0	1	1	0
+"Adherence"	"S fimbriae"	"sfaA"	2	0	0	0	0	0	1	1	0
+"Adherence"	"S fimbriae"	"sfaD"	2	0	0	0	0	0	1	1	0
+"Adherence"	"S fimbriae"	"sfaE"	2	0	0	0	0	0	1	1	0
+"Adherence"	"S fimbriae"	"sfaF"	2	0	0	0	0	0	1	1	0
+"Adherence"	"S fimbriae"	"sfaG"	2	0	0	0	0	0	1	1	0
+"Adherence"	"S fimbriae"	"sfaS"	2	0	0	0	0	0	1	1	0
+"Adherence"	"S fimbriae"	"sfaH"	2	0	0	0	0	0	1	1	0
+"Adherence"	"ToxB"	"toxB"	0	0	0	0	6	0	0	0	0
+"Adherence"	"Type I fimbriae"	"fimB"	9	0	2	1	8	0	3	3	1
+"Adherence"	"Type I fimbriae"	"fimE"	9	0	2	1	8	0	3	3	1
+"Adherence"	"Type I fimbriae"	"fimA"	9	0	2	1	8	0	3	3	1
+"Adherence"	"Type I fimbriae"	"fimI"	9	4	2	1	8	3	3	3	1
+"Adherence"	"Type I fimbriae"	"fimC"	9	0	2	1	8	0	3	3	1
+"Adherence"	"Type I fimbriae"	"fimD"	10	5	2	1	8	3	3	3	1
+"Adherence"	"Type I fimbriae"	"fimF"	10	5	2	2	8	3	3	3	1
+"Adherence"	"Type I fimbriae"	"fimG"	10	5	2	2	8	3	3	3	1
+"Adherence"	"Type I fimbriae"	"fimH"	10	0	2	2	8	0	3	3	1
+"Autotransporter"	"AatA, AIDA-I type"	"aatA"	0	0	1	0	0	0	0	0	0
+"Autotransporter"	"AIDA-I"	"aida"	2	0	0	0	0	0	0	0	0
+"Autotransporter"	"AIDA-I type"	"tibA"	0	0	0	1	0	0	0	0	0
+"Autotransporter"	"Antigen 43, AIDA-I type"	"agn43"	8	4	0	0	1	3	0	0	1
+"Autotransporter"	"Cah, AIDA-I type"	"cah"	3	4	0	3	7	3	2	1	0
+"Autotransporter"	"Contact-dependent inhibition CDI system"	"cdiA"	5	0	0	0	0	0	0	1	0
+"Autotransporter"	"Contact-dependent inhibition CDI system"	"cdiB"	4	0	0	0	0	0	0	1	0
+"Autotransporter"	"EhaA, AIDA-I type"	"ehaA"	0	5	0	1	8	3	0	0	0
+"Autotransporter"	"EhaB, AIDA-I type"	"ehaB"	3	5	1	2	4	3	3	2	0
+"Autotransporter"	"Enteroaggregative immunoglobulin repeat protein"	"air/eaeX"	1	1	0	0	0	0	1	0	0
+"Autotransporter"	"EspC, SPATE"	"espC"	2	0	0	0	0	0	0	0	0
+"Autotransporter"	"EspI, SPATE"	"espI"	0	0	0	0	1	0	0	0	0
+"Autotransporter"	"EspP"	"espP"	0	0	0	0	5	0	0	0	0
+"Autotransporter"	"Pet, SPATE"	"pet"	0	5	0	0	0	3	0	0	0
+"Autotransporter"	"Pic"	"pic"	2	5	0	2	0	3	0	0	0
+"Autotransporter"	"Sat"	"sat"	6	1	0	0	0	0	1	0	0
+"Autotransporter"	"Temperature-sensitive hemagglutinin"	"tsh"	1	0	1	0	0	0	0	0	0
+"Autotransporter"	"UpaG adhesin, trimeric AT"	"upaG/ehaG"	7	5	2	1	8	3	3	3	0
+"Autotransporter"	"UpaH, AIDA-I type"	"upaH"	4	0	0	0	0	0	0	0	0
+"Autotransporter"	"Vacuolating autotransporter gene"	"vat"	3	4	1	0	0	3	2	3	0
+"Invasion"	"Invasion of brain endothelial cells (Ibes)"	"ibeA"	1	0	1	0	0	0	1	3	0
+"Invasion"	"Invasion of brain endothelial cells (Ibes)"	"ibeB"	10	5	2	3	8	3	3	3	0
+"Invasion"	"Invasion of brain endothelial cells (Ibes)"	"ibeC"	10	5	2	3	15	3	3	3	0
+"Invasion"	"Tia/Hek"	"tia"	5	2	1	1	0	0	2	1	0
+"Iron uptake"	"Aerobactin siderophore"	"iutA"	8	4	1	0	2	3	2	1	0
+"Iron uptake"	"Aerobactin siderophore"	"iucD"	8	4	1	0	2	3	2	1	0
+"Iron uptake"	"Aerobactin siderophore"	"iucC"	8	4	1	0	2	3	2	1	0
+"Iron uptake"	"Aerobactin siderophore"	"iucB"	8	4	1	0	2	3	2	1	0
+"Iron uptake"	"Aerobactin siderophore"	"iucA"	8	4	1	0	2	3	2	1	0
+"Iron uptake"	"Heme uptake"	"chuS"	9	1	1	0	5	0	3	3	0
+"Iron uptake"	"Heme uptake"	"chuA"	9	1	1	0	5	0	3	3	0
+"Iron uptake"	"Heme uptake"	"chuT"	9	1	1	0	5	0	3	3	0
+"Iron uptake"	"Heme uptake"	"chuW"	9	1	1	0	5	0	3	3	0
+"Iron uptake"	"Heme uptake"	"chuX"	9	1	1	0	5	0	3	3	0
+"Iron uptake"	"Heme uptake"	"chuY"	9	1	1	0	5	0	3	3	0
+"Iron uptake"	"Heme uptake"	"chuU"	9	1	1	0	5	0	3	3	0
+"Iron uptake"	"Iron-regulated element"	"ireA"	2	0	1	0	0	0	1	0	0
+"Iron uptake"	"Iron/manganese transport"	"sitA"	9	1	2	0	0	0	4	3	0
+"Iron uptake"	"Iron/manganese transport"	"sitB"	9	1	2	0	0	0	4	3	0
+"Iron uptake"	"Iron/manganese transport"	"sitC"	9	1	2	0	0	0	4	3	0
+"Iron uptake"	"Iron/manganese transport"	"sitD"	9	1	2	0	0	0	4	3	0
+"Iron uptake"	"Salmochelin siderophore"	"iroN"	5	0	1	0	0	0	2	2	0
+"Iron uptake"	"Salmochelin siderophore"	"iroE"	5	0	1	0	0	0	2	2	0
+"Iron uptake"	"Salmochelin siderophore"	"iroD"	5	0	1	0	0	0	2	2	0
+"Iron uptake"	"Salmochelin siderophore"	"iroC"	5	0	1	0	0	0	2	2	0
+"Iron uptake"	"Salmochelin siderophore"	"iroB"	5	0	1	0	0	0	2	2	0
+"Iron uptake"	"Yersiniabactin siderophore"	"ybtS"	10	5	1	1	0	3	2	3	0
+"Iron uptake"	"Yersiniabactin siderophore"	"ybtX"	10	5	1	1	0	3	3	3	0
+"Iron uptake"	"Yersiniabactin siderophore"	"ybtQ"	10	5	1	1	0	3	3	3	0
+"Iron uptake"	"Yersiniabactin siderophore"	"ybtP"	10	5	1	1	0	3	3	3	0
+"Iron uptake"	"Yersiniabactin siderophore"	"ybtA"	10	5	1	1	0	3	3	3	0
+"Iron uptake"	"Yersiniabactin siderophore"	"irp2"	10	5	1	1	0	3	3	3	0
+"Iron uptake"	"Yersiniabactin siderophore"	"irp1"	10	5	1	1	0	3	3	3	0
+"Iron uptake"	"Yersiniabactin siderophore"	"ybtU"	10	5	1	1	0	3	3	3	0
+"Iron uptake"	"Yersiniabactin siderophore"	"ybtT"	10	5	1	1	0	3	3	3	0
+"Iron uptake"	"Yersiniabactin siderophore"	"ybtE"	10	5	1	1	0	3	3	3	0
+"Iron uptake"	"Yersiniabactin siderophore"	"fyuA"	10	5	1	1	0	3	3	3	0
+"LEE-encoded TTSS effectors"	"EspB"	"espB"	0	0	0	0	8	0	0	0	0
+"LEE-encoded TTSS effectors"	"EspF"	"espF"	0	0	0	0	8	0	0	0	0
+"LEE-encoded TTSS effectors"	"EspG"	"espG"	0	0	0	0	8	0	0	0	0
+"LEE-encoded TTSS effectors"	"EspH"	"espH"	0	0	0	0	8	0	0	0	0
+"LEE-encoded TTSS effectors"	"Mitochondria-associated protein Map"	"map"	0	0	0	0	8	0	0	0	0
+"LEE-encoded TTSS effectors"	"SepZ/EspZ"	"sepZ"	0	0	0	0	7	0	0	0	0
+"LEE-encoded TTSS effectors"	"Tir"	"tir"	0	0	0	0	8	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"Cell-cycle-inhibitory factor Cif"	"cif"	0	0	0	0	0	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspFu/TccP (Tir cytoskeleton coupling protein)"	"espFu/tccP"	0	0	0	0	5	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspG2 (EPEC EspC island)"	"espG2"	0	0	0	0	0	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspJ"	"espJ"	0	0	0	0	7	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspK"	"espK"	0	0	0	0	8	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspL1"	"espL1"	0	0	0	0	5	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspL2"	"espL2"	0	0	0	0	8	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspL4"	"espL4"	0	0	0	0	6	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspM1"	"espM1"	0	0	0	0	7	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspM2"	"espM2"	0	0	0	0	7	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspN"	"espN"	0	0	0	0	8	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspO1-1"	"espO1-1"	0	0	0	0	6	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspO1-2"	"espO1-2"	0	0	0	0	5	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspR1"	"espR1"	0	0	0	0	8	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspR3"	"espR3"	0	0	0	0	4	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspR4"	"espR4"	0	0	0	0	4	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspV"	"espV"	0	0	0	0	3	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspW"	"espW"	0	0	0	0	8	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspX1"	"espX1"	0	0	0	0	8	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspX2"	"espX2"	0	0	0	0	5	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspX4"	"espX4"	0	0	0	0	5	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspX5"	"espX5"	0	0	0	0	5	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspX6"	"espX6"	0	0	0	0	5	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspX7"	"espX7"	0	0	0	0	8	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspY1"	"espY1"	0	0	0	0	4	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspY2"	"espY2"	0	0	0	0	5	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspY3"	"espY3"	0	0	0	0	5	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspY4"	"espY4"	0	0	0	0	5	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"EspY5"	"espY5"	0	0	0	0	3	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"LifA/Efa1"	"lifA/efa1"	0	0	0	0	4	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleA"	"nleA"	0	0	0	0	8	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleB1"	"nleB1"	0	0	0	0	8	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleB2-1"	"nleB2-1"	0	0	0	0	6	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleB2-2"	"nleB2-2"	0	0	0	0	1	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleC"	"nleC"	0	0	0	0	7	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleD"	"nleD"	0	0	0	0	4	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleE-1"	"nleE-1"	0	0	0	0	8	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleE-2"	"nleE-2"	0	0	0	0	0	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleF"	"nleF"	0	0	0	0	6	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleG-1"	"nleG-1"	0	0	0	0	8	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleG-2"	"nleG-2"	0	0	0	0	0	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleG-3"	"nleG-3"	0	0	0	0	4	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleG2-2"	"nleG2-2"	0	0	0	0	5	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleG2-3"	"nleG2-3"	0	0	0	0	5	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleG2-4"	"nleG2-4"	0	0	0	0	6	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleG5-1"	"nleG5-1"	0	0	0	0	6	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleG5-2"	"nleG5-2"	0	0	0	0	5	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleG6-1"	"nleG6-1"	0	0	0	0	5	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleG6-2"	"nleG6-2"	0	0	0	0	5	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleG6-3"	"nleG6-3"	0	0	0	0	6	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleG7"	"nleG7"	0	0	0	0	8	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleG8-2"	"nleG8-2"	0	0	0	0	7	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleH1-1"	"nleH1-1"	0	0	0	0	8	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"NleH1-2"	"nleH1-2"	0	0	0	0	7	0	0	0	0
+"Non-LEE encoded TTSS effectors"	"TccP2"	"tccP2"	0	0	0	0	7	0	0	0	0
+"Regulation"	"AggR"	"aggR"	0	5	0	0	0	3	0	0	0
+"Secretion system"	"AAI/SCI-II T6SS"	"aaiA"	0	5	0	0	0	3	0	0	0
+"Secretion system"	"AAI/SCI-II T6SS"	"aaiB"	0	5	0	0	0	3	0	0	0
+"Secretion system"	"AAI/SCI-II T6SS"	"aaiC/hcp"	0	5	0	0	0	3	0	0	0
+"Secretion system"	"AAI/SCI-II T6SS"	"aaiD"	0	5	0	0	0	3	0	0	0
+"Secretion system"	"AAI/SCI-II T6SS"	"aaiE"	0	5	0	0	0	3	0	0	0
+"Secretion system"	"AAI/SCI-II T6SS"	"aaiF"	0	5	0	0	0	3	0	0	0
+"Secretion system"	"AAI/SCI-II T6SS"	"vgrG"	0	5	0	0	0	3	0	0	0
+"Secretion system"	"AAI/SCI-II T6SS"	"aaiH"	0	5	0	0	0	3	0	0	0
+"Secretion system"	"AAI/SCI-II T6SS"	"aaiI"	0	5	0	0	0	3	0	0	0
+"Secretion system"	"AAI/SCI-II T6SS"	"aaiJ"	0	5	0	0	0	3	0	0	0
+"Secretion system"	"AAI/SCI-II T6SS"	"aaiK"	0	5	0	0	0	3	0	0	0
+"Secretion system"	"AAI/SCI-II T6SS"	"aaiL"	0	5	0	0	0	3	0	0	0
+"Secretion system"	"AAI/SCI-II T6SS"	"aaiM"	0	5	0	0	0	3	0	0	0
+"Secretion system"	"AAI/SCI-II T6SS"	"aaiN"	0	5	0	0	0	3	0	0	0
+"Secretion system"	"AAI/SCI-II T6SS"	"icmF/aaiO"	0	5	0	0	0	3	0	0	0
+"Secretion system"	"AAI/SCI-II T6SS"	"clpV/aaiP"	0	5	0	0	0	3	0	0	0
+"Secretion system"	"ABC transporter for dispersin"	"aatP"	0	5	0	2	0	3	0	0	0
+"Secretion system"	"ABC transporter for dispersin"	"aatA"	0	5	0	2	0	3	0	0	0
+"Secretion system"	"ABC transporter for dispersin"	"aatB"	0	5	0	2	0	3	0	0	0
+"Secretion system"	"ABC transporter for dispersin"	"aatC"	0	5	0	1	0	3	0	0	0
+"Secretion system"	"ABC transporter for dispersin"	"aatD"	0	5	0	2	0	3	0	0	0
+"Secretion system"	"ACE T6SS"	"aec32"	4	5	1	2	7	3	2	3	0
+"Secretion system"	"ACE T6SS"	"aec31"	4	5	1	2	8	3	2	2	0
+"Secretion system"	"ACE T6SS"	"aec30"	4	5	1	2	6	3	2	3	0
+"Secretion system"	"ACE T6SS"	"aec29"	4	5	1	2	6	3	2	3	0
+"Secretion system"	"ACE T6SS"	"aec28"	4	5	1	2	8	3	2	3	0
+"Secretion system"	"ACE T6SS"	"aec27/clpV"	4	5	1	2	8	3	2	3	0
+"Secretion system"	"ACE T6SS"	"aec26"	4	5	1	2	8	3	2	3	0
+"Secretion system"	"ACE T6SS"	"aec25"	4	5	1	2	7	3	2	3	0
+"Secretion system"	"ACE T6SS"	"aec24"	4	5	1	2	8	3	2	3	0
+"Secretion system"	"ACE T6SS"	"aec23"	4	5	1	2	7	3	2	3	0
+"Secretion system"	"ACE T6SS"	"aec22"	4	5	1	2	6	3	2	3	0
+"Secretion system"	"ACE T6SS"	"-"	4	5	1	2	7	3	2	3	0
+"Secretion system"	"ACE T6SS"	"aec19"	4	5	1	2	7	3	2	3	0
+"Secretion system"	"ACE T6SS"	"aec18"	4	5	1	2	6	3	2	3	0
+"Secretion system"	"ACE T6SS"	"aec17"	4	5	1	2	7	3	2	3	0
+"Secretion system"	"ACE T6SS"	"aec16"	4	5	1	2	7	3	2	3	0
+"Secretion system"	"ACE T6SS"	"aec15"	2	3	1	2	8	3	2	3	0
+"Secretion system"	"ACE T6SS"	"aec14"	2	0	1	0	0	0	2	3	0
+"Secretion system"	"ACE T6SS"	"-"	2	0	1	0	0	0	2	3	0
+"Secretion system"	"ACE T6SS"	"aec11"	2	0	1	0	0	0	1	3	0
+"Secretion system"	"ACE T6SS"	"aec8"	3	1	1	0	0	0	1	3	0
+"Secretion system"	"ACE T6SS"	"aec7"	3	1	1	0	0	0	2	3	0
+"Secretion system"	"LEE locus encoded TTSS"	"-"	0	0	0	0	7	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"escF"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"cesD2"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"espB"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"espD"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"espA"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"sepL"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"escD"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"cesT"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"cesF"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"sepQ"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"escP"	0	0	0	0	7	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"escO"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"escN"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"escV"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"-"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"escI"	0	0	0	0	7	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"escJ"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"sepD"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"escC"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"cesD"	0	0	0	0	7	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"glrA"	0	0	0	0	7	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"glrR"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"etgA"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"escU"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"escT"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"escS"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"escR"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"escL"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"escK"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"-"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"-"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"ler"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"LEE locus encoded TTSS"	"-"	0	0	0	0	8	0	0	0	0
+"Secretion system"	"SCI-I T6SS"	"-"	7	5	1	1	1	3	2	3	0
+"Secretion system"	"SCI-I T6SS"	"-"	7	5	1	1	1	3	2	3	0
+"Secretion system"	"SCI-I T6SS"	"-"	7	2	1	1	1	0	2	3	0
+"Secretion system"	"SCI-I T6SS"	"-"	7	2	1	1	1	0	2	3	0
+"Secretion system"	"SCI-I T6SS"	"-"	7	2	1	1	1	0	2	3	0
+"Secretion system"	"SCI-I T6SS"	"-"	7	2	1	1	1	0	2	3	0
+"Secretion system"	"SCI-I T6SS"	"-"	7	2	1	1	1	0	2	3	0
+"Secretion system"	"SCI-I T6SS"	"-"	0	2	0	0	0	0	0	0	0
+"Secretion system"	"SCI-I T6SS"	"-"	0	1	0	0	0	0	0	0	0
+"Secretion system"	"SCI-I T6SS"	"-"	7	2	1	1	1	0	2	3	0
+"Secretion system"	"SCI-I T6SS"	"-"	1	2	0	0	0	0	0	0	0
+"Secretion system"	"SCI-I T6SS"	"-"	1	2	0	0	0	0	0	0	0
+"Secretion system"	"SCI-I T6SS"	"-"	1	2	0	0	0	0	0	0	0
+"Secretion system"	"SCI-I T6SS"	"-"	4	2	0	0	0	0	0	3	0
+"Secretion system"	"SCI-I T6SS"	"-"	0	2	0	0	0	0	0	0	0
+"Secretion system"	"SCI-I T6SS"	"-"	6	2	1	0	1	0	2	3	0
+"Secretion system"	"SCI-I T6SS"	"-"	7	2	1	0	1	0	2	3	0
+"Secretion system"	"SCI-I T6SS"	"-"	0	2	0	0	0	0	0	0	0
+"Secretion system"	"SCI-I T6SS"	"-"	6	2	1	0	1	0	2	3	0
+"Secretion system"	"SCI-I T6SS"	"-"	5	2	1	0	1	0	2	3	0
+"Secretion system"	"SCI-I T6SS"	"-"	7	2	1	1	1	0	2	3	0
+"Secretion system"	"SCI-I T6SS"	"-"	7	2	1	1	1	0	2	3	0
+"Secretion system"	"SCI-I T6SS"	"-"	0	2	0	0	0	0	0	0	0
+"Secretion system"	"SCI-I T6SS"	"-"	0	5	0	0	0	3	0	0	0
+"Secretion system"	"SCI-I T6SS"	"-"	0	5	0	0	0	3	0	0	0
+"Secretion system"	"SCI-I T6SS"	"-"	0	4	0	0	0	3	0	0	0
+"Secretion system"	"SCI-I T6SS"	"-"	3	2	0	1	1	0	1	3	0
+"Toxin"	"Alpha-hemolysin"	"hlyD"	4	0	0	1	7	0	0	1	0
+"Toxin"	"Alpha-hemolysin"	"hlyB"	4	0	0	1	7	0	0	1	0
+"Toxin"	"Alpha-hemolysin"	"hlyA"	4	0	0	1	7	0	0	1	0
+"Toxin"	"Alpha-hemolysin"	"hlyC"	4	0	0	1	7	0	0	1	0
+"Toxin"	"Colicin-like Usp"	"usp"	6	0	1	0	0	0	2	3	0
+"Toxin"	"Cytolethal distending toxin"	"cdtA"	0	0	1	0	0	0	1	0	0
+"Toxin"	"Cytolethal distending toxin"	"cdtB"	0	0	1	0	0	0	1	0	0
+"Toxin"	"Cytolethal distending toxin"	"cdtC"	0	0	1	0	0	0	1	0	0
+"Toxin"	"Cytotoxic necrotizing factor 1"	"cnf1"	2	0	0	0	0	0	0	1	0
+"Toxin"	"Enterotoxin 1"	"set1A"	0	1	0	0	0	0	0	0	0
+"Toxin"	"Enterotoxin 1"	"set1B"	0	1	0	0	0	0	0	0	0
+"Toxin"	"Enterotoxin SenB/TieB"	"senB"	2	0	0	0	0	0	0	1	0
+"Toxin"	"Heat-labile enterotoxin"	"eltA"	0	0	0	3	0	0	0	0	0
+"Toxin"	"Heat-labile enterotoxin"	"eltB"	0	0	0	2	0	0	0	0	0
+"Toxin"	"Heat-stable enterotoxin 1 (EAST1)"	"astA"	0	1	0	0	0	0	0	0	0
+"Toxin"	"Hemolysin/cytolysin A"	"hlyE/clyA"	4	4	1	1	7	3	1	3	0
+"Toxin"	"Shiga-like toxin"	"stx1A"	0	0	0	0	6	0	0	0	0
+"Toxin"	"Shiga-like toxin"	"stx1B"	0	0	0	0	6	0	0	0	0
+"Toxin"	"Shiga-like toxin"	"stx2A"	0	3	0	0	7	3	0	0	0
+"Toxin"	"Shiga-like toxin"	"stx2B"	0	3	0	0	7	3	0	0	0

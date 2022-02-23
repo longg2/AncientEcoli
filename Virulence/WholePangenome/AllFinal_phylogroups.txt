@@ -1,0 +1,456 @@
+562.5740.fna	['trpBA', 'trpA', 'trpAgpC', 'chuA']	['-', '+', '-', '-']	['trpAgpC']	F	562.5740.fna_mash_screen.tab
+562.7071.fna	['trpAgpC', 'trpA', 'chuA', 'TspE4.C2', 'yjaA', 'trpBA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.7071.fna_mash_screen.tab
+562.7257.fna	['ybgD', 'trpAgpC', 'TspE4.C2', 'trpA', 'arpA', 'trpBA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.7257.fna_mash_screen.tab
+562.7300.fna	['trpBA', 'trpA', 'arpA', 'yjaA']	['+', '-', '+', '-']	[]	A	562.7300.fna_mash_screen.tab
+562.7382.fna	['chuA']	['-', '+', '-', '-']	[]	F	562.7382.fna_mash_screen.tab
+562.7585.fna	['yjaA', 'chuA', 'trpAgpC', 'TspE4.C2', 'trpBA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.7585.fna_mash_screen.tab
+562.7586.fna	['TspE4.C2', 'yjaA', 'trpBA', 'trpAgpC', 'chuA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.7586.fna_mash_screen.tab
+562.7587.fna	['trpAgpC', 'trpBA', 'TspE4.C2', 'yjaA', 'chuA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.7587.fna_mash_screen.tab
+562.7588.fna	['trpBA', 'yjaA', 'trpAgpC', 'chuA', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	562.7588.fna_mash_screen.tab
+562.7622.fna	[]	['-', '-', '-', '-']	[]	Non Escherichia	562.7622.fna_mash_screen.tab
+562.7692.fna	[]	['-', '-', '-', '-']	[]	Non Escherichia	562.7692.fna_mash_screen.tab
+562.7736.fna	[]	['-', '-', '-', '-']	[]	Non Escherichia	562.7736.fna_mash_screen.tab
+562.7943.fna	['trpAgpC', 'trpBA', 'trpA', 'yjaA', 'arpA', 'ybgD']	['+', '-', '+', '-']	['trpAgpC']	C	562.7943.fna_mash_screen.tab
+562.7955.fna	['ybgD', 'trpAgpC', 'trpBA', 'trpA', 'chuA']	['-', '+', '-', '-']	['trpAgpC']	G	562.7955.fna_mash_screen.tab
+562.7956.fna	['ybgD', 'trpBA', 'arpA', 'trpA', 'trpAgpC']	['+', '-', '-', '-']	['trpAgpC']	A	562.7956.fna_mash_screen.tab
+562.8472.fna	['trpA', 'yjaA', 'trpBA', 'arpA']	['+', '-', '+', '-']	[]	A	562.8472.fna_mash_screen.tab
+562.8489.fna				NA	562.8489.fna__mash_screen.tab
+562.8507.fna	['trpBA', 'trpAgpC', 'chuA', 'trpA']	['-', '+', '-', '-']	['trpAgpC']	F	562.8507.fna_mash_screen.tab
+562.8517.fna	['chuA', 'trpBA', 'TspE4.C2', 'yjaA', 'trpAgpC', 'trpA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.8517.fna_mash_screen.tab
+562.8518.fna	['chuA', 'trpA', 'trpBA', 'yjaA', 'TspE4.C2', 'trpAgpC']	['-', '+', '+', '+']	['trpAgpC']	B2	562.8518.fna_mash_screen.tab
+562.8526.fna				NA	562.8526.fna__mash_screen.tab
+562.9021.fna	['ybgD', 'arpA', 'trpA', 'chuA', 'trpAgpC', 'trpBA']	['+', '+', '-', '-']	['trpAgpC']	D	562.9021.fna_mash_screen.tab
+562.9030.fna	['trpBA', 'chuA', 'trpAgpC', 'ArpAgpE', 'trpA', 'arpA']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	562.9030.fna_mash_screen.tab
+562.9096.fna				NA	562.9096.fna__mash_screen.tab
+562.9097.fna	['trpAgpC', 'chuA', 'yjaA', 'trpA', 'TspE4.C2', 'trpBA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.9097.fna_mash_screen.tab
+562.9098.fna	['trpBA', 'yjaA', 'trpA', 'trpAgpC', 'chuA', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	562.9098.fna_mash_screen.tab
+562.9099.fna	['TspE4.C2', 'chuA', 'trpBA', 'trpAgpC', 'trpA', 'yjaA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.9099.fna_mash_screen.tab
+562.9316.fna	['TspE4.C2', 'trpBA', 'trpA', 'yjaA', 'trpAgpC', 'chuA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.9316.fna_mash_screen.tab
+562.10006.fna	['yjaA', 'chuA', 'trpA', 'trpAgpC', 'trpBA', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	562.10006.fna_mash_screen.tab
+562.10007.fna	['yjaA', 'chuA', 'trpBA', 'trpAgpC', 'trpA', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	562.10007.fna_mash_screen.tab
+562.10008.fna	['trpAgpC', 'trpBA', 'trpA', 'chuA', 'TspE4.C2', 'yjaA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.10008.fna_mash_screen.tab
+562.10009.fna	['yjaA', 'trpA', 'trpBA', 'trpAgpC', 'chuA', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	562.10009.fna_mash_screen.tab
+562.10826.fna	['trpA', 'TspE4.C2', 'arpA', 'trpBA', 'ybgD']	['+', '-', '-', '+']	[]	B1	562.10826.fna_mash_screen.tab
+562.10827.fna	['trpA', 'trpBA', 'chuA', 'arpA', 'trpAgpC', 'ArpAgpE']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	562.10827.fna_mash_screen.tab
+562.10884.fna	['chuA', 'yjaA', 'TspE4.C2', 'trpBA', 'trpA', 'trpAgpC']	['-', '+', '+', '+']	['trpAgpC']	B2	562.10884.fna_mash_screen.tab
+562.10887.fna	['chuA', 'trpA', 'trpAgpC', 'trpBA', 'yjaA', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	562.10887.fna_mash_screen.tab
+562.10890.fna	['trpBA', 'trpA', 'TspE4.C2', 'yjaA', 'trpAgpC', 'chuA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.10890.fna_mash_screen.tab
+562.11317.fna	['arpA', 'trpA', 'yjaA', 'trpBA']	['+', '-', '+', '-']	[]	A	562.11317.fna_mash_screen.tab
+562.11318.fna	['trpAgpC', 'trpBA', 'yjaA', 'chuA', 'TspE4.C2', 'trpA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.11318.fna_mash_screen.tab
+562.11327.fna	['trpA', 'trpAgpC', 'yjaA', 'trpBA', 'chuA', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	562.11327.fna_mash_screen.tab
+562.11479.fna	['trpAgpC', 'trpBA', 'arpA', 'trpA', 'ybgD', 'TspE4.C2']	['+', '-', '-', '+']	['trpAgpC']	B1	562.11479.fna_mash_screen.tab
+562.12823.fna	['TspE4.C2', 'trpBA', 'ybgD', 'arpA', 'trpA']	['+', '-', '-', '+']	[]	B1	562.12823.fna_mash_screen.tab
+562.12824.fna	['trpAgpC', 'trpA', 'trpBA', 'ybgD', 'arpA']	['+', '-', '-', '-']	['trpAgpC']	A	562.12824.fna_mash_screen.tab
+562.12825.fna	['ybgD', 'trpBA', 'trpAgpC', 'trpA', 'arpA']	['+', '-', '-', '-']	['trpAgpC']	A	562.12825.fna_mash_screen.tab
+562.12830.fna				NA	562.12830.fna__mash_screen.tab
+562.12907.fna	['yjaA', 'trpBA', 'trpA', 'ybgD', 'arpA']	['+', '-', '+', '-']	[]	A	562.12907.fna_mash_screen.tab
+562.12941.fna	['trpA', 'yjaA', 'arpA', 'trpBA']	['+', '-', '+', '-']	[]	A	562.12941.fna_mash_screen.tab
+562.13544.fna	['yjaA', 'trpBA', 'trpA', 'arpA']	['+', '-', '+', '-']	[]	A	562.13544.fna_mash_screen.tab
+562.13545.fna	['arpA', 'yjaA', 'trpBA', 'trpA']	['+', '-', '+', '-']	[]	A	562.13545.fna_mash_screen.tab
+562.13546.fna	['arpA', 'yjaA', 'trpA', 'trpBA']	['+', '-', '+', '-']	[]	A	562.13546.fna_mash_screen.tab
+562.13547.fna	['arpA', 'trpBA', 'yjaA', 'trpA']	['+', '-', '+', '-']	[]	A	562.13547.fna_mash_screen.tab
+562.13550.fna	['yjaA', 'trpBA', 'trpA', 'arpA', 'ybgD']	['+', '-', '+', '-']	[]	A	562.13550.fna_mash_screen.tab
+562.13551.fna	['chuA', 'arpA', 'ArpAgpE', 'trpBA', 'trpA', 'trpAgpC']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	562.13551.fna_mash_screen.tab
+562.13552.fna	['trpA', 'trpAgpC', 'arpA', 'chuA', 'trpBA', 'ArpAgpE']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	562.13552.fna_mash_screen.tab
+562.13553.fna	['trpAgpC', 'ArpAgpE', 'trpA', 'chuA', 'arpA', 'trpBA']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	562.13553.fna_mash_screen.tab
+562.13554.fna	['ArpAgpE', 'trpAgpC', 'chuA', 'trpBA', 'trpA', 'arpA']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	562.13554.fna_mash_screen.tab
+562.13557.fna	['arpA', 'ArpAgpE', 'trpBA', 'trpA', 'chuA', 'trpAgpC']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	562.13557.fna_mash_screen.tab
+562.13559.fna	['TspE4.C2', 'trpAgpC', 'chuA', 'trpBA', 'trpA', 'ybgD', 'arpA']	['+', '+', '-', '+']	['trpAgpC']	D	562.13559.fna_mash_screen.tab
+562.13736.fna	['trpBA', 'trpA', 'TspE4.C2', 'trpAgpC', 'arpA', 'chuA', 'ybgD']	['+', '+', '-', '+']	['trpAgpC']	D	562.13736.fna_mash_screen.tab
+562.13737.fna	['chuA', 'TspE4.C2', 'trpA', 'trpBA', 'ybgD', 'arpA', 'trpAgpC']	['+', '+', '-', '+']	['trpAgpC']	D	562.13737.fna_mash_screen.tab
+562.13738.fna	['TspE4.C2', 'trpA', 'arpA', 'trpAgpC', 'ybgD', 'trpBA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.13738.fna_mash_screen.tab
+562.13739.fna	['trpBA', 'TspE4.C2', 'trpAgpC', 'ybgD', 'ybgD', 'arpA', 'trpA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.13739.fna_mash_screen.tab
+562.13740.fna	['arpA', 'trpBA', 'TspE4.C2', 'trpAgpC', 'ybgD', 'trpA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.13740.fna_mash_screen.tab
+562.13741.fna	['yjaA', 'trpBA', 'trpAgpC', 'chuA']	['-', '+', '+', '-']	['trpAgpC']	B2	562.13741.fna_mash_screen.tab
+562.13746.fna	['trpAgpC', 'arpA', 'TspE4.C2', 'trpBA', 'ybgD', 'trpA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.13746.fna_mash_screen.tab
+562.13747.fna	['ybgD', 'trpAgpC', 'trpA', 'arpA', 'TspE4.C2', 'trpBA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.13747.fna_mash_screen.tab
+562.13748.fna	['ybgD', 'trpBA', 'TspE4.C2', 'trpA', 'arpA']	['+', '-', '-', '+']	[]	B1	562.13748.fna_mash_screen.tab
+562.13749.fna	['trpBA', 'yjaA', 'trpA', 'ybgD', 'arpA', 'trpAgpC']	['+', '-', '+', '-']	['trpAgpC']	C	562.13749.fna_mash_screen.tab
+562.13750.fna	['trpA', 'arpA', 'trpBA', 'ybgD']	['+', '-', '-', '-']	[]	A	562.13750.fna_mash_screen.tab
+562.13751.fna	['trpBA', 'TspE4.C2', 'ybgD', 'trpA', 'arpA']	['+', '-', '-', '+']	[]	B1	562.13751.fna_mash_screen.tab
+562.13752.fna	['trpBA', 'arpA', 'trpA', 'ybgD']	['+', '-', '-', '-']	[]	A	562.13752.fna_mash_screen.tab
+562.13753.fna	['ybgD', 'trpBA', 'trpAgpC', 'yjaA', 'trpA', 'ArpAgpE', 'arpA']	['+', '-', '+', '-']	['ArpAgpE', 'trpAgpC']	C	562.13753.fna_mash_screen.tab
+562.13754.fna	['trpBA', 'trpA', 'arpA', 'yjaA']	['+', '-', '+', '-']	[]	A	562.13754.fna_mash_screen.tab
+562.13755.fna	['ybgD', 'trpBA', 'arpA', 'trpA', 'TspE4.C2', 'trpAgpC']	['+', '-', '-', '+']	['trpAgpC']	B1	562.13755.fna_mash_screen.tab
+562.13756.fna	['ybgD', 'arpA', 'TspE4.C2']	['+', '-', '-', '+']	[]	B1	562.13756.fna_mash_screen.tab
+562.13757.fna	['arpA', 'yjaA', 'trpBA', 'trpA']	['+', '-', '+', '-']	[]	A	562.13757.fna_mash_screen.tab
+562.13758.fna	['ybgD', 'trpA', 'chuA', 'trpBA', 'trpAgpC']	['-', '+', '-', '-']	['trpAgpC']	G	562.13758.fna_mash_screen.tab
+562.13770.fna	['trpA', 'ybgD', 'trpBA', 'arpA', 'trpAgpC', 'TspE4.C2']	['+', '-', '-', '+']	['trpAgpC']	B1	562.13770.fna_mash_screen.tab
+562.13771.fna	['trpAgpC', 'trpA', 'TspE4.C2', 'trpBA', 'arpA', 'ybgD']	['+', '-', '-', '+']	['trpAgpC']	B1	562.13771.fna_mash_screen.tab
+562.13772.fna	['trpA', 'TspE4.C2', 'trpBA', 'ybgD', 'arpA']	['+', '-', '-', '+']	[]	B1	562.13772.fna_mash_screen.tab
+562.13773.fna	['trpA', 'TspE4.C2', 'ybgD', 'arpA', 'trpBA']	['+', '-', '-', '+']	[]	B1	562.13773.fna_mash_screen.tab
+562.13774.fna	['TspE4.C2', 'arpA', 'trpBA', 'ybgD', 'trpA']	['+', '-', '-', '+']	[]	B1	562.13774.fna_mash_screen.tab
+562.13775.fna	['trpBA', 'trpA', 'arpA', 'ybgD', 'TspE4.C2', 'trpAgpC']	['+', '-', '-', '+']	['trpAgpC']	B1	562.13775.fna_mash_screen.tab
+562.13776.fna	['trpBA', 'trpA', 'ybgD', 'arpA', 'TspE4.C2']	['+', '-', '-', '+']	[]	B1	562.13776.fna_mash_screen.tab
+562.13777.fna	['ybgD', 'trpBA', 'trpA', 'TspE4.C2', 'arpA']	['+', '-', '-', '+']	[]	B1	562.13777.fna_mash_screen.tab
+562.13778.fna	['trpAgpC', 'arpA', 'trpA', 'ybgD', 'trpBA', 'TspE4.C2']	['+', '-', '-', '+']	['trpAgpC']	B1	562.13778.fna_mash_screen.tab
+562.13779.fna	['ybgD', 'arpA', 'trpBA', 'TspE4.C2', 'trpA']	['+', '-', '-', '+']	[]	B1	562.13779.fna_mash_screen.tab
+562.13780.fna	['trpA', 'ybgD', 'arpA', 'trpBA']	['+', '-', '-', '-']	[]	A	562.13780.fna_mash_screen.tab
+562.13783.fna	['trpBA', 'arpA', 'ybgD', 'trpA', 'trpAgpC', 'TspE4.C2']	['+', '-', '-', '+']	['trpAgpC']	B1	562.13783.fna_mash_screen.tab
+562.14016.fna	['trpBA', 'trpA', 'arpA', 'ybgD']	['+', '-', '-', '-']	[]	A	562.14016.fna_mash_screen.tab
+562.15191.fna	['trpA', 'arpA', 'yjaA']	['+', '-', '+', '-']	[]	A	562.15191.fna_mash_screen.tab
+562.15192.fna	['chuA', 'trpBA', 'trpAgpC', 'trpA', 'ybgD']	['-', '+', '-', '-']	['trpAgpC']	G	562.15192.fna_mash_screen.tab
+562.15193.fna	['trpBA', 'trpA', 'chuA', 'TspE4.C2', 'yjaA', 'trpAgpC']	['-', '+', '+', '+']	['trpAgpC']	B2	562.15193.fna_mash_screen.tab
+562.15194.fna	['trpA', 'arpA', 'trpBA', 'ybgD', 'TspE4.C2', 'trpAgpC']	['+', '-', '-', '+']	['trpAgpC']	B1	562.15194.fna_mash_screen.tab
+562.15195.fna	['trpA', 'trpBA', 'arpA', 'trpAgpC', 'ybgD', 'chuA']	['+', '+', '-', '-']	['trpAgpC']	D	562.15195.fna_mash_screen.tab
+562.15196.fna	['trpA', 'ybgD', 'yjaA', 'arpA', 'trpAgpC', 'trpBA']	['+', '-', '+', '-']	['trpAgpC']	C	562.15196.fna_mash_screen.tab
+562.15197.fna	['TspE4.C2', 'yjaA', 'trpA', 'chuA', 'trpAgpC', 'trpBA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.15197.fna_mash_screen.tab
+562.15198.fna	['trpBA', 'trpAgpC', 'chuA', 'arpA', 'ybgD', 'trpA', 'TspE4.C2']	['+', '+', '-', '+']	['trpAgpC']	D	562.15198.fna_mash_screen.tab
+562.15199.fna	['trpA', 'yjaA', 'TspE4.C2', 'trpBA', 'trpAgpC', 'chuA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.15199.fna_mash_screen.tab
+562.15200.fna	['trpA', 'trpBA', 'TspE4.C2', 'trpAgpC', 'chuA', 'yjaA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.15200.fna_mash_screen.tab
+562.15201.fna	['ybgD', 'trpBA', 'trpA', 'arpA']	['+', '-', '-', '-']	[]	A	562.15201.fna_mash_screen.tab
+562.15202.fna	['arpA', 'trpA', 'trpBA', 'yjaA']	['+', '-', '+', '-']	[]	A	562.15202.fna_mash_screen.tab
+562.15203.fna	['TspE4.C2', 'yjaA', 'trpBA', 'trpAgpC', 'trpA', 'chuA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.15203.fna_mash_screen.tab
+562.15204.fna	['trpAgpC', 'trpBA', 'yjaA', 'TspE4.C2', 'chuA', 'trpA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.15204.fna_mash_screen.tab
+562.15205.fna	['yjaA', 'trpA', 'arpA', 'trpBA']	['+', '-', '+', '-']	[]	A	562.15205.fna_mash_screen.tab
+562.15206.fna	['TspE4.C2', 'trpAgpC', 'trpBA', 'trpA', 'yjaA', 'chuA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.15206.fna_mash_screen.tab
+562.15208.fna	['yjaA', 'trpAgpC', 'trpBA', 'chuA', 'TspE4.C2', 'trpA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.15208.fna_mash_screen.tab
+562.15209.fna	['chuA', 'trpAgpC', 'trpA', 'TspE4.C2', 'trpBA', 'yjaA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.15209.fna_mash_screen.tab
+562.15210.fna	['yjaA', 'trpAgpC', 'trpA', 'TspE4.C2', 'chuA', 'trpBA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.15210.fna_mash_screen.tab
+562.16426.fna	['trpAgpC', 'arpA', 'ybgD', 'TspE4.C2', 'trpA', 'trpBA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.16426.fna_mash_screen.tab
+562.16428.fna	['TspE4.C2', 'trpBA', 'trpAgpC', 'trpA', 'chuA', 'yjaA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.16428.fna_mash_screen.tab
+562.16465.fna	['ybgD', 'arpA', 'trpAgpC', 'trpBA', 'trpA', 'chuA', 'TspE4.C2']	['+', '+', '-', '+']	['trpAgpC']	D	562.16465.fna_mash_screen.tab
+562.16466.fna	['arpA', 'yjaA', 'trpA', 'trpBA']	['+', '-', '+', '-']	[]	A	562.16466.fna_mash_screen.tab
+562.16467.fna	['trpBA', 'trpA', 'yjaA', 'chuA', 'trpAgpC', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	562.16467.fna_mash_screen.tab
+562.16499.fna	['trpBA', 'arpA', 'yjaA', 'trpA']	['+', '-', '+', '-']	[]	A	562.16499.fna_mash_screen.tab
+562.17359.fna	['TspE4.C2', 'yjaA', 'trpBA', 'trpA', 'chuA', 'trpAgpC']	['-', '+', '+', '+']	['trpAgpC']	B2	562.17359.fna_mash_screen.tab
+562.17710.fna	['arpA', 'trpA', 'ArpAgpE', 'trpBA', 'yjaA', 'chuA']	['+', '+', '+', '-']	['ArpAgpE']	E	562.17710.fna_mash_screen.tab
+562.17711.fna	['chuA', 'ArpAgpE', 'trpBA', 'arpA', 'trpA', 'yjaA']	['+', '+', '+', '-']	['ArpAgpE']	E	562.17711.fna_mash_screen.tab
+562.17734.fna	['trpBA', 'trpAgpC', 'chuA', 'trpA']	['-', '+', '-', '-']	['trpAgpC']	F	562.17734.fna_mash_screen.tab
+562.17735.fna	['ybgD', 'arpA', 'TspE4.C2', 'trpBA', 'trpA']	['+', '-', '-', '+']	[]	B1	562.17735.fna_mash_screen.tab
+562.17736.fna	['trpA', 'yjaA', 'chuA', 'TspE4.C2', 'trpBA', 'trpAgpC']	['-', '+', '+', '+']	['trpAgpC']	B2	562.17736.fna_mash_screen.tab
+562.17737.fna	['trpBA', 'trpA', 'chuA', 'ybgD', 'trpAgpC']	['-', '+', '-', '-']	['trpAgpC']	G	562.17737.fna_mash_screen.tab
+562.19158.fna	['trpAgpC', 'yjaA', 'trpBA', 'TspE4.C2', 'chuA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.19158.fna_mash_screen.tab
+562.19192.fna	['TspE4.C2', 'trpAgpC', 'trpBA', 'trpA', 'arpA', 'ybgD']	['+', '-', '-', '+']	['trpAgpC']	B1	562.19192.fna_mash_screen.tab
+562.19193.fna	['ybgD', 'trpBA', 'arpA', 'TspE4.C2', 'trpA']	['+', '-', '-', '+']	[]	B1	562.19193.fna_mash_screen.tab
+562.19202.fna	['trpBA', 'trpA', 'TspE4.C2', 'ybgD', 'arpA']	['+', '-', '-', '+']	[]	B1	562.19202.fna_mash_screen.tab
+562.19203.fna	['chuA', 'TspE4.C2', 'trpBA', 'trpAgpC', 'trpA', 'yjaA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.19203.fna_mash_screen.tab
+562.19204.fna	['trpAgpC', 'trpBA', 'arpA', 'chuA', 'trpA', 'ybgD', 'TspE4.C2']	['+', '+', '-', '+']	['trpAgpC']	D	562.19204.fna_mash_screen.tab
+562.19205.fna	['trpBA', 'TspE4.C2', 'ybgD', 'trpAgpC', 'arpA', 'chuA', 'trpA']	['+', '+', '-', '+']	['trpAgpC']	D	562.19205.fna_mash_screen.tab
+562.19206.fna	['chuA', 'trpBA', 'yjaA', 'TspE4.C2', 'trpA']	['-', '+', '+', '+']	[]	B2	562.19206.fna_mash_screen.tab
+562.19207.fna	['trpA', 'ybgD', 'chuA', 'trpBA', 'TspE4.C2', 'arpA', 'trpAgpC']	['+', '+', '-', '+']	['trpAgpC']	D	562.19207.fna_mash_screen.tab
+562.19208.fna	['trpBA', 'arpA', 'trpA']	['+', '-', '-', '-']	[]	A	562.19208.fna_mash_screen.tab
+562.19209.fna	['trpA', 'trpAgpC', 'chuA', 'trpBA']	['-', '+', '-', '-']	['trpAgpC']	F	562.19209.fna_mash_screen.tab
+562.19210.fna	['yjaA', 'trpBA', 'arpA', 'trpA']	['+', '-', '+', '-']	[]	A	562.19210.fna_mash_screen.tab
+562.19211.fna	['trpA', 'arpA', 'yjaA', 'trpBA']	['+', '-', '+', '-']	[]	A	562.19211.fna_mash_screen.tab
+562.19574.fna	['ArpAgpE', 'trpAgpC', 'chuA', 'trpA', 'arpA', 'trpBA']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	562.19574.fna_mash_screen.tab
+562.20504.fna	['chuA', 'trpBA', 'aesI']	['-', '+', '-', '-']	['aesI']	F	562.20504.fna_mash_screen.tab
+562.20505.fna	['trpA', 'trpBA', 'trpAgpC', 'chuA', 'ybgD']	['-', '+', '-', '-']	['trpAgpC']	G	562.20505.fna_mash_screen.tab
+562.20506.fna	['trpBA', 'aesI', 'chuA']	['-', '+', '-', '-']	['aesI']	F	562.20506.fna_mash_screen.tab
+562.20517.fna	['arpA', 'trpA', 'TspE4.C2', 'trpBA', 'ybgD']	['+', '-', '-', '+']	[]	B1	562.20517.fna_mash_screen.tab
+562.22306.fna	['ybgD', 'yjaA', 'trpAgpC', 'trpA', 'arpA', 'trpBA']	['+', '-', '+', '-']	['trpAgpC']	C	562.22306.fna_mash_screen.tab
+562.22307.fna	['trpBA', 'chuA', 'trpAgpC', 'trpA', 'TspE4.C2', 'ybgD', 'arpA']	['+', '+', '-', '+']	['trpAgpC']	D	562.22307.fna_mash_screen.tab
+562.22323.fna	['trpA', 'yjaA', 'trpBA', 'arpA']	['+', '-', '+', '-']	[]	A	562.22323.fna_mash_screen.tab
+562.22326.fna	['ybgD', 'trpA', 'trpAgpC', 'trpBA', 'arpA', 'TspE4.C2']	['+', '-', '-', '+']	['trpAgpC']	B1	562.22326.fna_mash_screen.tab
+562.22350.fna	['trpA', 'chuA', 'trpBA', 'TspE4.C2', 'yjaA', 'trpAgpC']	['-', '+', '+', '+']	['trpAgpC']	B2	562.22350.fna_mash_screen.tab
+562.25385.fna	['trpBA', 'yjaA', 'trpA', 'arpA']	['+', '-', '+', '-']	[]	A	562.25385.fna_mash_screen.tab
+562.28149.fna	['arpA', 'trpA', 'trpBA', 'ybgD']	['+', '-', '-', '-']	[]	A	562.28149.fna_mash_screen.tab
+562.28183.fna	['trpA', 'yjaA', 'TspE4.C2', 'chuA', 'trpBA', 'trpAgpC']	['-', '+', '+', '+']	['trpAgpC']	B2	562.28183.fna_mash_screen.tab
+562.28203.fna	['chuA', 'trpBA', 'TspE4.C2', 'trpA', 'yjaA', 'trpAgpC']	['-', '+', '+', '+']	['trpAgpC']	B2	562.28203.fna_mash_screen.tab
+562.28208.fna	['trpBA', 'yjaA', 'arpA', 'trpA']	['+', '-', '+', '-']	[]	A	562.28208.fna_mash_screen.tab
+562.28209.fna	['trpBA', 'trpA', 'ybgD', 'arpA']	['+', '-', '-', '-']	[]	A	562.28209.fna_mash_screen.tab
+562.28307.fna	['trpA', 'trpBA', 'arpA', 'ybgD']	['+', '-', '-', '-']	[]	A	562.28307.fna_mash_screen.tab
+562.28386.fna	['trpBA', 'TspE4.C2', 'yjaA', 'chuA', 'trpAgpC', 'trpA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.28386.fna_mash_screen.tab
+562.28387.fna	['trpA', 'yjaA', 'arpA', 'trpBA']	['+', '-', '+', '-']	[]	A	562.28387.fna_mash_screen.tab
+562.28388.fna	['TspE4.C2', 'chuA', 'ybgD', 'arpA', 'trpBA', 'trpA', 'trpAgpC']	['+', '+', '-', '+']	['trpAgpC']	D	562.28388.fna_mash_screen.tab
+562.28391.fna	['trpBA', 'chuA', 'trpAgpC', 'yjaA', 'trpA']	['-', '+', '+', '-']	['trpAgpC']	B2	562.28391.fna_mash_screen.tab
+562.28405.fna	['trpBA', 'TspE4.C2', 'trpAgpC', 'yjaA', 'chuA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.28405.fna_mash_screen.tab
+562.28406.fna	['yjaA', 'trpBA', 'trpAgpC', 'ybgD', 'trpA', 'arpA']	['+', '-', '+', '-']	['trpAgpC']	C	562.28406.fna_mash_screen.tab
+562.28679.fna	['arpA', 'trpBA', 'yjaA', 'trpA', 'ybgD']	['+', '-', '+', '-']	[]	A	562.28679.fna_mash_screen.tab
+562.28692.fna	['ybgD', 'trpA', 'trpAgpC', 'TspE4.C2', 'arpA', 'trpBA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.28692.fna_mash_screen.tab
+562.28693.fna	['trpA', 'trpBA', 'arpA', 'ybgD', 'TspE4.C2']	['+', '-', '-', '+']	[]	B1	562.28693.fna_mash_screen.tab
+562.28695.fna	['ybgD', 'trpAgpC', 'TspE4.C2', 'trpA', 'trpBA', 'arpA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.28695.fna_mash_screen.tab
+562.28698.fna	['arpA', 'trpA', 'trpAgpC', 'ybgD', 'trpBA']	['+', '-', '-', '-']	['trpAgpC']	A	562.28698.fna_mash_screen.tab
+562.28699.fna	['TspE4.C2', 'trpA', 'arpA', 'trpBA', 'ybgD', 'trpAgpC']	['+', '-', '-', '+']	['trpAgpC']	B1	562.28699.fna_mash_screen.tab
+562.28700.fna	['trpA', 'ybgD', 'trpBA', 'arpA', 'TspE4.C2']	['+', '-', '-', '+']	[]	B1	562.28700.fna_mash_screen.tab
+562.28705.fna	['TspE4.C2', 'arpA', 'trpA', 'trpAgpC', 'ybgD', 'trpBA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.28705.fna_mash_screen.tab
+562.28706.fna	['ybgD', 'TspE4.C2', 'trpA', 'arpA', 'trpBA']	['+', '-', '-', '+']	[]	B1	562.28706.fna_mash_screen.tab
+562.28708.fna	['arpA', 'trpA', 'ybgD', 'trpAgpC', 'trpBA']	['+', '-', '-', '-']	['trpAgpC']	A	562.28708.fna_mash_screen.tab
+562.28716.fna	['trpBA', 'trpA', 'chuA', 'TspE4.C2', 'ybgD', 'trpAgpC']	['-', '+', '-', '+']	['trpAgpC']	G	562.28716.fna_mash_screen.tab
+562.28721.fna	['trpBA', 'trpAgpC', 'trpA', 'ybgD', 'TspE4.C2', 'arpA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.28721.fna_mash_screen.tab
+562.28723.fna	['TspE4.C2', 'trpBA', 'trpA', 'arpA', 'ybgD']	['+', '-', '-', '+']	[]	B1	562.28723.fna_mash_screen.tab
+562.28729.fna	['ybgD', 'trpBA', 'arpA', 'trpA', 'TspE4.C2']	['+', '-', '-', '+']	[]	B1	562.28729.fna_mash_screen.tab
+562.28736.fna	['trpBA', 'TspE4.C2', 'trpAgpC', 'arpA', 'ArpAgpE', 'ybgD', 'trpA']	['+', '-', '-', '+']	['ArpAgpE', 'trpAgpC']	B1	562.28736.fna_mash_screen.tab
+562.28745.fna	['TspE4.C2', 'trpA', 'arpA', 'ybgD', 'trpBA']	['+', '-', '-', '+']	[]	B1	562.28745.fna_mash_screen.tab
+562.28990.fna	['trpA', 'trpAgpC', 'arpA', 'trpBA', 'TspE4.C2', 'ybgD']	['+', '-', '-', '+']	['trpAgpC']	B1	562.28990.fna_mash_screen.tab
+562.28991.fna	['arpA', 'ybgD', 'yjaA', 'trpBA', 'trpA']	['+', '-', '+', '-']	[]	A	562.28991.fna_mash_screen.tab
+562.28992.fna	['trpA', 'trpBA', 'ybgD', 'trpAgpC', 'chuA']	['-', '+', '-', '-']	['trpAgpC']	G	562.28992.fna_mash_screen.tab
+562.29018.fna	['trpA', 'yjaA', 'arpA', 'trpBA']	['+', '-', '+', '-']	[]	A	562.29018.fna_mash_screen.tab
+562.29027.fna	['trpBA', 'yjaA', 'trpA', 'chuA', 'trpAgpC', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	562.29027.fna_mash_screen.tab
+562.29028.fna	['trpAgpC', 'trpA', 'TspE4.C2', 'trpBA', 'yjaA', 'chuA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.29028.fna_mash_screen.tab
+562.29036.fna	['arpA', 'trpA', 'yjaA', 'trpBA']	['+', '-', '+', '-']	[]	A	562.29036.fna_mash_screen.tab
+562.29037.fna	['TspE4.C2', 'trpBA', 'arpA', 'trpAgpC', 'trpA', 'ybgD']	['+', '-', '-', '+']	['trpAgpC']	B1	562.29037.fna_mash_screen.tab
+562.29038.fna	['TspE4.C2', 'trpBA', 'trpA', 'arpA', 'ybgD', 'trpAgpC']	['+', '-', '-', '+']	['trpAgpC']	B1	562.29038.fna_mash_screen.tab
+562.29089.fna	['trpBA', 'trpA', 'chuA', 'arpA']	['+', '+', '-', '-']	[]	D	562.29089.fna_mash_screen.tab
+562.29090.fna	['TspE4.C2', 'trpA', 'trpBA', 'ybgD', 'arpA']	['+', '-', '-', '+']	[]	B1	562.29090.fna_mash_screen.tab
+562.29091.fna	['TspE4.C2', 'trpAgpC', 'trpBA', 'trpA', 'ybgD', 'arpA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.29091.fna_mash_screen.tab
+562.29092.fna	['TspE4.C2', 'trpA', 'trpBA', 'ybgD', 'arpA']	['+', '-', '-', '+']	[]	B1	562.29092.fna_mash_screen.tab
+562.29093.fna	['arpA', 'ybgD', 'TspE4.C2', 'trpBA', 'trpA']	['+', '-', '-', '+']	[]	B1	562.29093.fna_mash_screen.tab
+562.29094.fna	['trpBA', 'trpA', 'arpA', 'ybgD', 'TspE4.C2', 'trpAgpC']	['+', '-', '-', '+']	['trpAgpC']	B1	562.29094.fna_mash_screen.tab
+562.29098.fna	['trpAgpC', 'arpA', 'ArpAgpE', 'TspE4.C2', 'ybgD', 'trpA', 'trpBA']	['+', '-', '-', '+']	['ArpAgpE', 'trpAgpC']	B1	562.29098.fna_mash_screen.tab
+562.29099.fna	['chuA', 'trpAgpC', 'trpA']	['-', '+', '-', '-']	['trpAgpC']	F	562.29099.fna_mash_screen.tab
+562.29102.fna	['TspE4.C2', 'trpAgpC', 'trpA', 'ybgD', 'trpBA', 'arpA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.29102.fna_mash_screen.tab
+562.29104.fna	['trpAgpC', 'trpA', 'ybgD', 'arpA', 'TspE4.C2', 'trpBA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.29104.fna_mash_screen.tab
+562.29105.fna	['trpBA', 'ybgD', 'arpA', 'TspE4.C2', 'trpA']	['+', '-', '-', '+']	[]	B1	562.29105.fna_mash_screen.tab
+562.29107.fna	['trpA', 'trpBA', 'ybgD', 'arpA']	['+', '-', '-', '-']	[]	A	562.29107.fna_mash_screen.tab
+562.29110.fna	['trpA', 'arpA', 'trpAgpC', 'ybgD', 'TspE4.C2', 'trpBA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.29110.fna_mash_screen.tab
+562.29111.fna	['ybgD', 'trpA', 'trpBA', 'TspE4.C2', 'arpA']	['+', '-', '-', '+']	[]	B1	562.29111.fna_mash_screen.tab
+562.29112.fna	['arpA', 'ybgD', 'trpA', 'TspE4.C2', 'trpBA']	['+', '-', '-', '+']	[]	B1	562.29112.fna_mash_screen.tab
+562.29113.fna	['TspE4.C2', 'ybgD', 'trpA', 'arpA', 'trpBA']	['+', '-', '-', '+']	[]	B1	562.29113.fna_mash_screen.tab
+562.29114.fna	['TspE4.C2', 'trpAgpC', 'trpA', 'ybgD', 'arpA', 'trpBA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.29114.fna_mash_screen.tab
+562.29116.fna	['arpA', 'trpA', 'ybgD', 'trpBA', 'trpAgpC', 'TspE4.C2']	['+', '-', '-', '+']	['trpAgpC']	B1	562.29116.fna_mash_screen.tab
+562.29117.fna	['ybgD', 'trpBA', 'TspE4.C2', 'arpA', 'trpA']	['+', '-', '-', '+']	[]	B1	562.29117.fna_mash_screen.tab
+562.29120.fna	['TspE4.C2', 'trpA', 'ybgD', 'arpA', 'trpBA']	['+', '-', '-', '+']	[]	B1	562.29120.fna_mash_screen.tab
+562.29121.fna	['chuA', 'trpAgpC', 'yjaA', 'trpA', 'TspE4.C2', 'trpBA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.29121.fna_mash_screen.tab
+562.29122.fna	['trpBA', 'ybgD', 'TspE4.C2', 'trpA', 'arpA']	['+', '-', '-', '+']	[]	B1	562.29122.fna_mash_screen.tab
+562.29124.fna	['arpA', 'trpAgpC', 'ybgD', 'trpBA', 'trpA']	['+', '-', '-', '-']	['trpAgpC']	A	562.29124.fna_mash_screen.tab
+562.29125.fna	['trpBA', 'ybgD', 'arpA', 'trpAgpC', 'trpA']	['+', '-', '-', '-']	['trpAgpC']	A	562.29125.fna_mash_screen.tab
+562.29126.fna	['arpA', 'ArpAgpE', 'aesI', 'trpA', 'yjaA', 'trpBA']	['+', '-', '+', '-']	['aesI', 'ArpAgpE']	cladeI	562.29126.fna_mash_screen.tab
+562.29127.fna	['trpBA', 'ybgD', 'arpA', 'trpA', 'TspE4.C2']	['+', '-', '-', '+']	[]	B1	562.29127.fna_mash_screen.tab
+562.29129.fna	['trpA', 'TspE4.C2', 'arpA', 'trpBA', 'ybgD']	['+', '-', '-', '+']	[]	B1	562.29129.fna_mash_screen.tab
+562.29130.fna	['arpA', 'trpAgpC', 'trpA', 'trpBA', 'chuA', 'ybgD']	['+', '+', '-', '-']	['trpAgpC']	D	562.29130.fna_mash_screen.tab
+562.29131.fna	['trpBA', 'TspE4.C2', 'ybgD', 'trpA', 'arpA']	['+', '-', '-', '+']	[]	B1	562.29131.fna_mash_screen.tab
+562.29132.fna	['ybgD', 'TspE4.C2', 'trpBA', 'trpA', 'arpA']	['+', '-', '-', '+']	[]	B1	562.29132.fna_mash_screen.tab
+562.29133.fna	['trpBA', 'chuA', 'trpA', 'ybgD', 'trpAgpC']	['-', '+', '-', '-']	['trpAgpC']	G	562.29133.fna_mash_screen.tab
+562.29134.fna	['TspE4.C2', 'trpAgpC', 'arpA', 'trpBA', 'ybgD', 'trpA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.29134.fna_mash_screen.tab
+562.29137.fna	['trpBA', 'arpA', 'ybgD', 'trpAgpC', 'trpA', 'TspE4.C2']	['+', '-', '-', '+']	['trpAgpC']	B1	562.29137.fna_mash_screen.tab
+562.29138.fna	['ybgD', 'arpA', 'trpA', 'TspE4.C2', 'trpBA']	['+', '-', '-', '+']	[]	B1	562.29138.fna_mash_screen.tab
+562.30339.fna	['trpBA', 'trpA', 'trpAgpC', 'ybgD', 'arpA', 'TspE4.C2']	['+', '-', '-', '+']	['trpAgpC']	B1	562.30339.fna_mash_screen.tab
+562.30348.fna	['chuA', 'trpA', 'trpBA']	['-', '+', '-', '-']	[]	F	562.30348.fna_mash_screen.tab
+562.30349.fna	['chuA', 'trpBA', 'trpAgpC', 'trpA']	['-', '+', '-', '-']	['trpAgpC']	F	562.30349.fna_mash_screen.tab
+562.30350.fna	['yjaA', 'trpA', 'chuA', 'TspE4.C2', 'trpAgpC', 'trpBA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.30350.fna_mash_screen.tab
+562.30361.fna	['trpA', 'TspE4.C2', 'ybgD', 'arpA', 'trpBA']	['+', '-', '-', '+']	[]	B1	562.30361.fna_mash_screen.tab
+562.30363.fna	['aesI', 'trpBA', 'chuA']	['-', '+', '-', '-']	['aesI']	F	562.30363.fna_mash_screen.tab
+562.30373.fna	['yjaA', 'arpA', 'trpBA', 'trpA']	['+', '-', '+', '-']	[]	A	562.30373.fna_mash_screen.tab
+562.30390.fna	['arpA', 'yjaA', 'trpA', 'trpBA']	['+', '-', '+', '-']	[]	A	562.30390.fna_mash_screen.tab
+562.30433.fna	['ybgD', 'trpA', 'TspE4.C2', 'trpBA', 'arpA']	['+', '-', '-', '+']	[]	B1	562.30433.fna_mash_screen.tab
+562.31000.fna	['trpBA', 'yjaA', 'arpA', 'trpA']	['+', '-', '+', '-']	[]	A	562.31000.fna_mash_screen.tab
+562.33453.fna	['yjaA', 'trpA', 'chuA', 'trpBA', 'TspE4.C2', 'trpAgpC']	['-', '+', '+', '+']	['trpAgpC']	B2	562.33453.fna_mash_screen.tab
+562.33455.fna	['trpA', 'trpBA', 'chuA', 'yjaA', 'TspE4.C2', 'trpAgpC']	['-', '+', '+', '+']	['trpAgpC']	B2	562.33455.fna_mash_screen.tab
+562.33462.fna	['yjaA', 'ybgD', 'trpA', 'trpBA', 'arpA', 'trpAgpC']	['+', '-', '+', '-']	['trpAgpC']	C	562.33462.fna_mash_screen.tab
+562.33466.fna	['ybgD', 'trpBA', 'TspE4.C2', 'trpA', 'trpAgpC', 'arpA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.33466.fna_mash_screen.tab
+562.33716.fna	['ybgD', 'trpAgpC', 'yjaA', 'trpBA', 'trpA', 'arpA']	['+', '-', '+', '-']	['trpAgpC']	C	562.33716.fna_mash_screen.tab
+562.33717.fna	['trpA', 'arpA', 'yjaA', 'trpBA']	['+', '-', '+', '-']	[]	A	562.33717.fna_mash_screen.tab
+562.33779.fna	['yjaA', 'ArpAgpE', 'arpA', 'trpA', 'ybgD', 'trpAgpC', 'trpBA']	['+', '-', '+', '-']	['ArpAgpE', 'trpAgpC']	C	562.33779.fna_mash_screen.tab
+562.33780.fna	['trpAgpC', 'trpBA', 'arpA', 'ybgD', 'chuA', 'trpA']	['+', '+', '-', '-']	['trpAgpC']	D	562.33780.fna_mash_screen.tab
+562.33783.fna	['ybgD', 'arpA', 'trpAgpC', 'trpA', 'yjaA', 'trpBA']	['+', '-', '+', '-']	['trpAgpC']	C	562.33783.fna_mash_screen.tab
+562.33984.fna	['ybgD', 'arpA', 'trpA', 'trpBA', 'yjaA']	['+', '-', '+', '-']	[]	A	562.33984.fna_mash_screen.tab
+562.34017.fna	['trpA', 'trpBA', 'TspE4.C2', 'ybgD', 'arpA']	['+', '-', '-', '+']	[]	B1	562.34017.fna_mash_screen.tab
+562.34018.fna	['trpBA', 'trpAgpC', 'chuA', 'yjaA']	['-', '+', '+', '-']	['trpAgpC']	B2	562.34018.fna_mash_screen.tab
+562.34087.fna	['arpA', 'trpBA', 'trpA', 'ybgD', 'yjaA']	['+', '-', '+', '-']	[]	A	562.34087.fna_mash_screen.tab
+562.36160.fna	['trpAgpC', 'trpA', 'arpA', 'ybgD', 'trpBA', 'chuA']	['+', '+', '-', '-']	['trpAgpC']	D	562.36160.fna_mash_screen.tab
+562.36203.fna	['ybgD', 'trpAgpC', 'trpBA', 'trpA', 'arpA', 'TspE4.C2']	['+', '-', '-', '+']	['trpAgpC']	B1	562.36203.fna_mash_screen.tab
+562.36250.fna	['trpA', 'trpBA', 'yjaA', 'arpA']	['+', '-', '+', '-']	[]	A	562.36250.fna_mash_screen.tab
+562.36256.fna	['trpA', 'ybgD', 'arpA', 'trpBA', 'yjaA', 'trpAgpC']	['+', '-', '+', '-']	['trpAgpC']	C	562.36256.fna_mash_screen.tab
+562.37091.fna	['yjaA', 'TspE4.C2', 'trpAgpC', 'trpBA', 'trpA', 'chuA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.37091.fna_mash_screen.tab
+562.38629.fna	['trpA', 'yjaA', 'trpBA', 'arpA']	['+', '-', '+', '-']	[]	A	562.38629.fna_mash_screen.tab
+562.38630.fna	['trpA', 'trpAgpC', 'yjaA', 'chuA', 'trpBA', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	562.38630.fna_mash_screen.tab
+562.38631.fna	['chuA', 'trpAgpC', 'trpA', 'trpBA', 'yjaA', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	562.38631.fna_mash_screen.tab
+562.38632.fna	['chuA', 'trpA', 'TspE4.C2', 'trpAgpC', 'trpBA', 'yjaA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.38632.fna_mash_screen.tab
+562.38633.fna	['trpAgpC', 'trpA', 'trpBA', 'arpA', 'TspE4.C2', 'chuA', 'ybgD']	['+', '+', '-', '+']	['trpAgpC']	D	562.38633.fna_mash_screen.tab
+562.38634.fna	['trpAgpC', 'trpA', 'yjaA', 'TspE4.C2', 'chuA', 'trpBA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.38634.fna_mash_screen.tab
+562.38635.fna	['trpAgpC', 'chuA', 'yjaA', 'trpA', 'TspE4.C2', 'trpBA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.38635.fna_mash_screen.tab
+562.39125.fna	['TspE4.C2', 'trpBA', 'arpA', 'ybgD', 'trpA']	['+', '-', '-', '+']	[]	B1	562.39125.fna_mash_screen.tab
+562.39126.fna	['trpBA', 'arpA', 'ybgD', 'trpAgpC', 'trpA', 'TspE4.C2']	['+', '-', '-', '+']	['trpAgpC']	B1	562.39126.fna_mash_screen.tab
+562.39127.fna	['arpA', 'ybgD', 'trpAgpC', 'trpBA', 'TspE4.C2', 'trpA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.39127.fna_mash_screen.tab
+562.39128.fna	['yjaA', 'trpA', 'ybgD', 'arpA', 'trpBA']	['+', '-', '+', '-']	[]	A	562.39128.fna_mash_screen.tab
+562.39129.fna	['trpA', 'arpA', 'trpBA', 'ybgD']	['+', '-', '-', '-']	[]	A	562.39129.fna_mash_screen.tab
+562.39130.fna	['trpA', 'ybgD', 'trpBA', 'arpA']	['+', '-', '-', '-']	[]	A	562.39130.fna_mash_screen.tab
+562.39131.fna	['ybgD', 'TspE4.C2', 'ArpAgpE', 'trpBA', 'arpA', 'trpA']	['+', '-', '-', '+']	['ArpAgpE']	B1	562.39131.fna_mash_screen.tab
+562.39132.fna	['yjaA', 'trpBA', 'trpA', 'arpA']	['+', '-', '+', '-']	[]	A	562.39132.fna_mash_screen.tab
+562.39133.fna	['trpA', 'trpAgpC', 'TspE4.C2', 'trpBA', 'ybgD', 'arpA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.39133.fna_mash_screen.tab
+562.39134.fna	['trpA', 'arpA', 'trpBA', 'ybgD']	['+', '-', '-', '-']	[]	A	562.39134.fna_mash_screen.tab
+562.39135.fna	['TspE4.C2', 'arpA', 'trpA', 'ybgD', 'trpAgpC', 'trpBA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.39135.fna_mash_screen.tab
+562.39136.fna	['ybgD', 'trpA', 'trpAgpC', 'arpA', 'TspE4.C2', 'trpBA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.39136.fna_mash_screen.tab
+562.39137.fna	['arpA', 'trpBA', 'ybgD', 'trpAgpC', 'trpA']	['+', '-', '-', '-']	['trpAgpC']	A	562.39137.fna_mash_screen.tab
+562.39138.fna	['trpA', 'ArpAgpE', 'arpA', 'trpBA', 'ybgD', 'TspE4.C2']	['+', '-', '-', '+']	['ArpAgpE']	B1	562.39138.fna_mash_screen.tab
+562.39139.fna	['TspE4.C2', 'ArpAgpE', 'ybgD', 'trpBA', 'trpA', 'arpA']	['+', '-', '-', '+']	['ArpAgpE']	B1	562.39139.fna_mash_screen.tab
+562.39140.fna	['TspE4.C2', 'arpA', 'ArpAgpE', 'trpA', 'trpBA', 'ybgD']	['+', '-', '-', '+']	['ArpAgpE']	B1	562.39140.fna_mash_screen.tab
+562.39141.fna	['trpA', 'trpBA', 'arpA', 'ybgD', 'TspE4.C2', 'trpAgpC']	['+', '-', '-', '+']	['trpAgpC']	B1	562.39141.fna_mash_screen.tab
+562.39409.fna	['chuA', 'aesI', 'trpBA']	['-', '+', '-', '-']	['aesI']	F	562.39409.fna_mash_screen.tab
+562.39410.fna	['chuA', 'trpBA', 'trpAgpC', 'trpA', 'yjaA', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	562.39410.fna_mash_screen.tab
+562.39449.fna	['ybgD', 'arpA', 'trpBA', 'trpA', 'trpAgpC', 'TspE4.C2', 'chuA']	['+', '+', '-', '+']	['trpAgpC']	D	562.39449.fna_mash_screen.tab
+562.39506.fna	['ybgD', 'trpBA', 'trpAgpC', 'arpA', 'trpA', 'TspE4.C2']	['+', '-', '-', '+']	['trpAgpC']	B1	562.39506.fna_mash_screen.tab
+562.45330.fna	['trpAgpC', 'arpA', 'ybgD', 'trpA', 'trpBA', 'yjaA']	['+', '-', '+', '-']	['trpAgpC']	C	562.45330.fna_mash_screen.tab
+562.45389.fna	['trpBA', 'trpAgpC', 'trpA', 'chuA']	['-', '+', '-', '-']	['trpAgpC']	F	562.45389.fna_mash_screen.tab
+562.45394.fna	['trpA', 'arpA', 'trpAgpC', 'ybgD', 'TspE4.C2', 'trpBA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.45394.fna_mash_screen.tab
+562.45395.fna	['trpBA', 'ybgD', 'arpA', 'trpAgpC', 'trpA', 'TspE4.C2']	['+', '-', '-', '+']	['trpAgpC']	B1	562.45395.fna_mash_screen.tab
+562.45396.fna	['arpA', 'trpA', 'ybgD', 'trpAgpC', 'trpBA']	['+', '-', '-', '-']	['trpAgpC']	A	562.45396.fna_mash_screen.tab
+562.45397.fna	['trpA', 'trpBA', 'yjaA', 'trpAgpC', 'arpA', 'ybgD']	['+', '-', '+', '-']	['trpAgpC']	C	562.45397.fna_mash_screen.tab
+562.45398.fna	['TspE4.C2', 'trpAgpC', 'chuA', 'trpA', 'yjaA', 'trpBA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.45398.fna_mash_screen.tab
+562.45399.fna	['trpAgpC', 'arpA', 'TspE4.C2', 'trpA', 'trpBA', 'ybgD']	['+', '-', '-', '+']	['trpAgpC']	B1	562.45399.fna_mash_screen.tab
+562.45400.fna	['arpA', 'trpA', 'trpAgpC', 'trpBA', 'TspE4.C2', 'ybgD']	['+', '-', '-', '+']	['trpAgpC']	B1	562.45400.fna_mash_screen.tab
+562.45401.fna	['trpBA', 'yjaA', 'trpA', 'arpA']	['+', '-', '+', '-']	[]	A	562.45401.fna_mash_screen.tab
+562.45403.fna	['trpAgpC', 'arpA', 'trpA', 'trpBA', 'ybgD', 'TspE4.C2']	['+', '-', '-', '+']	['trpAgpC']	B1	562.45403.fna_mash_screen.tab
+562.45404.fna	['yjaA', 'trpAgpC', 'chuA', 'trpBA', 'trpA', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	562.45404.fna_mash_screen.tab
+562.45430.fna	['trpA', 'trpAgpC', 'TspE4.C2', 'yjaA', 'chuA', 'trpBA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.45430.fna_mash_screen.tab
+562.45431.fna	['trpBA', 'trpA', 'ArpAgpE', 'ybgD', 'TspE4.C2', 'arpA']	['+', '-', '-', '+']	['ArpAgpE']	B1	562.45431.fna_mash_screen.tab
+562.45432.fna	['ybgD', 'trpA', 'TspE4.C2', 'trpBA', 'ArpAgpE', 'arpA']	['+', '-', '-', '+']	['ArpAgpE']	B1	562.45432.fna_mash_screen.tab
+562.45433.fna	['ybgD', 'arpA', 'trpA', 'trpBA']	['+', '-', '-', '-']	[]	A	562.45433.fna_mash_screen.tab
+562.45434.fna	['yjaA', 'trpBA', 'chuA', 'trpA', 'trpAgpC', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	562.45434.fna_mash_screen.tab
+562.45436.fna	['trpAgpC', 'trpBA', 'chuA', 'trpA']	['-', '+', '-', '-']	['trpAgpC']	F	562.45436.fna_mash_screen.tab
+562.45437.fna	['trpAgpC', 'trpBA', 'chuA', 'trpA']	['-', '+', '-', '-']	['trpAgpC']	F	562.45437.fna_mash_screen.tab
+562.45438.fna	['trpA', 'yjaA', 'trpAgpC', 'chuA', 'trpBA', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	562.45438.fna_mash_screen.tab
+562.45584.fna	['TspE4.C2', 'chuA', 'yjaA', 'trpAgpC', 'trpA', 'trpBA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.45584.fna_mash_screen.tab
+562.45678.fna	['yjaA', 'trpA', 'arpA', 'trpBA']	['+', '-', '+', '-']	[]	A	562.45678.fna_mash_screen.tab
+562.45679.fna	['chuA', 'yjaA', 'trpAgpC', 'TspE4.C2', 'trpBA', 'trpA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.45679.fna_mash_screen.tab
+562.45680.fna	['ybgD', 'arpA', 'trpA', 'TspE4.C2', 'trpBA', 'trpAgpC']	['+', '-', '-', '+']	['trpAgpC']	B1	562.45680.fna_mash_screen.tab
+562.45686.fna	['trpBA', 'ybgD', 'trpA', 'arpA']	['+', '-', '-', '-']	[]	A	562.45686.fna_mash_screen.tab
+562.45699.fna	['trpBA', 'trpA', 'arpA', 'yjaA']	['+', '-', '+', '-']	[]	A	562.45699.fna_mash_screen.tab
+562.45704.fna	['TspE4.C2', 'ybgD', 'trpA', 'trpBA', 'arpA']	['+', '-', '-', '+']	[]	B1	562.45704.fna_mash_screen.tab
+562.45706.fna	['trpBA', 'TspE4.C2', 'ybgD', 'trpA', 'arpA']	['+', '-', '-', '+']	[]	B1	562.45706.fna_mash_screen.tab
+562.45707.fna	['trpA', 'arpA', 'yjaA', 'trpBA']	['+', '-', '+', '-']	[]	A	562.45707.fna_mash_screen.tab
+562.45708.fna	['arpA', 'yjaA', 'trpBA', 'trpA']	['+', '-', '+', '-']	[]	A	562.45708.fna_mash_screen.tab
+562.45709.fna	['trpBA', 'trpA', 'yjaA', 'arpA']	['+', '-', '+', '-']	[]	A	562.45709.fna_mash_screen.tab
+562.45710.fna	['trpBA', 'arpA', 'trpA', 'yjaA']	['+', '-', '+', '-']	[]	A	562.45710.fna_mash_screen.tab
+562.45839.fna	['trpBA', 'arpA', 'trpA', 'ybgD']	['+', '-', '-', '-']	[]	A	562.45839.fna_mash_screen.tab
+562.45845.fna	['ybgD', 'trpBA', 'TspE4.C2', 'trpA', 'trpAgpC', 'arpA', 'chuA']	['+', '+', '-', '+']	['trpAgpC']	D	562.45845.fna_mash_screen.tab
+562.45973.fna	['chuA', 'trpAgpC', 'trpA', 'trpBA', 'arpA', 'ybgD', 'TspE4.C2']	['+', '+', '-', '+']	['trpAgpC']	D	562.45973.fna_mash_screen.tab
+562.46069.fna	['yjaA', 'ybgD', 'trpBA', 'arpA', 'trpA']	['+', '-', '+', '-']	[]	A	562.46069.fna_mash_screen.tab
+562.46071.fna	['yjaA', 'ybgD', 'trpBA', 'trpA', 'arpA']	['+', '-', '+', '-']	[]	A	562.46071.fna_mash_screen.tab
+562.46179.fna	['yjaA', 'ybgD', 'trpA', 'trpBA', 'arpA']	['+', '-', '+', '-']	[]	A	562.46179.fna_mash_screen.tab
+562.46196.fna	['yjaA', 'trpA', 'trpBA', 'TspE4.C2', 'chuA', 'trpAgpC']	['-', '+', '+', '+']	['trpAgpC']	B2	562.46196.fna_mash_screen.tab
+562.46197.fna	['trpBA', 'yjaA', 'chuA', 'trpA', 'TspE4.C2', 'trpAgpC']	['-', '+', '+', '+']	['trpAgpC']	B2	562.46197.fna_mash_screen.tab
+562.46198.fna	['ybgD', 'trpBA', 'trpA', 'arpA']	['+', '-', '-', '-']	[]	A	562.46198.fna_mash_screen.tab
+562.46199.fna	['trpA', 'TspE4.C2', 'ybgD', 'arpA', 'trpBA']	['+', '-', '-', '+']	[]	B1	562.46199.fna_mash_screen.tab
+562.46200.fna	['trpAgpC', 'trpA', 'arpA', 'trpBA', 'ybgD', 'TspE4.C2']	['+', '-', '-', '+']	['trpAgpC']	B1	562.46200.fna_mash_screen.tab
+562.46711.fna	['arpA', 'trpBA', 'trpA', 'yjaA']	['+', '-', '+', '-']	[]	A	562.46711.fna_mash_screen.tab
+562.47690.fna	['trpA', 'yjaA', 'arpA', 'ybgD', 'trpAgpC', 'trpBA']	['+', '-', '+', '-']	['trpAgpC']	C	562.47690.fna_mash_screen.tab
+562.47719.fna	['trpBA', 'arpA', 'yjaA', 'trpA']	['+', '-', '+', '-']	[]	A	562.47719.fna_mash_screen.tab
+562.47720.fna	['trpBA', 'trpA', 'arpA', 'yjaA']	['+', '-', '+', '-']	[]	A	562.47720.fna_mash_screen.tab
+562.48251.fna	['arpA', 'chuA', 'trpAgpC', 'trpBA', 'ybgD', 'trpA']	['+', '+', '-', '-']	['trpAgpC']	D	562.48251.fna_mash_screen.tab
+562.50211.fna	['trpBA', 'trpAgpC', 'chuA', 'ybgD', 'trpA']	['-', '+', '-', '-']	['trpAgpC']	G	562.50211.fna_mash_screen.tab
+562.50212.fna	['yjaA', 'trpA', 'trpBA', 'TspE4.C2', 'chuA', 'trpAgpC']	['-', '+', '+', '+']	['trpAgpC']	B2	562.50212.fna_mash_screen.tab
+562.50213.fna	['ybgD', 'trpA', 'trpBA', 'arpA']	['+', '-', '-', '-']	[]	A	562.50213.fna_mash_screen.tab
+562.50214.fna	['arpA', 'trpA', 'trpAgpC', 'TspE4.C2', 'ybgD', 'trpBA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.50214.fna_mash_screen.tab
+562.50215.fna	['trpA', 'arpA', 'trpBA']	['+', '-', '-', '-']	[]	A	562.50215.fna_mash_screen.tab
+562.50216.fna	['trpA', 'arpA', 'trpBA', 'yjaA']	['+', '-', '+', '-']	[]	A	562.50216.fna_mash_screen.tab
+562.50217.fna	['trpBA', 'trpA', 'TspE4.C2', 'trpAgpC', 'ybgD', 'arpA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.50217.fna_mash_screen.tab
+562.50218.fna	['trpA', 'TspE4.C2', 'arpA', 'trpBA', 'trpAgpC', 'ybgD']	['+', '-', '-', '+']	['trpAgpC']	B1	562.50218.fna_mash_screen.tab
+562.50219.fna	['trpA', 'arpA', 'trpBA', 'chuA', 'ArpAgpE']	['+', '+', '-', '-']	['ArpAgpE']	E	562.50219.fna_mash_screen.tab
+562.50220.fna	['trpA', 'TspE4.C2', 'arpA', 'trpAgpC', 'trpBA', 'ybgD']	['+', '-', '-', '+']	['trpAgpC']	B1	562.50220.fna_mash_screen.tab
+562.50221.fna	['TspE4.C2', 'chuA', 'yjaA', 'trpBA', 'trpAgpC']	['-', '+', '+', '+']	['trpAgpC']	B2	562.50221.fna_mash_screen.tab
+562.50407.fna	['trpAgpC', 'trpA', 'chuA', 'trpBA']	['-', '+', '-', '-']	['trpAgpC']	F	562.50407.fna_mash_screen.tab
+562.50492.fna	['arpA', 'trpBA', 'TspE4.C2', 'trpA', 'ybgD', 'trpAgpC']	['+', '-', '-', '+']	['trpAgpC']	B1	562.50492.fna_mash_screen.tab
+562.50493.fna	['ybgD', 'trpA', 'trpAgpC', 'chuA', 'trpBA']	['-', '+', '-', '-']	['trpAgpC']	G	562.50493.fna_mash_screen.tab
+562.50505.fna	['trpA', 'yjaA', 'trpBA', 'arpA']	['+', '-', '+', '-']	[]	A	562.50505.fna_mash_screen.tab
+562.50508.fna	['trpBA', 'ybgD', 'chuA', 'trpAgpC', 'trpA', 'arpA']	['+', '+', '-', '-']	['trpAgpC']	D	562.50508.fna_mash_screen.tab
+562.50509.fna	['chuA', 'trpBA', 'TspE4.C2', 'trpAgpC', 'yjaA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.50509.fna_mash_screen.tab
+562.50510.fna	['trpAgpC', 'trpA', 'yjaA', 'trpBA', 'chuA', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	562.50510.fna_mash_screen.tab
+562.50511.fna	['trpAgpC', 'TspE4.C2', 'trpA', 'ybgD', 'chuA', 'trpBA', 'arpA']	['+', '+', '-', '+']	['trpAgpC']	D	562.50511.fna_mash_screen.tab
+562.50512.fna	['chuA', 'yjaA', 'TspE4.C2', 'trpAgpC', 'trpBA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.50512.fna_mash_screen.tab
+562.50513.fna	['trpA', 'chuA', 'trpBA', 'trpAgpC', 'yjaA', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	562.50513.fna_mash_screen.tab
+562.50514.fna	['trpA', 'trpBA', 'trpAgpC', 'yjaA', 'chuA', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	562.50514.fna_mash_screen.tab
+562.50515.fna	['chuA', 'trpA', 'yjaA', 'trpAgpC', 'trpBA', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	562.50515.fna_mash_screen.tab
+562.50516.fna	['yjaA', 'chuA', 'trpAgpC', 'trpBA', 'trpA', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	562.50516.fna_mash_screen.tab
+562.50517.fna	['trpAgpC', 'chuA', 'trpA', 'trpBA', 'TspE4.C2', 'yjaA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.50517.fna_mash_screen.tab
+562.50548.fna	['arpA', 'trpBA', 'trpA', 'TspE4.C2', 'ybgD']	['+', '-', '-', '+']	[]	B1	562.50548.fna_mash_screen.tab
+562.50567.fna	['chuA', 'trpBA', 'trpAgpC', 'TspE4.C2', 'yjaA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.50567.fna_mash_screen.tab
+562.50569.fna	['trpBA', 'yjaA', 'chuA', 'trpAgpC']	['-', '+', '+', '-']	['trpAgpC']	B2	562.50569.fna_mash_screen.tab
+562.50719.fna	['arpA', 'yjaA', 'trpA', 'trpBA', 'ybgD']	['+', '-', '+', '-']	[]	A	562.50719.fna_mash_screen.tab
+562.50775.fna	['yjaA', 'trpBA', 'trpA', 'arpA']	['+', '-', '+', '-']	[]	A	562.50775.fna_mash_screen.tab
+562.50817.fna	['trpAgpC', 'ybgD', 'TspE4.C2', 'trpBA', 'trpA', 'arpA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.50817.fna_mash_screen.tab
+562.50847.fna	['yjaA', 'ybgD', 'trpA', 'trpBA', 'arpA']	['+', '-', '+', '-']	[]	A	562.50847.fna_mash_screen.tab
+562.50948.fna	['trpBA', 'yjaA', 'trpA', 'arpA']	['+', '-', '+', '-']	[]	A	562.50948.fna_mash_screen.tab
+562.50949.fna	['arpA', 'yjaA', 'trpBA', 'trpA']	['+', '-', '+', '-']	[]	A	562.50949.fna_mash_screen.tab
+562.50950.fna	['trpAgpC', 'TspE4.C2', 'chuA', 'yjaA', 'trpBA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.50950.fna_mash_screen.tab
+562.51562.fna	['trpA', 'trpBA', 'ybgD', 'trpAgpC']	['-', '-', '-', '-']	['trpAgpC']	Unknown	562.51562.fna_mash_screen.tab
+562.51577.fna	['trpA', 'yjaA', 'trpBA', 'arpA']	['+', '-', '+', '-']	[]	A	562.51577.fna_mash_screen.tab
+562.51580.fna	['ArpAgpE', 'trpA', 'arpA', 'trpBA', 'chuA', 'trpAgpC']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	562.51580.fna_mash_screen.tab
+562.51581.fna	['trpA', 'arpA', 'trpAgpC', 'chuA', 'trpBA', 'ArpAgpE']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	562.51581.fna_mash_screen.tab
+562.51602.fna	['trpA', 'chuA', 'trpBA']	['-', '+', '-', '-']	[]	F	562.51602.fna_mash_screen.tab
+562.52507.fna	['chuA', 'trpA', 'trpAgpC', 'yjaA', 'trpBA', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	562.52507.fna_mash_screen.tab
+562.52536.fna	['yjaA', 'trpA', 'trpBA', 'arpA']	['+', '-', '+', '-']	[]	A	562.52536.fna_mash_screen.tab
+562.52645.fna	['trpA', 'chuA', 'yjaA', 'TspE4.C2', 'trpAgpC', 'trpBA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.52645.fna_mash_screen.tab
+562.52661.fna	['chuA', 'yjaA', 'trpBA', 'trpAgpC', 'TspE4.C2', 'trpA']	['-', '+', '+', '+']	['trpAgpC']	B2	562.52661.fna_mash_screen.tab
+562.52708.fna	['trpBA', 'yjaA', 'trpA', 'arpA']	['+', '-', '+', '-']	[]	A	562.52708.fna_mash_screen.tab
+562.52722.fna	['trpBA', 'trpA', 'arpA', 'ybgD', 'TspE4.C2']	['+', '-', '-', '+']	[]	B1	562.52722.fna_mash_screen.tab
+562.53932.fna	['arpA', 'ArpAgpE', 'trpBA', 'chuA', 'trpAgpC', 'trpA']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	562.53932.fna_mash_screen.tab
+562.53933.fna	['trpA', 'ybgD', 'trpBA', 'arpA']	['+', '-', '-', '-']	[]	A	562.53933.fna_mash_screen.tab
+562.53934.fna	['arpA', 'trpA', 'trpBA', 'ybgD']	['+', '-', '-', '-']	[]	A	562.53934.fna_mash_screen.tab
+562.53935.fna	['trpBA', 'arpA', 'trpA', 'ybgD']	['+', '-', '-', '-']	[]	A	562.53935.fna_mash_screen.tab
+562.53936.fna	['trpBA', 'ybgD', 'trpA', 'trpAgpC', 'TspE4.C2', 'arpA']	['+', '-', '-', '+']	['trpAgpC']	B1	562.53936.fna_mash_screen.tab
+562.53977.fna	['arpA', 'trpBA', 'trpA', 'yjaA']	['+', '-', '+', '-']	[]	A	562.53977.fna_mash_screen.tab
+562.53978.fna	['TspE4.C2', 'trpAgpC', 'arpA', 'trpA', 'trpBA', 'ybgD']	['+', '-', '-', '+']	['trpAgpC']	B1	562.53978.fna_mash_screen.tab
+562.54010.fna	['trpBA', 'trpAgpC', 'ybgD', 'trpA', 'yjaA', 'arpA']	['+', '-', '+', '-']	['trpAgpC']	C	562.54010.fna_mash_screen.tab
+562.54031.fna	['ybgD', 'arpA', 'yjaA']	['+', '-', '+', '-']	[]	A	562.54031.fna_mash_screen.tab
+562.54032.fna	['arpA', 'trpBA', 'trpA', 'yjaA']	['+', '-', '+', '-']	[]	A	562.54032.fna_mash_screen.tab
+562.54033.fna	['yjaA', 'arpA']	['+', '-', '+', '-']	[]	A	562.54033.fna_mash_screen.tab
+562.54034.fna	['trpBA', 'trpA', 'ybgD', 'yjaA', 'arpA']	['+', '-', '+', '-']	[]	A	562.54034.fna_mash_screen.tab
+562.54035.fna	['yjaA', 'arpA', 'trpBA', 'trpA']	['+', '-', '+', '-']	[]	A	562.54035.fna_mash_screen.tab
+562.55127.fna	['trpBA', 'trpA', 'yjaA', 'arpA']	['+', '-', '+', '-']	[]	A	562.55127.fna_mash_screen.tab
+562.55128.fna	['arpA', 'trpBA', 'trpA', 'yjaA']	['+', '-', '+', '-']	[]	A	562.55128.fna_mash_screen.tab
+562.55129.fna	['TspE4.C2', 'trpA', 'arpA', 'ybgD', 'trpBA', 'trpAgpC']	['+', '-', '-', '+']	['trpAgpC']	B1	562.55129.fna_mash_screen.tab
+562.55130.fna	['trpBA', 'trpA', 'yjaA', 'arpA']	['+', '-', '+', '-']	[]	A	562.55130.fna_mash_screen.tab
+562.55131.fna	['trpBA', 'arpA', 'ArpAgpE', 'chuA', 'trpA', 'trpAgpC']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	562.55131.fna_mash_screen.tab
+562.55132.fna	['trpA', 'arpA', 'yjaA', 'trpBA']	['+', '-', '+', '-']	[]	A	562.55132.fna_mash_screen.tab
+562.55133.fna	['ybgD', 'arpA', 'trpA', 'trpBA', 'TspE4.C2']	['+', '-', '-', '+']	[]	B1	562.55133.fna_mash_screen.tab
+562.55134.fna	['arpA', 'trpBA', 'trpA', 'ybgD', 'TspE4.C2']	['+', '-', '-', '+']	[]	B1	562.55134.fna_mash_screen.tab
+562.55235.fna	['arpA', 'trpA', 'ybgD', 'trpBA']	['+', '-', '-', '-']	[]	A	562.55235.fna_mash_screen.tab
+562.55236.fna	['trpAgpC', 'arpA', 'TspE4.C2', 'trpBA', 'trpA', 'ybgD']	['+', '-', '-', '+']	['trpAgpC']	B1	562.55236.fna_mash_screen.tab
+562.55296.fna	['arpA', 'trpA', 'ybgD', 'trpBA']	['+', '-', '-', '-']	[]	A	562.55296.fna_mash_screen.tab
+562.55805.fna	['ArpAgpE', 'arpA', 'yjaA', 'trpBA', 'aesI', 'trpA', 'chuA']	['+', '+', '+', '-']	['aesI', 'ArpAgpE']	cladeI	562.55805.fna_mash_screen.tab
+83333.442.fna	['ybgD', 'trpAgpC', 'trpA', 'trpBA', 'TspE4.C2', 'arpA']	['+', '-', '-', '+']	['trpAgpC']	B1	83333.442.fna_mash_screen.tab
+83334.190.fna	['trpAgpC', 'trpA', 'ArpAgpE', 'trpBA', 'chuA', 'arpA']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	83334.190.fna_mash_screen.tab
+83334.191.fna	['chuA', 'trpA', 'trpBA', 'ArpAgpE', 'arpA', 'trpAgpC']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	83334.191.fna_mash_screen.tab
+83334.192.fna	['trpA', 'trpAgpC', 'chuA', 'trpBA', 'arpA', 'ArpAgpE']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	83334.192.fna_mash_screen.tab
+83334.194.fna	['trpA', 'chuA', 'trpAgpC', 'ArpAgpE', 'arpA', 'trpBA']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	83334.194.fna_mash_screen.tab
+83334.250.fna	['TspE4.C2', 'ybgD', 'trpA', 'arpA', 'trpAgpC', 'trpBA']	['+', '-', '-', '+']	['trpAgpC']	B1	83334.250.fna_mash_screen.tab
+83334.284.fna	['ArpAgpE', 'arpA', 'trpBA', 'chuA', 'trpA']	['+', '+', '-', '-']	['ArpAgpE']	E	83334.284.fna_mash_screen.tab
+83334.290.fna	['chuA', 'arpA', 'trpA', 'trpBA', 'ArpAgpE', 'trpAgpC']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	83334.290.fna_mash_screen.tab
+83334.292.fna	['ArpAgpE', 'trpA', 'trpAgpC', 'chuA', 'arpA', 'trpBA']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	83334.292.fna_mash_screen.tab
+83334.296.fna	['trpA', 'arpA', 'trpBA', 'chuA', 'trpAgpC', 'ArpAgpE']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	83334.296.fna_mash_screen.tab
+83334.297.fna	['ArpAgpE', 'chuA', 'trpA', 'trpAgpC', 'arpA', 'trpBA']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	83334.297.fna_mash_screen.tab
+83334.298.fna	['arpA', 'trpA', 'ArpAgpE', 'chuA', 'trpBA', 'trpAgpC']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	83334.298.fna_mash_screen.tab
+83334.299.fna	['ArpAgpE', 'chuA', 'trpA', 'trpBA', 'trpAgpC', 'arpA']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	83334.299.fna_mash_screen.tab
+155864.210.fna	['trpA', 'trpAgpC', 'ybgD', 'trpBA', 'TspE4.C2', 'arpA']	['+', '-', '-', '+']	['trpAgpC']	B1	155864.210.fna_mash_screen.tab
+168807.6.fna	['TspE4.C2', 'trpAgpC', 'trpA', 'yjaA', 'trpBA', 'chuA']	['-', '+', '+', '+']	['trpAgpC']	B2	168807.6.fna_mash_screen.tab
+168807.7.fna	['TspE4.C2', 'trpBA', 'trpAgpC', 'yjaA', 'chuA', 'trpA']	['-', '+', '+', '+']	['trpAgpC']	B2	168807.7.fna_mash_screen.tab
+216592.36.fna	['yjaA', 'arpA', 'ybgD', 'trpAgpC', 'trpBA', 'trpA']	['+', '-', '+', '-']	['trpAgpC']	C	216592.36.fna_mash_screen.tab
+244319.350.fna	['arpA', 'ybgD', 'trpBA', 'TspE4.C2', 'trpA']	['+', '-', '-', '+']	[]	B1	244319.350.fna_mash_screen.tab
+316435.10.fna	['trpAgpC', 'trpA', 'yjaA', 'yjaA', 'yjaA', 'trpBA', 'chuA', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	316435.10.fna_mash_screen.tab
+316435.29.fna	['trpBA', 'yjaA', 'trpA', 'chuA', 'trpAgpC', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	316435.29.fna_mash_screen.tab
+331112.6.fna	['arpA', 'trpA', 'ybgD', 'trpBA']	['+', '-', '-', '-']	[]	A	331112.6.fna_mash_screen.tab
+373045.6.fna	['arpA', 'TspE4.C2', 'ybgD', 'trpBA', 'trpA']	['+', '-', '-', '+']	[]	B1	373045.6.fna_mash_screen.tab
+376725.3.fna	['trpBA', 'trpAgpC', 'ybgD', 'TspE4.C2', 'trpA', 'arpA']	['+', '-', '-', '+']	['trpAgpC']	B1	376725.3.fna_mash_screen.tab
+498388.3.fna	['arpA', 'ybgD', 'trpBA', 'trpA']	['+', '-', '-', '-']	[]	A	498388.3.fna_mash_screen.tab
+511145.208.fna	['trpA', 'trpBA', 'yjaA', 'arpA']	['+', '-', '+', '-']	[]	A	511145.208.fna_mash_screen.tab
+511145.616.fna	['trpA', 'yjaA', 'trpBA', 'arpA']	['+', '-', '+', '-']	[]	A	511145.616.fna_mash_screen.tab
+569579.3.fna	['trpAgpC', 'TspE4.C2', 'trpBA', 'chuA', 'yjaA']	['-', '+', '+', '+']	['trpAgpC']	B2	569579.3.fna_mash_screen.tab
+574521.7.fna				NA	574521.7.fna__mash_screen.tab
+577675.3.fna	['ybgD', 'TspE4.C2', 'arpA', 'trpBA', 'trpA', 'trpAgpC']	['+', '-', '-', '+']	['trpAgpC']	B1	577675.3.fna_mash_screen.tab
+585055.56.fna	['trpAgpC', 'chuA', 'yjaA', 'trpBA', 'trpA', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	585055.56.fna_mash_screen.tab
+701177.3.fna	['ArpAgpE', 'trpAgpC', 'trpBA', 'chuA', 'arpA', 'trpA']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	701177.3.fna_mash_screen.tab
+741093.3.fna	['ArpAgpE', 'trpA', 'arpA', 'chuA', 'trpBA', 'trpAgpC']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	741093.3.fna_mash_screen.tab
+991915.3.fna	['trpA', 'ArpAgpE', 'trpAgpC', 'TspE4.C2', 'trpBA', 'arpA', 'ybgD']	['+', '-', '-', '+']	['ArpAgpE', 'trpAgpC']	B1	991915.3.fna_mash_screen.tab
+991915.7.fna	['trpA', 'TspE4.C2', 'trpAgpC', 'trpBA', 'ybgD', 'ArpAgpE', 'arpA']	['+', '-', '-', '+']	['ArpAgpE', 'trpAgpC']	B1	991915.7.fna_mash_screen.tab
+991919.15.fna	['arpA', 'chuA', 'trpBA', 'trpA']	['+', '+', '-', '-']	[]	D	991919.15.fna_mash_screen.tab
+1038927.31.fna	['TspE4.C2', 'trpA', 'ybgD', 'trpBA', 'arpA']	['+', '-', '-', '+']	[]	B1	1038927.31.fna_mash_screen.tab
+1038927.40.fna	['ybgD', 'arpA', 'trpA', 'TspE4.C2', 'trpBA']	['+', '-', '-', '+']	[]	B1	1038927.40.fna_mash_screen.tab
+1038927.41.fna	['trpA', 'trpBA', 'arpA', 'TspE4.C2', 'ybgD']	['+', '-', '-', '+']	[]	B1	1038927.41.fna_mash_screen.tab
+1038927.45.fna	['trpA', 'trpBA', 'TspE4.C2', 'ybgD', 'arpA']	['+', '-', '-', '+']	[]	B1	1038927.45.fna_mash_screen.tab
+1045010.15.fna	['trpA', 'arpA', 'chuA', 'trpBA', 'ArpAgpE', 'trpAgpC']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	1045010.15.fna_mash_screen.tab
+1045010.16.fna	['chuA', 'trpBA', 'trpAgpC', 'ArpAgpE', 'trpA', 'arpA']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	1045010.16.fna_mash_screen.tab
+1045010.21.fna	['arpA', 'trpAgpC', 'trpA', 'chuA', 'ArpAgpE', 'trpBA']	['+', '+', '-', '-']	['ArpAgpE', 'trpAgpC']	E	1045010.21.fna_mash_screen.tab
+1048254.4.fna	['trpBA', 'TspE4.C2', 'ybgD', 'arpA', 'trpA']	['+', '-', '-', '+']	[]	B1	1048254.4.fna_mash_screen.tab
+1055534.4.fna	['arpA', 'ybgD', 'TspE4.C2', 'trpA', 'trpBA']	['+', '-', '-', '+']	[]	B1	1055534.4.fna_mash_screen.tab
+1055540.4.fna	['TspE4.C2', 'arpA', 'ybgD', 'trpBA', 'trpA']	['+', '-', '-', '+']	[]	B1	1055540.4.fna_mash_screen.tab
+1055541.4.fna	['ybgD', 'trpA', 'TspE4.C2', 'arpA', 'trpAgpC', 'trpBA']	['+', '-', '-', '+']	['trpAgpC']	B1	1055541.4.fna_mash_screen.tab
+1055544.3.fna	['trpA', 'chuA', 'arpA', 'trpBA']	['+', '+', '-', '-']	[]	D	1055544.3.fna_mash_screen.tab
+1078021.3.fna	['arpA', 'TspE4.C2', 'trpBA', 'trpAgpC', 'ybgD', 'trpA']	['+', '-', '-', '+']	['trpAgpC']	B1	1078021.3.fna_mash_screen.tab
+1078021.4.fna	['trpBA', 'trpAgpC', 'ybgD', 'trpA', 'arpA', 'TspE4.C2']	['+', '-', '-', '+']	['trpAgpC']	B1	1078021.4.fna_mash_screen.tab
+1078032.3.fna	['arpA', 'trpBA', 'trpAgpC', 'ybgD', 'trpA', 'TspE4.C2']	['+', '-', '-', '+']	['trpAgpC']	B1	1078032.3.fna_mash_screen.tab
+1200752.3.fna	['trpA', 'TspE4.C2', 'ybgD', 'arpA', 'trpBA']	['+', '-', '-', '+']	[]	B1	1200752.3.fna_mash_screen.tab
+1248915.3.fna				NA	1248915.3.fna__mash_screen.tab
+1355100.3.fna	['trpAgpC', 'trpBA', 'chuA', 'yjaA', 'trpA', 'TspE4.C2']	['-', '+', '+', '+']	['trpAgpC']	B2	1355100.3.fna_mash_screen.tab
+1355101.3.fna	['TspE4.C2', 'yjaA', 'chuA', 'trpAgpC', 'trpBA', 'trpA']	['-', '+', '+', '+']	['trpAgpC']	B2	1355101.3.fna_mash_screen.tab
+1412834.4.fna	['trpAgpC', 'TspE4.C2', 'ybgD', 'trpBA', 'trpA', 'arpA']	['+', '-', '-', '+']	['trpAgpC']	B1	1412834.4.fna_mash_screen.tab
+2048778.3.fna	['ybgD', 'trpA', 'TspE4.C2', 'arpA', 'trpBA', 'trpAgpC']	['+', '-', '-', '+']	['trpAgpC']	B1	2048778.3.fna_mash_screen.tab
+2126982.6.fna	['TspE4.C2', 'yjaA', 'trpBA', 'chuA', 'trpA', 'trpAgpC']	['-', '+', '+', '+']	['trpAgpC']	B2	2126982.6.fna_mash_screen.tab
+2491679.3.fna	['ybgD', 'trpBA', 'trpA', 'trpAgpC', 'arpA', 'TspE4.C2']	['+', '-', '-', '+']	['trpAgpC']	B1	2491679.3.fna_mash_screen.tab
+2592065.4.fna	['trpAgpC', 'chuA', 'trpA', 'trpBA']	['-', '+', '-', '-']	['trpAgpC']	F	2592065.4.fna_mash_screen.tab
+AncientChromosome.fna	['trpBA', 'ybgD', 'arpA', 'trpA']	['+', '-', '-', '-']	[]	A	AncientChromosome.fna_mash_screen.tab
+ShigellaboydiiSb227.fna				NA	ShigellaboydiiSb227.fna__mash_screen.tab
+ShigelladysteriaeSd197.fna				NA	ShigelladysteriaeSd197.fna__mash_screen.tab
+Shigellaflexneria2a301.fna	['trpAgpC', 'trpBA', 'arpA', 'trpA', 'ybgD']	['+', '-', '-', '-']	['trpAgpC']	A	Shigellaflexneria2a301.fna_mash_screen.tab
+O104.fasta      ['ybgD', 'trpA', 'trpBA', 'arpA', 'TspE4.C2']   ['+', '-', '-', '+']    []      B1      O104.fasta_mash_screen.tab

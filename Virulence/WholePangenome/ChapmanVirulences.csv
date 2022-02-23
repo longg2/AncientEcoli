@@ -1,0 +1,63 @@
+afa/draBC,ExPEC,"Central region of Dr antigen-specific fimbrial and afimbrial adhesin operons (e.g., AFA, Dr, and F1845)"
+    aidA,DAEC,"Adhesin involved in diffuse adherence, consisting of AIDA-I (orfB) and AIDAc (orfBc)"
+    aah,DAEC,Autotransporter adhesin heptosyltransferase encoding AAH protein which modifies AIDA-I adhesin
+    bfpA,EPEC,Type IV bundle-forming pili
+    bmaE,ExPEC,M-agglutinin subunit
+    eaeA,"EPEC, EHEC",Intimin
+    faeG,ETEC,F4 fimbrial adhesin
+    fanC,ETEC,F5 fimbrial adhesin
+    fasA,ETEC,F6 fimbrial adhesin
+    fedA,ETEC,F18 fimbrial adhesin
+    F41,ETEC,Fimbrial adhesin
+    fimH,ExPEC,"d-Mannose-specific adhesin, type 1 fimbriae"
+    focG,ExPEC,"Pilus tip molecule, F1C fimbriae (sialic acid specific)"
+    iha,EHEC,Novel nonhemagglutinin adhesin (from O157:H7 and CFT073)
+    nfaE,ExPEC,Nonfimbrial adhesin I assembly and transport
+    paa,EPEC,Porcine A/E-associated gene
+    papA,ExPEC,"Major structural subunit of pilus associated with pyelonephritis (P fimbriae), defines F antigen"
+    papC,ExPEC,"Pilus assembly, central region of pap operon"
+    papEF,ExPEC,"Minor tip pilins, connect PapG to shaft (PapA)"
+    papG,ExPEC,Gal(1-4)Gal-specific pilus tip adhesin molecule
+    papG allele I,ExPEC,(Rare) J96-associated papG variant
+    papG allele II,ExPEC,Pyelonephritis-associated papG variant
+    papG allele III,ExPEC,Cystitis-associated (prs or pap-2) papG variant
+    papG allele l′,ExPEC,papG variant identified in canine urine
+    saa,EHEC,STEC autoagglutinating adhesin
+    sfa/focDE,ExPEC,Central region of sfa (S fimbriae) and foc (F1C fimbriae) operons
+    sfaS,ExPEC,"Pilus tip adhesin, S fimbriae (sialic acid specific)"
+Toxins,,
+    cdt,"EPEC, ExPEC, NTEC",Cytolethal distending toxin
+    cdtB,ExPEC,Cytolethal distending toxin
+    cnf1,"ExPEC, NTEC",Cytotoxic necrotizing factor 1
+    univcnf,ExPEC,Universal primer for cytotoxic necrotizing factor 1
+    cvaC,ExPEC,"Colicin V, conjugative plasmids (traT, iss, and antimicrobial resistance)"
+    east1,EaggEC,EaggEC heat-stable enterotoxin
+    exhA,"EPEC, EHEC",Enterohemolysin
+    hlyA,ExPEC,α-Hemolysin
+    LT,ETEC,Heat-labile toxin
+    STa,ETEC,Heat-stable enterotoxin a
+    STb,ETEC,Heat-stable enterotoxin b
+    stx1,EHEC,Shiga toxin I
+    stx2,EHEC,Shiga toxin II
+Capsule synthesis,,
+    kpsMTII,ExPEC,"Group II capsular polysaccharide synthesis (e.g., K1, K5, and K12)"
+    kpsMTIII,ExPEC,"Group III capsular polysaccharide synthesis (e.g., K3, K10, and K54)"
+    kpsMT K1,ExPEC,Specific for K1 (group II) kpsMT
+    kpsMT “K5”,ExPEC,Specific for non-K1 and non-K2 group II kpsMT
+    rfc,ExPEC,O4 lipopolysaccharide synthesis
+Siderophores,,
+    fyuA,ExPEC,Yersinia siderophore receptor (ferric yersiniabactin uptake)
+    ireA,ExPEC,"Iron-regulated element, a siderophore receptor"
+    iroNE. coli,ExPEC,Novel catecholate siderophore
+    iutA,ExPEC,Ferric aerobactin receptor (iron uptake/transport)
+Invasins,,
+    ibeA,ExPEC,Invasion of brain endothelium
+    ipaH,EIEC,Invasion plasmid antigen
+Additional virulence genes,,
+    chuA,EHEC,Gene required for heme transport in EHEC O157:H7
+    iss,ExPEC,Serum survival gene
+    ompT,ExPEC,Outer membrane protein A and T (protease)
+    PAI,ExPEC,"Pathogenicity-associated island, provides mechanism for coordinate horizontal transfer of VF genes between lineages"
+    TSPE4C2,,Anonymous DNA fragment
+    traT,ExPEC,"Surface exclusion, serum survival"
+    yjaA,,"Identified in E. coli K12, function currently unknown"

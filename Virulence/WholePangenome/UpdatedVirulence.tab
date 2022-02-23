@@ -1,0 +1,94 @@
+Gene	GeneCount	Genome	MeanCoverage	Name
+fimA	1	PanGenomeDedupV3	27.0017730496454	fimA
+fimC	2	PanGenomeDedupV3	26.3447755062588	fimC
+fimD	1	PanGenomeDedupV3	30.1082202111614	fimD
+fimZ	1	PanGenomeDedupV3	22.518018018018	fimZ
+hcpA	1	PanGenomeDedupV3	38.8780487804878	hcpA
+yadI	2	PanGenomeDedupV3	22.1552818828681	yadI
+astA	1	PanGenomeDedupV3	27.8618357487923	astA
+cfaB	1	PanGenomeDedupV3	22.7165668662675	cfaB
+csgA	1	PanGenomeDedupV3	27.9868421052632	csgA
+csgB	1	PanGenomeDedupV3	30.4583333333333	csgB
+csgC	1	PanGenomeDedupV3	12.1111111111111	csgC
+CTY49635	1	PanGenomeDedupV3	22.8363636363636	type III secretion protein EprJ [Escherichia coli]
+ecpA	1	PanGenomeDedupV3	17.3311111111111	ecpA
+ecpB	1	PanGenomeDedupV3	20.6865401987353	ecpB
+ecpD	1	PanGenomeDedupV3	22.6344282238443	ecpD
+ecpE	1	PanGenomeDedupV3	21.0956399437412	ecpE
+ecpR	1	PanGenomeDedupV3	23.2504604051565	ecpR
+EFJ85770	1	PanGenomeDedupV3	21.0135501355014	tia invasion determinant [Escherichia coli MS 84-1]
+EGR62276	1	PanGenomeDedupV3	23.9855967078189	type III secretion system protein SpaP [Escherichia coli O104:H4 str. 01-09591]
+elfD	1	PanGenomeDedupV3	27.991452991453	elfD
+elfG	1	PanGenomeDedupV3	26.8253968253968	elfG
+entA	1	PanGenomeDedupV3	24.41822721598	entA
+entB	1	PanGenomeDedupV3	28.1363636363636	entB
+entC	1	PanGenomeDedupV3	26.8801020408163	entC
+entD	1	PanGenomeDedupV3	25.3603174603175	entD
+entE	1	PanGenomeDedupV3	26.0105524518932	entE
+entF	1	PanGenomeDedupV3	24.1447707367336	entF
+entH	1	PanGenomeDedupV3	18.6449275362319	entH
+entS	1	PanGenomeDedupV3	27.017585931255	entS
+etp	1	PanGenomeDedupV3	27.165548098434	etp
+fimB	1	PanGenomeDedupV3	23.4427860696517	fimB
+fimE	1	PanGenomeDedupV3	22.2529313232831	fimE
+fimF	1	PanGenomeDedupV3	21.7005649717514	fimF
+fimG	1	PanGenomeDedupV3	19.6825396825397	fimG
+fimH	1	PanGenomeDedupV3	21.188261351052	fimH
+fimI	1	PanGenomeDedupV3	20.1252796420582	fimI
+fimZ	1	PanGenomeDedupV3	29.5955766192733	fimZ
+focA	1	PanGenomeDedupV3	28.8601398601399	focA
+focB	1	PanGenomeDedupV3	31.9562841530055	focB
+glrR	1	PanGenomeDedupV3	21.7340823970037	glrR
+hcp	1	PanGenomeDedupV3	27.7211131276467	hcp
+hcpA	1	PanGenomeDedupV3	28.0198412698413	hcpA
+hlyE	1	PanGenomeDedupV3	28.6781609195402	hlyE
+hofB	1	PanGenomeDedupV3	20.5396825396825	hofB
+hofC	1	PanGenomeDedupV3	22.474646716542	hofC
+hofM	1	PanGenomeDedupV3	22.6576923076923	hofM
+hofN	1	PanGenomeDedupV3	23.9074074074074	hofN
+hofO	1	PanGenomeDedupV3	20.2765432098765	hofO
+hofQ	1	PanGenomeDedupV3	22.7353184449959	hofQ
+katE	1	PanGenomeDedupV3	26.316976127321	katE
+katG	1	PanGenomeDedupV3	22.4773039889959	katG
+map	1	PanGenomeDedupV3	22.251572327044	map
+OKU59381	1	PanGenomeDedupV3	12.3050847457627	type IV secretion protein Rhs, partial [Escherichia coli]
+satP	1	PanGenomeDedupV3	23.5925925925926	satP
+uspA	1	PanGenomeDedupV3	21.1977011494253	uspA
+uspB	1	PanGenomeDedupV3	19.7827380952381	uspB
+uspC	1	PanGenomeDedupV3	27.9393939393939	uspC
+uspD	1	PanGenomeDedupV3	25.2610722610723	uspD
+uspE	1	PanGenomeDedupV3	28.8685594111462	uspE
+uspF	1	PanGenomeDedupV3	29.4137931034483	uspF
+uspG	1	PanGenomeDedupV3	26.8951048951049	uspG
+yadE	1	PanGenomeDedupV3	23.4861788617886	yadE
+yadG	1	PanGenomeDedupV3	21.2632146709817	yadG
+yadH	1	PanGenomeDedupV3	19.4163424124514	yadH
+yadL	1	PanGenomeDedupV3	14.1475953565506	yadL
+yadM	1	PanGenomeDedupV3	24.759649122807	yadM
+yadN	1	PanGenomeDedupV3	16.6068376068376	yadN
+yadV	1	PanGenomeDedupV3	20.0472334682861	yadV
+WP_000037389	NA	PanGenomeDedupV3	20.7045908183633	MULTISPECIES: type VI secretion system contractile sheath small subunit [Enterobacteriaceae]
+WP_000060557	NA	PanGenomeDedupV3	26.3401360544218	MULTISPECIES: invasion protein [Enterobacteriaceae]
+WP_000088873	NA	PanGenomeDedupV3	10.8467741935484	MULTISPECIES: type VI secretion system-associated protein TagO [Escherichia]
+WP_000246421	NA	PanGenomeDedupV3	21.1914414414414	MULTISPECIES: type VI secretion system baseplate subunit TssK [Enterobacteriaceae]
+WP_000343303	NA	PanGenomeDedupV3	23.4698162729659	DotU family type IV/VI secretion system protein [Escherichia coli]
+WP_000439135	NA	PanGenomeDedupV3	33.7458628841608	MULTISPECIES: type VI secretion system baseplate subunit TssG [Enterobacteriaceae]
+WP_000489299	NA	PanGenomeDedupV3	20.5415602836879	type VI secretion system membrane subunit TssM [Escherichia coli]
+WP_000611748	NA	PanGenomeDedupV3	20.6666666666667	type VI secretion system baseplate subunit TssE [Escherichia coli]
+WP_000930193	NA	PanGenomeDedupV3	43.201174743025	type VI secretion system contractile sheath large subunit [Escherichia coli]
+WP_000933176	NA	PanGenomeDedupV3	41.7568697729988	MULTISPECIES: type VI secretion system baseplate subunit TssF [Enterobacteriaceae]
+WP_001080149	NA	PanGenomeDedupV3	21.7295238095238	MULTISPECIES: type VI secretion system lipoprotein TssJ [Enterobacteriaceae]
+WP_001302213	NA	PanGenomeDedupV3	27.3159041394336	type III secretion protein [Escherichia coli]
+WP_001562065	NA	PanGenomeDedupV3	31.5376811594203	DotU family type IV/VI secretion system protein [Escherichia coli]
+WP_027662041	NA	PanGenomeDedupV3	21.1069692058347	type VI secretion system baseplate subunit TssF [Escherichia coli]
+WP_073521211	NA	PanGenomeDedupV3	23.9891774891775	type VI secretion system baseplate subunit TssE [Escherichia coli]
+WP_075825972	NA	PanGenomeDedupV3	36.9783475783476	type VI secretion system tip protein VgrG [Escherichia coli]
+WP_075826055	NA	PanGenomeDedupV3	38.7245696400626	type VI secretion protein VasK [Escherichia coli]
+WP_097477366	NA	PanGenomeDedupV3	21.1364221364221	type III secretion system effector EspX1, partial [Escherichia coli]
+WP_097498475	NA	PanGenomeDedupV3	38.9390476190476	type VI secretion system lipoprotein TssJ [Escherichia coli]
+WP_097746370	NA	PanGenomeDedupV3	18.3848920863309	type VI secretion system tip protein VgrG [Escherichia coli]
+WP_097746373	NA	PanGenomeDedupV3	39.8469640644362	type VI secretion system protein TssA [Escherichia coli]
+WP_097746374	NA	PanGenomeDedupV3	39.8896103896104	type VI secretion protein VasK [Escherichia coli]
+WP_097746377	NA	PanGenomeDedupV3	35.6899915182358	type VI secretion system tip protein VgrG [Escherichia coli]
+WP_097746494	NA	PanGenomeDedupV3	38.5688888888889	type VI secretion system baseplate subunit TssK [Escherichia coli]
+WP_106120864	NA	PanGenomeDedupV3	21.5735402808574	type VI secretion system ImpA family N-terminal domain-containing protein [Escherichia coli]
