@@ -85,7 +85,7 @@ virFrame %>% pull(Pathovar) %>% unique()
 #########################
 # Reading in the Depths #
 #########################
-depthDf <- lapply("WholePanGeneome.tab.gz",function(f){
+depthDf <- lapply("PanGenomeMappingFeb.tab.gz",function(f){
 		tmp <- as_tibble(read.delim(f, header = F, col.names = c("Gene", "Pos", "Coverage")))
 		tmp$Genome <- gsub(".*/", "", gsub(".tab.gz","",f)) 	
 		tmp <- tmp %>% group_by(Genome, Gene) %>%
@@ -94,7 +94,7 @@ depthDf <- lapply("WholePanGeneome.tab.gz",function(f){
 		return(tmp)
 	}) %>% bind_rows() # Can be used for multiple files in this format
 
-depthDfNotAvg <- lapply("WholePanGeneome.tab.gz", function(f){
+depthDfNotAvg <- lapply("PanGenomeMappingFeb.tab.gz", function(f){
 		tmp <- as_tibble(read.delim(f, header = F, col.names = c("Gene", "Pos", "Coverage")))
 		tmp$Genome <- gsub(".*/", "", gsub(".tab.gz","",f)) 	
 		return(tmp)
@@ -128,13 +128,15 @@ AllPA <- roaryOutput %>% left_join(ancientData) %>% mutate(KaeroEcoli = ifelse(i
 tmp <- AllPA %>% select(-Gene) %>% summarize_all(sum) %>% t() %>% as.data.frame()
 tmp$Genome <- rownames(tmp)
 geneCounts <- tmp %>% as_tibble() #%>% filter(!(Genome %in% c("562.7692","562.7736","562.7622","562.7382")))
+geneCounts <- geneCounts %>% mutate(Status = ifelse(Genome %in% c("562.7692","562.7736","562.7622","562.7382"), "Removed", "Kept"))
 colnames(geneCounts)[1] <- "Genes"
-geneCounts %>% mutate(Outlier = ifelse(Genome %in% c("562.7692","562.7736","562.7622","562.7382"), "Outlier", "")) %>% filter(Genome != "KaeroEcoli") %>% 
+geneCounts$Genome[456] <- "Ancient Ecoli"
+geneCounts %>% filter(!(Genome %in% c("562.7692","562.7736","562.7622","562.7382","Ancient Ecoli"))) %>% 
        	ggplot(aes(y = Genes)) + geom_boxplot() + theme_bw() +
-	geom_point(data = geneCounts %>% filter(Genome == "KaeroEcoli"), aes(colour = Genome, x = 0)) +
-	geom_point(data = geneCounts %>% filter(Genome %in% c("562.7692","562.7736","562.7622","562.7382")), aes(x = 0), shape = 3) +
-	scale_colour_manual(values = colour) + theme(axis.text.x = element_blank(), axis.ticks.x = element_blank(), axis.title.x = element_blank(), legend.position = "bottom")
-ggsave("~/GeneCountsEcoli.pdf", width = 6, height = 9)
+	geom_point(data = geneCounts %>% filter(Genome == "Ancient Ecoli"), aes(colour = Genome, x = 0)) +
+	geom_point(data = geneCounts %>% filter(Genome %in% c("562.7692","562.7736","562.7622","562.7382")), aes(x = 0), shape = 4) +
+	scale_colour_manual(values = "#644117ff") + theme(axis.text.x = element_blank(), axis.ticks.x = element_blank(), axis.title.x = element_blank(), legend.position = "bottom")
+ggsave("~/GeneCountsEcoli.pdf", width = 4, height = 6)
 
 perCovMean <- depthDf %>%
        	filter(Genome == "KaeroEcoli", MeanCoverage > 0) %>% ggplot(aes(x= PercentCoverage,y = MeanCoverage)) + geom_point() + theme_bw() + scale_x_continuous(breaks = pretty_breaks(n = 10)) +
@@ -445,7 +447,7 @@ highCopy %>% write.table(file = "~/Documents/University/EcoliPaperV2/AdditionalF
 k12BlastHits <- read.delim("K12Blast.tab", header =F)[,1:2] %>% as_tibble() # Only care about if we got a hit, not the quality (taken care of before hand)
 colnames(k12BlastHits) <- c("Gene", "K12")
 k12Genes <- ancientGenesOnly %>% filter(Gene %in% k12BlastHits$Gene) # 3844 Genes....
-ancientGenesOnly <- ancientGenesOnly %>% mutate(K12 = ifelse(Gene %in% k12BlastHits$Gene, T, F))
+ancientGenesOnly <- ancientGenesOnly %>% mutate(K12 = ifelse(Gene %in% k12BlastHits$Gene, T, F)) %>% filter(!is.na(Genome))
 write.table(ancientGenesOnly,"~/Documents/University/EcoliPaperV2/AdditionalFiles/FoundGenes.tab", sep = "\t", row.names = F)
 
 # Identifying the missing core genes
@@ -661,7 +663,6 @@ RGIHomo$Gene <- RGIHomo$Best_Hit_ARO %>% gsub(pattern = "Kleb.* |pneu.* |Escheri
 
 # Note, no coverage filtering on ancientGenesOnly because they all happen to be >= 10 in this case
 #ancientGenesOnly <- depthDfTrans %>% filter(MeanCoverage >= 10, CV <=1)
-
 # Finding as many AMR genes as possible
 foundAMR <- lapply(split(RGIHomo, RGIHomo$Gene), function(x){
 	       ind <- grep(x[5], ancientGenesOnly$Name, ignore.case = T)
