@@ -312,6 +312,8 @@ snpsOrig <- as_tibble(read.table("SNPS/K12Snps.vcf", comment.char = "#", header 
 colnames(depthOrig) <- c("Chromosome", "Position", "Coverage")
 GenomeMapping(depthOrig, snpsOrig,Chromo = "NC_000913.3", fasta = "FastaFiles/K12.fasta",windowKProp = 0.001)
 
+depthOrig %>% summarize(Mean = mean(Coverage), SD = sd(Coverage), ConfInt = qnorm(0.975)*SD/sqrt(length(Coverage)), high = Mean + ConfInt, low = Mean - ConfInt) %>% as.data.frame()
+
 # ESC_VA4573AA
 depthOrig <- as_tibble(read.table("Genomes/ESC_VA4Depth.tab.gz", header =F))
 snpsOrig <- as_tibble(read.table("SNPS/ESC_VA4Snps.vcf", comment.char = "#", header = T))
@@ -326,44 +328,13 @@ tmp2 <- depthOrig %>% group_by(Chromosome) %>% summarize(Mean = mean(Coverage), 
 
 tmp2 %>% summarize(meanFinal = mean(Mean), sdFinal = sd(Mean)) %>% as.data.frame()
 
-
-depthOrig %>% filter(Chromosome %in% tmp) %>% summarize(Mean = mean(Coverage), SD = sd(Coverage),PercentCoverage1 = sum(Coverage >= 1)/length(Coverage)) %>% as.data.frame()
-
-# Non contaminant Plasmid
-depthOrig <- as_tibble(read.table("Genomes/CompPlasmids.tab.gz", header = F))
-colnames(depthOrig) <- c("Chromosome", "Position", "Coverage")
-depthCP012732 <- depthOrig %>% filter(Chromosome == "CP012732.1")
-depthCP019906 <- depthOrig %>% filter(Chromosome == "CP019906.1")
-snpsOrig <- as_tibble(read.table("SNPS/PlasmidCompSnps.vcf", comment.char = "#", header = T))
-snpsCP019906 <- snpsOrig %>% filter(CHROM == "CP019906.1")
-snpsCP012732 <- snpsOrig %>% filter(CHROM == "CP012732.1")
-PlasmidMapping(depthCP019906, snpsCP019906,Chromo = "CP019906.1", fasta = "FastaFiles/CP019906.fasta", windowKProp = 0.001, gff = "GeneFeatures/CP019906.gff3")
-PlasmidMapping(depthCP012732, snpsCP012732,Chromo = "CP012732.1", fasta = "FastaFiles/CP012732.fasta", windowKProp = 0.001, gff = "GeneFeatures/CP012732.gff3")
-legend(x = -0.25, y = 0.1, legend = c("Protein-Coding", "Pseudo"), fill = c("#1ab2ff","#22c3b0"))
-dev.off()
-
-tmp %>% filter(Mean > 1) %>% summarize(GrandMean = mean(Mean), SD = sd(Mean), ConfInt = qnorm(0.975)*SD/sqrt(length(Mean)), high = GrandMean + ConfInt, low = GrandMean - ConfInt, PercentCoverage10 = mean(PercentCoverage10)) %>% as.data.frame()
+tmp2 %>% ungroup() %>% summarize(MeanOver = mean(Mean), SD = sd(Mean), ConfInt = qnorm(0.975)*SD/sqrt(length(Mean)), high = MeanOver + ConfInt, low = MeanOver - ConfInt) %>% as.data.frame()
 
 # Klebsiella genome
 pdf("~/Documents/University/EcoliPaperV2/Figures/KlebGenome.pdf", width = 6, height = 6)
 depthOrig <- as_tibble(read.table("Genomes/KaeroFinalDepths.tab.gz", header = F))
 colnames(depthOrig) <- c("Chromosome", "Position", "Coverage")
 GenomeMappingKaero(depthOrig, Chromo = "NC_015663.1", windowK = 1e3, fasta = "FastaFiles/KaeroRef.fna")
-dev.off()
-
-# Two Ecoli Genomes
-pdf("~/Documents/University/LabMeetings/2021/May25/Figures/CircleGenomes.pdf", height = 9, width = 12)
-#pdf("~/Documents/University/EcoliPaperV2/Figures/CircleGenomes.pdf", height = 9, width = 12)
-#png("~/Documents/University/EcoliPaperV2/Figures/CircleGenomes.png", height = 9, width = 12, res = 300, units = "in")
-par(mfrow = c(1,2))
-depthOrig <- as_tibble(read.table("Genomes/O104Depth.tab.gz", header = F))
-colnames(depthOrig) <- c("Chromosome", "Position", "Coverage")
-GenomeMapping(depthOrig, Chromo = "NC_018658.1", fasta = "FastaFiles/O104.fasta")
-
-depthOrig <- as_tibble(read.table("Genomes/K12Depth.tab.gz", header = F))
-colnames(depthOrig) <- c("Chromosome", "Position", "Coverage")
-GenomeMapping(depthOrig, Chromo = "NC_000913.3", fasta = "FastaFiles/K12.fasta")
-
 dev.off()
 
 #### The two Plasmids
@@ -373,56 +344,19 @@ depthOrig <- as_tibble(read.table("Genomes/CP019906Depth.tab.gz", header = F))
 colnames(depthOrig) <- c("Chromosome", "Position", "Coverage")
 PlasmidMapping(depthOrig, Chromo = "CP019906.1", fasta = "FastaFiles/CP019906.fasta", windowK = 30, gff = "GeneFeatures/CP019906.gff3")
 
+depthOrig %>% summarize(Mean = mean(Coverage), SD = sd(Coverage), ConfInt = qnorm(0.975)*SD/sqrt(length(Coverage)), high = Mean + ConfInt, low = Mean - ConfInt) %>% as.data.frame()
+
 depthOrig <- as_tibble(read.table("Genomes/CP012732Depth.tab.gz", header = F))
 colnames(depthOrig) <- c("Chromosome", "Position", "Coverage")
 PlasmidMapping(depthOrig, Chromo = "CP012732.1", fasta = "FastaFiles/CP012732.fasta", windowK = 30, gff = "GeneFeatures/CP012732.gff3")
 legend(x = 0.25, y = -1.2, legend = c("Protein-Coding", "Pseudo"), fill = c("#007dba","#22c3b0"))
 
-dev.off()
-
-# Competitive Mapping
-pdf("~/Documents/University/EcoliPaperV2/Figures/PlasmidGenomesComp.pdf", width = 12, height = 9)
-par(mfrow = c(1,2))
-depthOrig <- as_tibble(read.table("Genomes/CompPlasmids.tab.gz", header = F))
-colnames(depthOrig) <- c("Chromosome", "Position", "Coverage")
-depthCP019906 <- depthOrig %>% filter(Chromosome == "CP019906.1")
-depthCP012732 <- depthOrig %>% filter(Chromosome == "CP012732.1")
-PlasmidMapping(depthCP019906, Chromo = "CP019906.1", fasta = "FastaFiles/CP019906.fasta", windowK = 30, gff = "GeneFeatures/CP019906.gff3")
-PlasmidMapping(depthCP012732, Chromo = "CP012732.1", fasta = "FastaFiles/CP012732.fasta", windowK = 30, gff = "GeneFeatures/CP012732.gff3")
-legend(x = 0.25, y = -1.2, legend = c("Protein-Coding", "Pseudo"), fill = c("#1ab2ff","#22c3b0"))
-
-dev.off()
-
-# Synteny Testing
-pdf("~/Documents/University/EcoliPaperV2/Figures/SyntenyGenomes.pdf", width = 6, height = 6)
-depthOrig <- as_tibble(read.table("Genomes/PooledSyntenyFinal.tab.gz", header = F))
-colnames(depthOrig) <- c("Chromosome", "Position", "Coverage")
-depthOrig %>% summarize(Mean = mean(Coverage), SD = sd(Coverage), ConfInt = qnorm(0.975)*SD/sqrt(length(Coverage)), high = Mean + ConfInt, low = Mean - ConfInt, PercentCoverage10 = sum(Coverage >= 10)/length(Coverage)) %>% as.data.frame()
-GenomeMappingSynteny(depthOrig, Chromo = "SyntenyEcoliIdentified10x0.9Cov",windowK = 1e3, fasta = "FastaFiles/IdentifiedGenesSynteny.fasta", gff = "GeneFeatures/SyntenyGFF.gff")
-dev.off()
-
-# Salmonella Enterica
-pdf("SalmonellaEnterica.pdf", width = 6, height = 6)
-depthOrig <- as_tibble(read.table("Genomes/MaskedSentericaDepth.tab.gz", header = F))
-colnames(depthOrig) <- c("Chromosome", "Position", "Coverage")
-depthOrig %>% summarize(Mean = mean(Coverage), SD = sd(Coverage), ConfInt = qnorm(0.975)*SD/sqrt(length(Coverage)), high = Mean + ConfInt, low = Mean - ConfInt, PercentCoverage10 = sum(Coverage >= 10)/length(Coverage)) %>% as.data.frame()
-GenomeMapping(depthOrig, Chromo = "NC_003197.2", windowK = 1e3, fasta = "FastaFiles/SalmonellaEnterica.fasta")
-dev.off()
-
-# Competitive Mapping Results
-depthOrig <- as_tibble(read.table("Genomes/UnmaskedCompetitive.tab.gz", header = F))
-colnames(depthOrig) <- c("Chromosome", "Position", "Coverage")
-depthOrig %>% group_by(Chromosome) %>% summarize(Mean = mean(Coverage), SD = sd(Coverage), ConfInt = qnorm(0.975)*SD/sqrt(length(Coverage)), high = Mean + ConfInt, low = Mean - ConfInt, PercentCoverage10 = sum(Coverage >= 10)/length(Coverage)) %>% as.data.frame()
-
-pdf(file = "CompetitiveMappingUnmasked.pdf", width = 6, height = 6)
-GenomeMapping(depthOrig, Chromo = "NC_018658.1", fasta = "FastaFiles/O104.fasta") # O104
-GenomeMapping(depthOrig, Chromo = "NC_000913.3", fasta = "FastaFiles/K12.fasta") # K12
-GenomeMappingKaero(depthOrig, Chromo = "NC_015663.1", windowK = 1e3, fasta = "FastaFiles/KaeroRef.fna")
+depthOrig %>% summarize(Mean = mean(Coverage), SD = sd(Coverage), ConfInt = qnorm(0.975)*SD/sqrt(length(Coverage)), high = Mean + ConfInt, low = Mean - ConfInt) %>% as.data.frame()
 dev.off()
 
 # T6SS Testing
 depthOrig <- as_tibble(read.table("Genomes/KaeroFinalDepths.tab.gz", header = F, col.names = c("Chromosome", "Position", "Coverage")))
-#depthOrig %>% group_by(Chromosome) %>% filter(`Position` >= 4130000, `Position` <= 4170000) %>% summarize(Mean = mean(Coverage), SD = sd(Coverage), ConfInt = qnorm(0.975)*SD/sqrt(length(Coverage)), high = Mean + ConfInt, low = Mean - ConfInt, PercentCoverage10 = sum(Coverage >= 10)/length(Coverage)) %>% as.data.frame()
+depthOrig %>% group_by(Chromosome) %>% filter(`Position` >= 4130000, `Position` <= 4170000) %>% summarize(Mean = mean(Coverage), SD = sd(Coverage), ConfInt = qnorm(0.975)*SD/sqrt(length(Coverage)), high = Mean + ConfInt, low = Mean - ConfInt, PercentCoverage1 = sum(Coverage >= 1)/length(Coverage)) %>% as.data.frame()
 
 fasta = "FastaFiles/KaeroRef.fna"
 gff = "GeneFeatures/Kaero.gff3"

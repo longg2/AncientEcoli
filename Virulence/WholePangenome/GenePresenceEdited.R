@@ -85,7 +85,7 @@ virFrame %>% pull(Pathovar) %>% unique()
 #########################
 # Reading in the Depths #
 #########################
-depthDf <- lapply("PanGenomeMappingFeb.tab.gz",function(f){
+depthDf <- lapply("WholePanGeneome.tab.gz",function(f){
 		tmp <- as_tibble(read.delim(f, header = F, col.names = c("Gene", "Pos", "Coverage")))
 		tmp$Genome <- gsub(".*/", "", gsub(".tab.gz","",f)) 	
 		tmp <- tmp %>% group_by(Genome, Gene) %>%
@@ -94,14 +94,14 @@ depthDf <- lapply("PanGenomeMappingFeb.tab.gz",function(f){
 		return(tmp)
 	}) %>% bind_rows() # Can be used for multiple files in this format
 
-depthDfNotAvg <- lapply("PanGenomeMappingFeb.tab.gz", function(f){
+depthDfNotAvg <- lapply("WholePanGeneome.tab.gz", function(f){
 		tmp <- as_tibble(read.delim(f, header = F, col.names = c("Gene", "Pos", "Coverage")))
 		tmp$Genome <- gsub(".*/", "", gsub(".tab.gz","",f)) 	
 		return(tmp)
 	}) %>% bind_rows()
 #depthDf <- depthDf %>% filter(!(Genome %in% c("IAI1", "ESC_NB8751AA_AS", "ATCC11231", "ESC_LB2165AA_AS")))
 #depthDf$Genome <- unname(unlist(sapply(depthDf$Genome, function(x){ifelse(grepl("^ERR",x), etecList[x],x)})))
-depthDf <- depthDf %>% mutate(Genome = replace(Genome, Genome == "PanGenomeMappingFeb", "KaeroEcoli"))
+depthDf <- depthDf %>% mutate(Genome = replace(Genome, Genome == "WholePanGeneome", "KaeroEcoli"))
 #unique(depthDf$Genome)
 #depthDf %>% filter(!(Genome %in% c("PanGenomeDepths","PanGenomeDepthsDup")))
 
@@ -155,7 +155,7 @@ dev.off()
 # Let's put the gene coverage data (ie. histograms) here
 ancientGenesOnly <- depthDf %>% filter(Genome == "KaeroEcoli", CV <= 1)
 ancientGenesOnly$Status <- ifelse(ancientGenesOnly$Gene %in% coreGenes, "Core", "Accessory")
-
+write.table(ancientGenesOnly,file = "IdentifiedGenes.tab", sep = "\t", row.names = F, quote =F)
 # Quick summary Statistics
 meanSD <- ancientGenesOnly %>% filter(MeanCoverage >= 10)%>% summarize(Mean = mean(MeanCoverage), SD = sd(MeanCoverage), confInt = qnorm(0.975)*SD/sqrt(length(MeanCoverage)), high = Mean + confInt, low = Mean - confInt)
 ancientGenesOnly %>% filter(MeanCoverage >= 10)%>% group_by(Status)%>% summarize(Mean = mean(MeanCoverage), SD = sd(MeanCoverage), confInt = qnorm(0.975)*SD/sqrt(length(MeanCoverage)), high = Mean + confInt, low = Mean - confInt) %>% as.data.frame()
@@ -427,6 +427,7 @@ copyHet <- ancientGenesOnly %>% ggplot(aes(x = CopyNumber, y = HeteroFrac, colou
 ggarrange(hetHist, copyHet, ncol = 1, common.legend = T, legend = "bottom", align = "hv", labels = "AUTO")
 
 ggsave("~/Documents/University/EcoliPaperV2/AdditionalFiles/PartsofFigures/HeterozygosityHist.pdf", width = 8, height = 12)
+
 ################################################
 ### Now to perform the presence absence Test ###
 ################################################
@@ -440,8 +441,12 @@ depthDfTrans$Name <- sapply(1:nrow(depthDfTrans), function(x){ifelse(is.na(depth
 ancientGenesOnly <- ancientGenesOnly %>% left_join(depthDfTrans %>% select(Gene, ID, Name), by = "Gene")
 highCopy <- ancientGenesOnly %>% filter(MeanCoverage > (meanSD$Mean + 2 * meanSD$SD)) %>% arrange(-CopyNumber)
 highCopy %>% count(Status)
-highCopy %>% summarize(Mean = mean(HeteroFrac), SD = sd(HeteroFrac)) %>% as.data.frame()
+highCopy %>% 
+       	summarize(Mean = mean(HeteroFrac), SD = sd(HeteroFrac), confInt = qnorm(0.975)*SD/sqrt(length(HeteroFrac)), 
+			 high = Mean + confInt, low = Mean - confInt) %>% as.data.frame()
 highCopy %>% write.table(file = "~/Documents/University/EcoliPaperV2/AdditionalFiles/CopyNumberTable.tab", sep = "\t", quote = F, row.names = F)
+
+t.test(highCopy$HeteroFrac, normCopy$HeteroFrac)
 
 # Now to read the pan-genome blast results against K12
 k12BlastHits <- read.delim("K12Blast.tab", header =F)[,1:2] %>% as_tibble() # Only care about if we got a hit, not the quality (taken care of before hand)
@@ -480,7 +485,6 @@ ggsave(file = "~/Documents/University/EcoliPaperV2/Figures/CoreGeneScatterWhole.
 #####################################
 #### Let's look at virulence now ####
 #####################################
-
 virDf <- AllPA %>% left_join(depthDfTrans %>% select(Gene, Name))# %>% mutate(Name = gsub(" \\[.*|MULTISPECIES: ", "", Name))
 virDf <- virDf[,-removedgenomes] # Removing those outliers
 
@@ -588,8 +592,13 @@ tmp <- depthDfTrans %>% filter(Name %in% FoundGenes$Name, MeanCoverage >= 10 & C
 write.table(tmp, "VirFoundBeforeEdits.tab",row.names = F,sep = "\t") # Manual Edits to the names will be easier here
 tmp <- read.delim("VirFoundAfterEdits.tab", header =T) %>% as_tibble() 
 tmp %>% group_by(GeneFamily) %>% summarize(Genes = length(GeneFamily), Mean = mean(MeanCoverage), SD = sd(MeanCoverage)) %>% summarize(sum(Genes))
-tmp %>% group_by(GeneFamily) %>% summarize(Genes = length(GeneFamily), Mean = mean(MeanCoverage), SD = sd(MeanCoverage)) %>% filter(Genes > 1) %>% arrange(-Genes) %>%
-       xtable:::xtable() %>% print(file = "~/Documents/University/EcoliPaperV2/AdditionalFiles/VirGeneFamiliesWhole.tex")
+       	summarize(Mean = mean(HeteroFrac), SD = sd(HeteroFrac), confInt = qnorm(0.975)*SD/sqrt(length(HeteroFrac)), 
+			 high = Mean + confInt, low = Mean - confInt) %>% as.data.frame()
+tmp %>% group_by(GeneFamily) %>% 
+	summarize(Genes = length(GeneFamily), Mean = mean(MeanCoverage), SD = sd(MeanCoverage),
+		  confInt = qnorm(0.975)*SD/sqrt(length(MeanCoverage)), high = Mean + confInt, low = Mean - confInt) %>%
+filter(Genes > 1) %>% arrange(-Genes) %>% as.data.frame() #%>%
+#       xtable:::xtable() %>% print(file = "~/Documents/University/EcoliPaperV2/AdditionalFiles/VirGeneFamiliesWhole.tex")
 
 ##############################################
 ### Testing if a PCoA will make more Sense ###
